@@ -1,0 +1,89 @@
+import json
+import urllib.request,urllib.parse,urllib.error
+
+
+class BaiduApi_Weather(object):
+    #初始化两个变量
+    def __init__(self):
+        #根据城市名查询天气的URL
+        self.url =  'http://apis.baidu.com/apistore/weatherservice/cityname?cityname='
+        #查询可用城市列表的URL
+        self.url2 =  'http://apis.baidu.com/apistore/weatherservice/citylist?cityname='
+    #判断输入的cityname是否可查询
+    def judge_city(self,city):
+        #将汉字转化为URL编码，使用urllib.parse.quote()
+        city = urllib.parse.quote(city)
+        #用POST请求网页，添加header
+        judge_rep = urllib.request.Request(self.url2+city)
+        judge_rep.add_header('apikey','2fd858449606c0d8eaaea2cea84b14c7')
+        judge_resp = urllib.request.urlopen(judge_rep)
+        judge_content = judge_resp.read().decode('utf-8')
+        judge_data = json.loads(judge_content)
+        #print(judge_content)
+        #print(judge_data)
+        if judge_data['errNum'] == 0:
+            return True
+        else:
+            return False
+    #下载查询后数据
+    def download_data(self,city):
+        try:
+            #将汉字转化为URL编码，使用urllib.parse.quote()
+            city = urllib.parse.quote(city)
+            #用POST请求网页，添加header
+            rep = urllib.request.Request(self.url+city)
+            rep.add_header('apikey','2fd858449606c0d8eaaea2cea84b14c7')
+            resp = urllib.request.urlopen(rep)
+        except urllib.error as e:
+            print('URL-Error: {0}'.format(e))
+        else:
+            content = resp.read()
+            return content
+    #处理数据并输出
+    def handle_data(self,city):
+        content = self.download_data(city)
+        content = content.decode('utf-8')
+        #print(content)
+        data = json.loads(content)
+        #print(type(data))
+        print("城市: ", data.get('retData').get('city'))
+        print("天气: ", data.get('retData').get('weather'))
+        print("当前温度: ", data.get('retData').get('temp'), "℃")
+        print("最高温度: ", data.get('retData').get('h_tmp'), "℃")
+        print("最低温度: ", data.get('retData').get('l_tmp'), "℃")
+        print("风向: ", data.get('retData').get('WD'))
+        print("风速: ", data.get('retData').get('WS'))
+
+
+method = BaiduApi_Weather()
+process = True
+def input_city():
+    cityname = input('type in your wanted city: ')
+    return cityname
+def main():
+    #使用全局变量，为程序退出做准备
+    global process
+    cityname = input_city()
+    #退出程序判断
+    if cityname == 'exit':
+        process = False
+    #判断输入是否合法，合法则查询输入
+    elif method.judge_city(cityname):
+        method.handle_data(cityname)
+    #不合法重新输入
+    else:
+        print('non-existed city,please re-input a cityname!')
+        main()
+
+if  __name__ == '__main__':
+    #循环程序
+    while process:
+        main()
+
+
+
+
+
+
+
+
