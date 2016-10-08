@@ -1,5 +1,5 @@
 import json
-import urllib.request
+import urllib.request,urllib.parse
 
 class Baidu_Api(object):
     def __init__(self):
