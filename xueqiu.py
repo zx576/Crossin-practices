@@ -2,6 +2,7 @@ import urllib.request
 import json
 import re
 
+#request xueqiu.com and download data
 def download_data(url):
     headers_data = {
     'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36',
@@ -19,14 +20,15 @@ def download_data(url):
     #print(type(res))
     #print(res)
     return res
+#handling and output data 
 def handle_data():
     namelist = fetch_list()
     for i in namelist:
         url = 'https://xueqiu.com/p/'+i
-
         content = download_data(url)
         start_data = content.find('SNB.cubeInfo = ')+ len('SNB.cubeInfo = ')
         end_data = content.find('SNB.cubePieData')
+		#抓下来的数据死活不能json，经过在线校检工具检测后发现数据最后多了个“;”,去掉后OK
         data = content[start_data:end_data][:-2]
         info = json.loads(data)
         print('投资组合：',info.get('name'))
@@ -37,12 +39,11 @@ def handle_data():
             stock = i.get('stock_name')
             print(stock)
         print('========')
-
+#通过RE匹配雪球首页获取四个投资热门组合
 def fetch_list():
     url = 'https://xueqiu.com/'
     res = download_data(url)
     #print(res)
-    #list = re.findall(r'(\w.+?)<i>(\(ZH\d{6}\))',res)
     listq = re.findall(r'\((ZH\d{6})\)',res)
     #print(listq)
     return listq
