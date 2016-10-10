@@ -68,7 +68,7 @@ def output_recode():
 
     print('在游戏中您一共猜了%d次' % (total))
     print('游戏已经进行了%d轮' % (fre))
-    print('平均每次游戏您要猜%d次' % (averge))
+    print('平均每次游戏您要猜%f次' % (averge))
 #退出游戏
 def exit_game():
     print('欢迎再次启动游戏，再见')
