@@ -66,8 +66,8 @@ def output_recode():
                 fre += 1
     averge = round(total / fre, 2)
 
-    print('您总共猜了%d次' % (total))
-    print('您现在已经进行了%d次游戏' % (fre))
+    print('在游戏中您一共猜了%d次' % (total))
+    print('游戏已经进行了%d轮' % (fre))
     print('平均每次游戏您要猜%d次' % (averge))
 #退出游戏
 def exit_game():
