@@ -17,7 +17,6 @@ def GuessNum():
     if mode == '1':
         print('您自己设定一个小于10的最大次数吧')
         t = inputnum()
-        t = t - 1
         print('设定的数字在0-99之间，游戏开始咯')
         while times < t:
             times += 1
