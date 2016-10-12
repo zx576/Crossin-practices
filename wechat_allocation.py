@@ -24,7 +24,7 @@ def allocation(money,people):
         #如果有金额为0，则将其调整为0.01
         if money_per_person[i] < 0.01:
             money_per_person[i] += 0.01
-            #同时将其他金额大于0.01的数减去0.01，保证总金额不变
+            #同时再次遍历列表，将循环到的第一个金额大于0.01的数减去0.01，保证总金额不变
             for j in range(len(money_per_person)):
                 if money_per_person[j]  > 0.01:
                     money_per_person[j] -= 0.01
