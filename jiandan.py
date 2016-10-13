@@ -53,11 +53,14 @@ def main():
         try:
             start_page = int(input('起始页：'))
             end_page = int(input('最终页：'))
+            if end_page < start_page:
+                print('最终页小于起始页')
+                continue
         except:
             print('输入不合法')
         else:
             break
-    print('开始下载...')
+    print('正在下载...')
     pic_addresses = req(start_page,end_page)
     downliad_pic(pic_addresses)
     print('已下载完成')
