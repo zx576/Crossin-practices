@@ -1,6 +1,7 @@
 #-*- coding:utf-8 -*-
 import requests
 import bs4
+import os
 
 header = {'User-Agent':
                   'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 '
@@ -45,10 +46,17 @@ def downliad_pic(pic_addresses):
             #以‘wb’写入文件
             with open('pic/'+pic_name,'wb') as f:
                 f.write(pic)
+                print('文件\t'+pic_name+'\t已下载')
         except Exception as e:
             print('下载出现错误，信息：%s' %e)
 
 def main():
+    #判断是否创建下载文件夹
+    create_file = os.path.exists('pic')
+    #print(create_file)
+    if not create_file:
+        os.mkdir('pic')
+        print('已创建了下载文件夹')
     print('设置您要下载的开始页与最终页：')
     while True:
         try:
@@ -64,7 +72,7 @@ def main():
     print('正在下载...')
     pic_addresses = req(start_page,end_page)
     downliad_pic(pic_addresses)
-    print('已下载完成')
+    print('全部下载完成')
 
 main()
 
