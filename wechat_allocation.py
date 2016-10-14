@@ -13,18 +13,18 @@ def allocation(money,people):
     money_per_weight = money/weight
     #每人占比
     money_per_person = [round(money_per_weight * i,2) for i in weight_per_person]
-    #print(money_per_person)
+    print(money_per_person)
     #累加前n-1个数值
     total_n1 = functools.reduce(lambda x, y: x + y, money_per_person[:-1])
     #用总金额减去前n-1个数值之和，得到最后的红包金额
     money_per_person[-1] = round(money - total_n1, 2)
-    #print(money_per_person)
+    print(money_per_person)
     #为防止有红包金额为0，进行检查
     for i in range(len(money_per_person)):
         #如果有金额为0，则将其调整为0.01
         if money_per_person[i] < 0.01:
             money_per_person[i] += 0.01
-            #同时再次遍历列表，将循环到的第一个金额大于0.01的数减去0.01，保证总金额不变
+            #同时将其他金额大于0.01的数减去0.01，保证总金额不变
             for j in range(len(money_per_person)):
                 if money_per_person[j]  > 0.01:
                     money_per_person[j] -= 0.01
@@ -32,6 +32,7 @@ def allocation(money,people):
     #检查总金额是否匹配
     #total = functools.reduce(lambda x, y: x + y, money_per_person)
     #print('%0.02f'%total)
+    money_per_person = [round(i,2) for i in money_per_person]
     return money_per_person
 
 #将总金额按随机数一次次减少，最后打乱结果
@@ -67,7 +68,8 @@ def start():
     while True:
         choice = input('>>>')
         if choice == '1':
-            print(allocation(money,people))
+            money_per_person = allocation(money,people)
+            print(money_per_person)
             break
         elif choice == '2':
             print(allocation_2(money*100,people))
