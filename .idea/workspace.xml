@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="968290b3-1764-47d3-ad18-c4a18ed88709" name="Default" comment="" />
+    <list default="true" id="968290b3-1764-47d3-ad18-c4a18ed88709" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice_multithreaded.py" afterPath="$PROJECT_DIR$/practice_multithreaded.py" />
+    </list>
     <ignored path="Crossin-practices.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -41,8 +43,8 @@
       <file leaf-file-name="practice_multithreaded.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/practice_multithreaded.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="e#22#38#0" expanded="true" />
               </folding>
@@ -652,8 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice_multithreaded.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        <state relative-caret-position="330">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
             <element signature="e#22#38#0" expanded="true" />
           </folding>

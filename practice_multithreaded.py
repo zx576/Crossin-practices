@@ -10,7 +10,7 @@ def s1():
 
 def s2():
     print('单线程2开始时间：',time.ctime())
-    time.sleep(2)
+    time.sleep(6)
     print('单线程2结束时间：',time.ctime())
 def single_thread():
     print('单线程测试开始...')
@@ -35,10 +35,6 @@ def multi_threads():
     for i in range(len(times)):
         threads[i].join()
     print('多线程执行结束')
-
-
-
-
 
 
 single_thread()
