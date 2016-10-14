@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="968290b3-1764-47d3-ad18-c4a18ed88709" name="Default" comment="" />
+    <list default="true" id="968290b3-1764-47d3-ad18-c4a18ed88709" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/BaiduApi-ID-IP-PhoneNum.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/medal_list.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/practice1_guessNum.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/practice3_poker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/practice4_collectwords.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recode_marks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/replace_words.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wechat_allocation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xueqiu.py" afterPath="" />
+    </list>
     <ignored path="Crossin-practices.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,22 +32,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BaiduApi-ID-IP-PhoneNum.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BaiduApi-ID-IP-PhoneNum.py">
+      <file leaf-file-name="practice_wechat.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/practice_wechat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="practice6.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="88">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,6 +143,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_wechat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
