@@ -24,7 +24,7 @@ def s3(loopnum,t):
     time.sleep(t)
     print('多线程',loopnum,'结束时间：',time.ctime())
 def multi_threads():
-    print('多线程开始执行')
+    print('多线程测试开始')
     threads = []
     times = [4,6]
     for i in range(len(times)):
