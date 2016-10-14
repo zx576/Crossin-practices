@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 import random
 colors = ['Heart','Spade','Diamond','Club']
 points = ['2','3','4','5','6','7','8','9','10','J','Q','K','A']

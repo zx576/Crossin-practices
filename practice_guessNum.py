@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 import random
 
 #输入模块，1.在程序运行过程中任何时候输入exit可退出，2.判断数字

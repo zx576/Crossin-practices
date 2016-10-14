@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 import sqlite3
 import os
 DATABASE = 'address_list.db'

@@ -1,4 +1,4 @@
-
+#-*- coding:utf-8 -*-
 #生成替换词文件
 def generate_file():
     words = ['a1','b2','cc','de','23']

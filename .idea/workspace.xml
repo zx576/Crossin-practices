@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="968290b3-1764-47d3-ad18-c4a18ed88709" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BaiduApi-ID-IP-PhoneNum.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fib.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/medal_list.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/practice1_guessNum.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/practice3_poker.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/practice4_collectwords.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/recode_marks.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/replace_words.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wechat_allocation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xueqiu.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jiandan/jiandan.py" afterPath="$PROJECT_DIR$/jiandan/jiandan.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prac_sqlite3/sqlite3_prac.py" afterPath="$PROJECT_DIR$/prac_sqlite3/sqlite3_prac.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice_baiduapi.py" afterPath="$PROJECT_DIR$/practice_baiduapi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice_collectwords.py" afterPath="$PROJECT_DIR$/practice_collectwords.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice_fetchdata.py" afterPath="$PROJECT_DIR$/practice_fetchdata.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice_fib.py" afterPath="$PROJECT_DIR$/practice_fib.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice_guessNum.py" afterPath="$PROJECT_DIR$/practice_guessNum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice_poker.py" afterPath="$PROJECT_DIR$/practice_poker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice_replace_words.py" afterPath="$PROJECT_DIR$/practice_replace_words.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice_wechat.py" afterPath="$PROJECT_DIR$/practice_wechat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice_xueqiu.py" afterPath="$PROJECT_DIR$/practice_xueqiu.py" />
     </list>
     <ignored path="Crossin-practices.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +36,22 @@
       <file leaf-file-name="practice_wechat.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/practice_wechat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="132">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#22#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="practice_xueqiu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice_xueqiu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <folding>
+                <element signature="e#22#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,6 +61,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/practice_wechat.py" />
+        <option value="$PROJECT_DIR$/practice_fib.py" />
+        <option value="$PROJECT_DIR$/practice_guessNum.py" />
+        <option value="$PROJECT_DIR$/jiandan/jiandan.py" />
+        <option value="$PROJECT_DIR$/prac_sqlite3/sqlite3_prac.py" />
+        <option value="$PROJECT_DIR$/practice_baiduapi.py" />
+        <option value="$PROJECT_DIR$/practice_collectwords.py" />
+        <option value="$PROJECT_DIR$/practice_fetchdata.py" />
+        <option value="$PROJECT_DIR$/practice_poker.py" />
+        <option value="$PROJECT_DIR$/practice_replace_words.py" />
+        <option value="$PROJECT_DIR$/practice_xueqiu.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -91,7 +121,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -146,12 +176,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jiandan/jiandan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding>
+            <element signature="e#22#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_baiduapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prac_sqlite3/sqlite3_prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding>
+            <element signature="e#22#36#0" expanded="true" />
+            <marker date="1476422255251" expanded="true" signature="191:361" ph="CREATE TABLE... ADDRESSLIST" />
+            <marker date="1476422255251" expanded="true" signature="455:536" ph="INSERT INTO ADDRESSLIST... " />
+            <marker date="1476422255251" expanded="true" signature="677:809" ph="SELECT * FRO... ADDRESSLIST" />
+            <marker date="1476422255251" expanded="true" signature="970:1007" ph="SELECT * FRO... ADDRESSLIST" />
+            <marker date="1476422255251" expanded="true" signature="1198:1231" ph="DELETE FROM " />
+            <marker date="1476422255251" expanded="true" signature="1347:1372" ph="SELECT * FRO... ADDRESSLIST" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_fib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_guessNum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_collectwords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_replace_words.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_recode_marks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_poker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_medallist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_fetchdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_xueqiu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding>
+            <element signature="e#22#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/practice_wechat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#22#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

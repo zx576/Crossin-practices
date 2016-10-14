@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 #输入数字判断
 def input_num():
     t = input('>>>')
