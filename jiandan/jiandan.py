@@ -32,6 +32,7 @@ def req(start_page,end_page):
             for i in fecthed_pic_add:
                 fecthed_pic_add_all.append(i)
     #返回图片地址列表
+    print(fecthed_pic_add_all)
     return fecthed_pic_add_all
 #下载图片
 def downliad_pic(pic_addresses):
