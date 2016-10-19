@@ -1,23 +1,50 @@
-$def with (movies)
+$def with (movies,count,key)
 <html>
-<head>
-    <meta charset="utf-8"/>
-</head>
-
-<body>
-<h4>welcome to </h4>
-<h1>zx's web site</h1>
-<br>
-<form action="/" method="post">
-	<input type="text" name="title" />
- 	<input type="submit" value="鎼滅储" />
-</form>
-<p>movies lists</p>
-$for movie in movies
-    <li>
-    <a href="movie/$movie['ID']">$movie['TITLE']</a>
-    </li>
+    <head>
+        <title>title</title>
+    </head>
+    <body style="margin-left: 0;margin-right: 0;margin-top: 0">
+        <div style="opacity:1;position:absolute;height:700px;width:1365px;background-color:	#C8C8C8 ;">
 
 
-</body>
+                <div style="margin-left:0px;margin-top: 51px;width:330px;height: 650px;float:left;">
+
+                    $if count >0:
+                        <p>共 $count 部影片
+                        $if key:
+                            与 $key 有关
+                        </p>
+
+                        <p>影片列表：</p>
+
+                        $for movie in movies:
+                            <li>
+                                <a href="/movie/$movie['ID']">$movie['title']</a>
+                            </li>
+
+                    $else:
+                        <p>没有符合条件的影片</p>
+
+
+                </div>
+
+                <div style="margin-left:1000px;margin-top: 51px;background-color:#C8C8C8;width:365px;height: 650px;">
+                    <div style="padding-top: 50px;padding-left: 50px;height:650px;box-shadow:-1px 0px 1px 1px #F8F8F8">
+                        <form action="/" method="post">
+                            <input type="text" name="title" />
+                            <input type="submit" value="搜索" />
+                        </form>
+
+                    </div>
+                </div>
+        </div>
+        <div style="opacity:1;position:absolute;height:50px;width:1365px;background-color:#F0F0F0;box-shadow:0px 1px 1px 1px #F8F8F8">
+            <div style="color:#100000;font-family: 微软雅黑;padding-left:30px;padding-top: 14px;width: 100px;float:left">
+                豆瓣250
+            </div>
+            <div style="color:#100000;font-family: 微软雅黑;padding-left:1200px;padding-top: 14px;width: 100px">
+                周鑫
+            </div>
+            </div>
+    </body>
 </html>

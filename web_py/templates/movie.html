@@ -1,7 +1,50 @@
 $def with (movies)
-<h4><a href = '/'>return to the homepage</a></h4>
-<h1>$movies['TITLE']</h1>
-<hr>
-<P>$movies['YEAR']</P>
-<p>$movies['COUNTRY']</p>
-<p>$movies['BRIEF']</p>
+
+<head>
+    <meta charset="gbk"/>
+</head>
+<body style="margin-left: 0;margin-right: 0;margin-top: 0">
+    <div style="opacity:1;position:absolute;height:50px;width:1365px;background-color:#F0F0F0;box-shadow:0px 1px 1px 1px #F8F8F8">
+        <div style="color:#100000;font-family: 微软雅黑;padding-left:30px;padding-top: 14px;width: 100px;float:left">
+                <a href = '/'>豆瓣250</a>
+        </div>
+
+        <div style="color:#100000;font-family: 微软雅黑;padding-left:1200px;padding-top: 14px;width: 100px">
+                周鑫
+        </div>
+    </div>
+    <div  style="opacity:1;position:absolute;margin-top:50px;height:650px;width:500px;float:left;">
+        <div style="padding-left: 50px;padding-top: 50px">
+            <h3>电影名：$movies['title']</h3><hr />
+            <P>原名：$movies['origin']</P>
+            <p>评分：$movies['rating']</p>
+            <p>年代：$movies['year']</p>
+            <p>导演：$movies['directors']</p>
+            $ casts = movies['casts'].split('/')
+            <p>主演：</p>
+            <p>
+                $for cast in casts
+                <a href = '/cast/$cast'>$cast</a>
+            </p>
+            <p>主演：$movies['casts']</p>
+            <p>类型：$movies['genres']</p>
+            <p>国家：$movies['countries']</p>
+
+        </div>
+    </div>
+    <div  style="opacity:1;position:absolute;margin-left:500px;margin-top:50px;height:650px;width:200px;float:left;">
+        <div style="padding-left: 50px;padding-top: 50px">
+            <h3>电影海报</h3><hr />
+            <img src="$movies['image_url']">
+        </div>
+    </div>
+    <div  style="opacity:1;position:absolute;margin-left:700px;margin-top:50px;height:650px;width:656px;float:left;">
+        <div style="padding-left: 50px;padding-top: 50px;padding-right: 50px">
+            <h3>电影简介</h3><hr />
+            <p>$movies['summary']</p>
+        </div>
+    </div>
+
+
+
+

@@ -10,12 +10,21 @@ def judge():
                 CREATE TABLE movie
                 (
                 ID INTEGER PRIMARY KEY,
-                TITLE TEXT NOT NULL,
-                YEAR  INT NOT NULL,
-                COUNTRY TEXT,
-                BRIEF TEXT
+                identity TEXT,
+                title TEXT NOT NULL,
+                origin  TEXT NOT NULL,
+                url TEXT,
+                rating INT,
+                image_url TEXT,
+                directors TEXT,
+                casts TEXT,
+                year TEXT,
+                genres TEXT,
+                countries TEXT,
+                summary TEXT
                 );
         '''
+        #identity,title,origin,url,rating,image_url,directors,casts,year,genres,countries,summary
         conn.execute(sql)
         conn.commit()
     conn.close()
@@ -23,11 +32,11 @@ def judge():
 
 
 
-def insert(conn,title,year,country,brief):
+def insert(conn,id,title,origin,year,rating,directors,actors):
     sql = '''
-            INSERT INTO movie(ID,TITLE,YEAR,COUNTRY,BRIEF )
-            VALUES (NULL,'%s','%s','%s','%s');
-    '''%(title,year,country,brief)
+            INSERT INTO movie(ids,title,origin,year,rating,directors,actors )
+            VALUES ('%s','%s','%s','%s','%s','%s','%s');
+    '''%(id,title,origin,year,rating,directors,actors)
 
     conn.execute(sql)
     conn.commit()
@@ -50,11 +59,14 @@ def main():
     print('1.插入，2.查看')
     choice = input('1 or 2')
     if choice == '1':
+        id = input('the movie\'s id:')
         title = input('the movie\'s title:')
+        origin = input('the movie\'s origin:')
         year = input('the movie\'s year:')
-        country = input('the movie\'s country：')
-        brief = input('introduction to the movie:')
-        insert(conn,title,year,country,brief)
+        rating = input('the movie\'s rating：')
+        directors = input('the movie\'s directors::')
+        actors = input('the movie\'s actors:')
+        insert(conn,id,title,origin,year,rating,directors,actors)
     elif choice == '2':
         show_all(conn)
 
