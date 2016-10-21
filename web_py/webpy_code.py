@@ -7,13 +7,13 @@ db = web.database(dbn='sqlite', db='movies.db')
 render = web.template.render('templates/')
 class index():
     def GET(self):
-        print('--------')
         movies = db.select('movie')
         print(movies)
-        #for i in movies:
-        #    print(i)
-        count = db.query('SELECT COUNT(*) AS COUNT FROM movie')[0]['COUNT']
-        #count = count.decode()
+        a = db.query('SELECT COUNT(*) AS COUNT FROM movie')
+        print(a)
+        b = a[0]
+        print(b)
+        count = b['COUNT']
         print(count)
         print(type(count))
         return render.test(movies,count,None)
@@ -22,7 +22,7 @@ class index():
         print(data)
         condition =  r'title like "%' + data.title + r'%"'
         search = db.select('movie',where=condition)
-        count = db.query('SELECT COUNT(*) AS COUNT FROM movie WHERE' +condition)[0]['COUNT']
+        count = db.query('SELECT COUNT(*) AS COUNT FROM movie WHERE ' +condition)[0]['COUNT']
         return render.test(search,count,data.title)
 
 class movie():
@@ -46,8 +46,6 @@ class cast():
         count = db.query('SELECT COUNT(*) AS COUNT FROM movie WHERE ' + condition)[0]['COUNT']
         print(count)
         return render.test(movies,count,namestring)
-
-
 
 if __name__ == '__main__':
     app = web.application(urls,globals())

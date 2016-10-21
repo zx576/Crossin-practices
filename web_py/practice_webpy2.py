@@ -13,11 +13,6 @@ class indexs():
             page += '%s(%d)\n' %(i['title'],i['year'])
         return page
 
-'''render = web.template.render('templates/')
-class index():
-    def GET(self):
-        return render.index()'''
-
 
 if __name__ == '__main__':
     app = web.application(url,globals())
