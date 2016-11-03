@@ -1,0 +1,60 @@
+{% extends 'djblog/base.html' %}
+{% block firstpage %}
+    <div class="left">
+        {% if not user.is_authenticated %}
+        <div>
+            <form method="post" action="/blog/login/">
+                {% csrf_token %}
+                <input type="text" name="username">
+                <input type="text" name="password">
+                <input type="submit" value="登录">
+            </form>
+        </div>
+        {% else %}
+        <div><a href="/blog/user/{{ user.id }}">你好{{ user.username }}</a></div>
+            <a href="/blog/logout/">注销</a>
+        {% endif %}
+        <a href="/blog/register/">注册</a>
+
+    </div>
+    <div class="center">
+        <div id="center_navi">
+            <ul id="navi_context">
+                <li id="ul_1"><a href="/blog" id="navi_homepage">首页</a></li>
+                <!--<li id="ul_1"> > </li>
+                <li id="ul_1">
+                    <a href="/blog/cat/{{ article_list.0.category_id }}" id="navi_homepage">{{ article_list.0.category }}</a>
+                </li>
+                <li id="ul_1"> > </li>
+                <li id="ul_1">
+                    {{ article_list.0 }}
+                </li>-->
+            </ul>
+        </div>
+            {% for article in article_list %}
+        <div class="content">
+        <a href="/blog/article/{{ article.id }}" id="navi_homepage"><h1>{{ article.title.capitalize }}<hr/></h1></a>
+        <pre><h6 id="c_h6">{{ article.created_time }} views:{{ article.views }} likes:{{ article.likes }}</h6></pre>
+        <p>{{ article.abstract }}...</p>
+        </div>
+    {% endfor %}
+    </div>
+    <div class="right">
+        <div id="cate">
+            <p id="cate_text">文章分类</p>
+        </div>
+        <div id="cate_content">
+        {% for category in category_list %}
+        <a href="/blog/cat/{{ category.id }}">{{ category }}</a><br>
+        {% endfor %}
+        </div>
+        <div id="idcheck">
+            <p id="cate_text">身份证查询：</p>
+            <form id='cate_text' method="post" action="/blog/api/">
+                {% csrf_token %}
+                <input type="text" name="idnum"><br/>
+                <input type="submit" name="提交">
+            </form>
+        </div>
+    </div>
+{% endblock %}

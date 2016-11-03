@@ -1,0 +1,13 @@
+        <div>
+            {{ errors }}
+            <form method="post">
+                {% csrf_token %}
+                <p>用户名：</p>
+                <input type="text" name="username"><br>
+                <p>密码：</p>
+                <input type="password" name="password1"><br>
+                <p>重复密码：</p>
+                <input type="password" name="password2"><br><br>
+                <input type="submit" value="注册"><br>
+            </form>
+        </div>

@@ -1,0 +1,6 @@
+{% extends 'djblog/base.html' %}
+{% block cat %}
+{% for article in category_info.article_set.all %}
+{% include 'djblog/body.html' %}<hr/>
+{% endfor %}
+{% endblock %}

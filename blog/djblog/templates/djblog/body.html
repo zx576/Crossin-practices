@@ -1,0 +1,26 @@
+<div class="atc_page">
+        <div id="atc_title">
+            <h1 id="c_title">{{ article.title }}<br/></h1>
+            <form method="POST" class="c_form" >
+                {% csrf_token %}
+                <input type="submit" value="喜欢" name="likes"/>
+            </form>
+        </div>
+        <div id="atc_text">
+            <pre><p id="c_info">{{ article.created_time }} views:{{ article.views }} likes:{{ article.likes }}</p></pre>
+            <p id="c_text">{{ article.text }}</p>
+            <br/>
+            <br/>
+            <br/>
+            <h4 id="comments">热点评论</h4>
+            {% for comment in article.comment_set.all %}
+                <p id="c_comment">{{ comment.comments }}</p>
+            {% endfor %}
+            <form method="POST" class="comment" action="/blog/comment/">
+                {% csrf_token %}
+                <input type="hidden" name="id" value="{{ article.id }}" />
+                <input type="text" name="comment" size="113"/><br/><br/>
+                <input type="submit" value="提交" />
+            </form>
+        </div>
+    </div>

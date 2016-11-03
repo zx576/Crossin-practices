@@ -1,0 +1,12 @@
+{% extends 'djblog/base.html' %}
+
+{% block userssss %}
+{% for userinfo in user %}
+{{ userinfo }}
+
+{% endfor %}
+{{ user.0.id }}
+<a href="{{ user.0.id }}/edit/">写文章</a>
+
+
+{% endblock %}

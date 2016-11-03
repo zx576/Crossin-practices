@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'djblog/style.css' %}">
+</head>
+<body>
+    <div class="navi">
+        <div class="homepage">
+            <a href="/blog/" class="homepage_p">首页</a>
+        </div>
+        <div class="name">
+            <p>Django</p>
+        </div>
+
+    </div>
+        {% block firstpage %}{% endblock %}
+        {% block article %}{% endblock %}
+        {% block cat %}{% endblock %}
+        {% block userssss %}{% endblock %}
+        {% block editt %}{% endblock %}
+</body>
+</html>
