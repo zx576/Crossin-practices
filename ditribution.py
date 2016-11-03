@@ -1,7 +1,7 @@
 with open('aaa.txt','r') as f:
     steps = 20
     text = f.readlines()
-    startnum = 0
+    startnum = 1
     endnum = len(text)
     filenum = 1
     for num in range(startnum, endnum):
