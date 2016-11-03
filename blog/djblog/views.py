@@ -42,11 +42,11 @@ def register(request):
                 print('b')
                 return redirect('/blog/')
             else:
-                #errors = '密码不相同'
-                return redirect('/blog/register/',errors = '密码不相同')
+                errors = '密码不相同'
+                return render(request,'djblog/register.html',{'errors':errors})
         else:
-            #errors = '用户名已存在'
-            return redirect('/blog/register/',errors = '用户名已存在')
+            errors = '用户名已存在'
+            return render(request, 'djblog/register.html', {'errors': errors})
     else:
         return render(request,'djblog/register.html')
 
