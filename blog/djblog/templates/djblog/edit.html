@@ -1,5 +1,12 @@
 {% extends 'djblog/base.html' %}
 
 {% block editt %}
+    <form method="post">
+    {% csrf_token %}
+    <p>标题：</p>
+    <input type="text" name="title">
+    <input type="text" name="text">
+    <input type="submit" value="提交">
+    </form>
 
 {% endblock %}

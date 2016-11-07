@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 class Article(models.Model):
     STATUS_CHOICE = (
@@ -16,6 +17,7 @@ class Article(models.Model):
     likes = models.PositiveIntegerField('点赞数',default=0)
     topped = models.BooleanField('置顶',default=False)
     category = models.ForeignKey('Category',verbose_name='分类',null=True,on_delete=models.SET_NULL)
+    author = models.ForeignKey('Bloger',verbose_name='作者',null=True,blank=True)
     def __str__(self):
         return self.title
     class meta:
@@ -36,4 +38,22 @@ class Comment(models.Model):
     def __str__(self):
         return self.comments
 
+class Bloger(models.Model):
+    user = models.OneToOneField(User,verbose_name='用户')
+    age = models.PositiveIntegerField('年龄',null=True,blank=True)
+    likelist = models.ForeignKey('Relationship',verbose_name='关注列表',null=True,blank=True,related_name='likelist')
+    blacklist = models.ForeignKey('Relationship', verbose_name='拉黑列表',null=True,blank=True,related_name='blacklist')
+    SEX_CHOICE = (
+        ('F','FEMALE'),
+        ('M','MALE'),
+    )
+    sex = models.CharField('性别',max_length=10,choices=SEX_CHOICE,default='F')
+    def __str__(self):
+        return self.user.username
+
+class Relationship(models.Model):
+    bloger = models.OneToOneField('Bloger', verbose_name='关系')
+
+    def __str__(self):
+        return self.bloger.user.username
 

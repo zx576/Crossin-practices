@@ -1,5 +1,5 @@
 from django.shortcuts import render,redirect,render_to_response
-from djblog.models import Article,Category,Comment
+from djblog.models import Article,Category,Comment,Bloger,Relationship
 from django import forms
 from django.contrib.auth import authenticate,models,login,logout
 from django.http import HttpResponseRedirect
@@ -37,9 +37,21 @@ def register(request):
                     username=username,
                     password=password1
                 )
+                index = models.User.objects.get(username = username)
+                index_id = index.id
+                print(index_id)
+                Bloger.objects.create(
+                    user_id = index_id
+                )
+                index2 = Bloger.objects.get(user_id=index_id)
+                print(index2)
+                index_id2 = index2.id
+                print(index_id2)
+                Relationship.objects.create(
+                    bloger_id = index_id2
+                )
                 newuser = authenticate(username=username, password=password1)
                 login(request, newuser)
-                print('b')
                 return redirect('/blog/')
             else:
                 errors = '密码不相同'
@@ -49,6 +61,22 @@ def register(request):
             return render(request, 'djblog/register.html', {'errors': errors})
     else:
         return render(request,'djblog/register.html')
+
+def edit(request,userid):
+    if request.method == 'POST':
+
+        title = request.POST.get('title')
+        text = request.POST.get('text')
+        index_b = Bloger.objects.get(user_id = userid)
+        index_bloger_id = index_b.id
+        Article.objects.create(
+            author_id = index_bloger_id,
+            title = title,
+            text = text
+        )
+        return redirect('/blog/user/%s'%(userid))
+    else:
+        return render(request,'djblog/edit.html')
 
 def index(request):
     article_list = Article.objects.all()

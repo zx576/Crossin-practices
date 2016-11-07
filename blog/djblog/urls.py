@@ -11,7 +11,8 @@ urlpatterns = [
     url(r'^register/$',views.register,name='register'),
     url(r'^login/$',views.log_in,name='login'),
     url(r'^logout/$',views.log_out,name='logout'),
-    url(r'^user/([0-9]+)$',views.userinfo,name='userinfo')
+    url(r'^user/([0-9]+)$',views.userinfo,name='userinfo'),
+    url(r'user/([0-9]+)/edit',views.edit,name='edit')
     #url(r'^register/success/$',views.success,name='success')
 
 ]
