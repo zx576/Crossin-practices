@@ -40,9 +40,9 @@ class Comment(models.Model):
 
 class Bloger(models.Model):
     user = models.OneToOneField(User,verbose_name='用户')
-    age = models.PositiveIntegerField('年龄',null=True,blank=True)
-    likelist = models.ForeignKey('Relationship',verbose_name='关注列表',null=True,blank=True,related_name='likelist')
-    blacklist = models.ForeignKey('Relationship', verbose_name='拉黑列表',null=True,blank=True,related_name='blacklist')
+    age = models.PositiveIntegerField('年龄',null=True, blank=True)
+    slist = models.ManyToManyField('Bloger', verbose_name='关注列表', null=True, blank=True, related_name='likelist')
+    tlist = models.ManyToManyField('Bloger', verbose_name='拉黑列表', null=True, blank=True, related_name='blacklist')
     SEX_CHOICE = (
         ('F','FEMALE'),
         ('M','MALE'),
@@ -51,9 +51,8 @@ class Bloger(models.Model):
     def __str__(self):
         return self.user.username
 
-class Relationship(models.Model):
-    bloger = models.OneToOneField('Bloger', verbose_name='关系')
-
+'''class Relationship(models.Model):
+    bloger = models.OneToOneField('Bloger', verbose_name='关系',null=True,blank=True)
     def __str__(self):
-        return self.bloger.user.username
+        return self.bloger.user.username'''
 

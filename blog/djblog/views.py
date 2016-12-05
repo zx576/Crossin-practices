@@ -1,5 +1,6 @@
 from django.shortcuts import render,redirect,render_to_response
-from djblog.models import Article,Category,Comment,Bloger,Relationship
+from djblog.models import Article,Category,Comment,Bloger
+from django.contrib.auth.decorators import login_required
 from django import forms
 from django.contrib.auth import authenticate,models,login,logout
 from django.http import HttpResponseRedirect
@@ -46,10 +47,6 @@ def register(request):
                 index2 = Bloger.objects.get(user_id=index_id)
                 print(index2)
                 index_id2 = index2.id
-                print(index_id2)
-                Relationship.objects.create(
-                    bloger_id = index_id2
-                )
                 newuser = authenticate(username=username, password=password1)
                 login(request, newuser)
                 return redirect('/blog/')
@@ -87,6 +84,7 @@ def index(request):
                }
     return render(request,'djblog/index.html',content)
 
+
 def article(request,article_id):
     article_info = Article.objects.get(id=article_id)
     try:
@@ -103,14 +101,14 @@ def article(request,article_id):
     #print(article_info.title)
     return render(request,'djblog/article.html',{'article':article_info})
 
+
 def cat(request,category_id):
-    print(category_id)
     category_info = Category.objects.get(id=category_id)
     #article_list = Category.article_set.all
     content = {'category_info':category_info}
     return render(request,'djblog/cat.html',content)
 
-
+@login_required(login_url='/blog/')
 def comments(request):
     if request.method == 'POST':
         '''print(request.POST)
@@ -147,9 +145,14 @@ def api(request):
         pass
 
 def userinfo(request,a):
-    print(a)
     userinfom = models.User.objects.filter(id=a)
-    content = {'user':userinfom}
+    userarticle = Article.objects.filter(author_id=userinfom[0].id)
+    userrelationship = Bloger.objects.get(user_id=a)
+    print(userrelationship.slist.all())
+    #print(userarticle)
+    content = {'user':userinfom,
+               'userarticle':userarticle,
+               'userrelationship':userrelationship}
     return render(request,'djblog/user.html',content)
 
 

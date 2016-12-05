@@ -5,8 +5,20 @@
 {{ userinfo }}
 
 {% endfor %}
+    {% for i in userrelationship.slist.all %}
+    {{ i }}
+    {% endfor %}
 {{ user.0.id }}
 <a href="{{ user.0.id }}/edit/">写文章</a>
+
+
+        {% for article in userarticle %}
+        <div class="content">
+        <a href="/blog/article/{{ article.id }}" id="navi_homepage"><h1>{{ article.title.capitalize }}<hr/></h1></a>
+        <pre><h6 id="c_h6">{{ article.created_time }} views:{{ article.views }} likes:{{ article.likes }}</h6></pre>
+        <p>{{ article.abstract }}...</p>
+        </div>
+    {% endfor %}
 
 
 {% endblock %}

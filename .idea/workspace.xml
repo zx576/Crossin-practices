@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="968290b3-1764-47d3-ad18-c4a18ed88709" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/djblog/migrations/0002_comment.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/djblog/migrations/0002_auto_20161104_1415.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ditribution.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learn_html.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/db.sqlite3" afterPath="$PROJECT_DIR$/blog/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Crossin-practices.iml" afterPath="$PROJECT_DIR$/.idea/Crossin-practices.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/.idea/workspace.xml" afterPath="$PROJECT_DIR$/blog/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/djblog/admin.py" afterPath="$PROJECT_DIR$/blog/djblog/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/djblog/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/blog/djblog/migrations/0001_initial.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/djblog/models.py" afterPath="$PROJECT_DIR$/blog/djblog/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/djblog/templates/djblog/edit.html" afterPath="$PROJECT_DIR$/blog/djblog/templates/djblog/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/djblog/urls.py" afterPath="$PROJECT_DIR$/blog/djblog/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/djblog/templates/djblog/body.html" afterPath="$PROJECT_DIR$/blog/djblog/templates/djblog/body.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/djblog/templates/djblog/user.html" afterPath="$PROJECT_DIR$/blog/djblog/templates/djblog/user.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/djblog/views.py" afterPath="$PROJECT_DIR$/blog/djblog/views.py" />
     </list>
     <ignored path="Crossin-practices.iws" />
@@ -24,21 +28,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Crossin-practices$openpyxl_test.coverage" NAME="openpyxl_test Coverage Results" MODIFIED="1480039368076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_wechat2.coverage" NAME="practice_wechat2 Coverage Results" MODIFIED="1476957721690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$learn_pypiwin32.coverage" NAME="learn_pypiwin32 Coverage Results" MODIFIED="1479888218249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$tk_test.coverage" NAME="tk_test Coverage Results" MODIFIED="1480926846255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_webpy5.coverage" NAME="practice_webpy5 Coverage Results" MODIFIED="1476761563431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$xlutils_test.coverage" NAME="xlutils_test Coverage Results" MODIFIED="1480039991407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$tk_task_py2.coverage" NAME="tk_task_py2 Coverage Results" MODIFIED="1480929301340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$xlwings_test.coverage" NAME="xlwings_test Coverage Results" MODIFIED="1480040466844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$sqlite3_prac.coverage" NAME="sqlite3_prac Coverage Results" MODIFIED="1476948436658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_sqlite3" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$tk_tasks.coverage" NAME="tk_tasks Coverage Results" MODIFIED="1480928880543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_multithreaded.coverage" NAME="practice_multithreaded Coverage Results" MODIFIED="1476433838325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$jiandan.coverage" NAME="jiandan Coverage Results" MODIFIED="1476792262370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiandan" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$pymail_cqu.coverage" NAME="pymail_cqu Coverage Results" MODIFIED="1480484386055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$xl_wings_test.coverage" NAME="xl_wings_test Coverage Results" MODIFIED="1479565212292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$pyemail_multi2.coverage" NAME="pyemail-multi2 Coverage Results" MODIFIED="1480560864788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_xueqiu.coverage" NAME="practice_xueqiu Coverage Results" MODIFIED="1479606040735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$db_generator.coverage" NAME="db_generator Coverage Results" MODIFIED="1476778101859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$xlsxwriter_test.coverage" NAME="xlsxwriter_test Coverage Results" MODIFIED="1479987238344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$1024.coverage" NAME="1024 Coverage Results" MODIFIED="1476515356237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiandan" />
     <SUITE FILE_PATH="coverage/Crossin-practices$manage.coverage" NAME="manage Coverage Results" MODIFIED="1476689575757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_webpy4.coverage" NAME="practice_webpy4 Coverage Results" MODIFIED="1476844046526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$pandastest.coverage" NAME="pandastest Coverage Results" MODIFIED="1480040246199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_webpy1.coverage" NAME="practice_webpy1 Coverage Results" MODIFIED="1476846161783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
     <SUITE FILE_PATH="coverage/Crossin-practices$webpy_code.coverage" NAME="webpy_code Coverage Results" MODIFIED="1476858263242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_wechat2.coverage" NAME="practice_wechat2 Coverage Results" MODIFIED="1476957721690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_webpy5.coverage" NAME="practice_webpy5 Coverage Results" MODIFIED="1476761563431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$hello1.coverage" NAME="hello1 Coverage Results" MODIFIED="1479727584312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$pysmtp.coverage" NAME="pysmtp Coverage Results" MODIFIED="1480505434320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$tttt.coverage" NAME="tttt Coverage Results" MODIFIED="1480498842841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
     <SUITE FILE_PATH="coverage/Crossin-practices$t.coverage" NAME="t Coverage Results" MODIFIED="1478405024201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$sqlite3_prac.coverage" NAME="sqlite3_prac Coverage Results" MODIFIED="1476948436658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_sqlite3" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_wechat.coverage" NAME="practice_wechat Coverage Results" MODIFIED="1476950977439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_multithreaded.coverage" NAME="practice_multithreaded Coverage Results" MODIFIED="1476433838325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_html.coverage" NAME="practice_html Coverage Results" MODIFIED="1480670327615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_wechat.coverage" NAME="practice_wechat Coverage Results" MODIFIED="1479605983585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$pyemail_multi.coverage" NAME="pyemail_multi Coverage Results" MODIFIED="1480557645692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
     <SUITE FILE_PATH="coverage/Crossin-practices$tests.coverage" NAME="tests Coverage Results" MODIFIED="1476426187717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$jiandan.coverage" NAME="jiandan Coverage Results" MODIFIED="1476792262370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiandan" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$db_generator.coverage" NAME="db_generator Coverage Results" MODIFIED="1476778101859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$ditribution.coverage" NAME="ditribution Coverage Results" MODIFIED="1478171704608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$1024.coverage" NAME="1024 Coverage Results" MODIFIED="1476515356237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiandan" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$myproject.coverage" NAME="myproject Coverage Results" MODIFIED="1479707908455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/code/myproject" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$learn_xlwings.coverage" NAME="learn_xlwings Coverage Results" MODIFIED="1479965298139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$learn_xlsxwriter.coverage" NAME="learn_xlsxwriter Coverage Results" MODIFIED="1479804425724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$pyemail_qq.coverage" NAME="pyemail_qq Coverage Results" MODIFIED="1480485833583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$ditribution.coverage" NAME="ditribution Coverage Results" MODIFIED="1479606013086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$win32com_test.coverage" NAME="win32com_test Coverage Results" MODIFIED="1480039740753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -49,60 +76,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="practice_wechat.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice_wechat.py">
+      <file leaf-file-name="practice_baiduapi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice_baiduapi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ditribution.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ditribution.py">
+      <file leaf-file-name="practice_html.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice_html.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="practice_recode_marks.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice_recode_marks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/t.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sqlite3_prac.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prac_sqlite3/sqlite3_prac.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="644">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <element signature="e#22#36#0" expanded="true" />
-                <marker date="1476422255251" expanded="true" signature="191:361" ph="CREATE TABLE... ADDRESSLIST" />
-                <marker date="1476422255251" expanded="true" signature="455:536" ph="INSERT INTO ADDRESSLIST... " />
-                <marker date="1476422255251" expanded="true" signature="677:809" ph="SELECT * FRO... ADDRESSLIST" />
-                <marker date="1476422255251" expanded="true" signature="970:1007" ph="SELECT * FRO... ADDRESSLIST" />
-                <marker date="1476422255251" expanded="true" signature="1198:1231" ph="DELETE FROM " />
-                <marker date="1476422255251" expanded="true" signature="1347:1372" ph="SELECT * FRO... ADDRESSLIST" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tk_tasks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tktask/tk_tasks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tk_task_py2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tktask/tk_task_py2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3752">
+              <caret line="206" column="40" selection-start-line="206" selection-start-column="40" selection-end-line="206" selection-end-column="40" />
+              <folding>
+                <element signature="e#22#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tk_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tktask/tk_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1480926846246" expanded="true" signature="633:755" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jiandan.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jiandan/jiandan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,6 +150,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -122,14 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/practice_fib.py" />
-        <option value="$PROJECT_DIR$/practice_guessNum.py" />
-        <option value="$PROJECT_DIR$/practice_baiduapi.py" />
-        <option value="$PROJECT_DIR$/practice_collectwords.py" />
-        <option value="$PROJECT_DIR$/practice_fetchdata.py" />
-        <option value="$PROJECT_DIR$/practice_poker.py" />
-        <option value="$PROJECT_DIR$/practice_replace_words.py" />
-        <option value="$PROJECT_DIR$/practice_xueqiu.py" />
         <option value="$PROJECT_DIR$/test/test.py" />
         <option value="$PROJECT_DIR$/test/tests.py" />
         <option value="$PROJECT_DIR$/practice_multithreaded.py" />
@@ -152,7 +183,35 @@
         <option value="$PROJECT_DIR$/prac_sqlite3/sqlite3_prac.py" />
         <option value="$PROJECT_DIR$/practice_wechat2.py" />
         <option value="$PROJECT_DIR$/ditribution.py" />
+        <option value="$PROJECT_DIR$/.idea/xl_wings_test.py" />
+        <option value="$USER_HOME$/code/myproject/myproject.py" />
         <option value="$PROJECT_DIR$/t.py" />
+        <option value="$PROJECT_DIR$/learn_xlsxwriter.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/gen_py/3.5/00020813-0000-0000-C000-000000000046x0x1x9/_Worksheet.py" />
+        <option value="$PROJECT_DIR$/learn_pypiwin32.py" />
+        <option value="$USER_HOME$/Desktop/hello1.py" />
+        <option value="$PROJECT_DIR$/learn_xlwings.py" />
+        <option value="$PROJECT_DIR$/datanitro.py" />
+        <option value="$PROJECT_DIR$/datanitrotest.py" />
+        <option value="$PROJECT_DIR$/extest/xlsxwriter_test.py" />
+        <option value="$PROJECT_DIR$/extest/xlwingsread.py" />
+        <option value="$PROJECT_DIR$/extest/openpyxl_test" />
+        <option value="$PROJECT_DIR$/extest/win32com_test.py" />
+        <option value="$PROJECT_DIR$/extest/xlutils_test.py" />
+        <option value="$PROJECT_DIR$/extest/pandastest.py" />
+        <option value="$PROJECT_DIR$/extest/xlwings_test.py" />
+        <option value="$PROJECT_DIR$/pythonemail/pymail_cqu.py" />
+        <option value="$PROJECT_DIR$/pythonemail/pyemail_qq.py" />
+        <option value="$PROJECT_DIR$/pythonemail/test.py" />
+        <option value="$PROJECT_DIR$/pythonemail/tttt.py" />
+        <option value="$PROJECT_DIR$/pythonemail/pysmtp.py" />
+        <option value="$PROJECT_DIR$/pythonemail/pyemail_multi.py" />
+        <option value="$PROJECT_DIR$/pythonemail/pyemail-multi2.py" />
+        <option value="$PROJECT_DIR$/pythonemail/abc.html" />
+        <option value="$PROJECT_DIR$/practice_html.py" />
+        <option value="$PROJECT_DIR$/tktask/tk_test.py" />
+        <option value="$PROJECT_DIR$/tktask/tk_tasks.py" />
+        <option value="$PROJECT_DIR$/tktask/tk_task_py2.py" />
       </list>
     </option>
   </component>
@@ -164,7 +223,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1378" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -212,29 +272,30 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Python27/python.exe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="Python.t">
-    <configuration default="false" name="sqlite3_prac" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.tk_task_py2">
+    <configuration default="false" name="pyemail-multi2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_sqlite3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonemail" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Crossin-practices" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_sqlite3/sqlite3_prac.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonemail/pyemail-multi2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="practice_wechat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="practice_html" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -247,61 +308,61 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Crossin-practices" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice_wechat.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice_html.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="practice_wechat2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="tk_tasks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tktask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Crossin-practices" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice_wechat2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tktask/tk_tasks.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ditribution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="tk_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tktask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Crossin-practices" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ditribution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tktask/tk_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="t" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="tk_task_py2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tktask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Crossin-practices" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tktask/tk_task_py2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -368,7 +429,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Crossin-practices" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
@@ -515,19 +576,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.sqlite3_prac" />
-      <item index="1" class="java.lang.String" itemvalue="Python.practice_wechat" />
-      <item index="2" class="java.lang.String" itemvalue="Python.practice_wechat2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ditribution" />
-      <item index="4" class="java.lang.String" itemvalue="Python.t" />
+      <item index="0" class="java.lang.String" itemvalue="Python.pyemail-multi2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.practice_html" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tk_tasks" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tk_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tk_task_py2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.t" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ditribution" />
-        <item index="2" class="java.lang.String" itemvalue="Python.practice_wechat2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.practice_wechat" />
-        <item index="4" class="java.lang.String" itemvalue="Python.sqlite3_prac" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tk_task_py2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tk_tasks" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tk_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.practice_html" />
+        <item index="4" class="java.lang.String" itemvalue="Python.pyemail-multi2" />
       </list>
     </recent_temporary>
   </component>
@@ -548,20 +609,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29652998" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29652998" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24763407" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24605678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -589,226 +650,16 @@
           <properties exception="BaseException" />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jiandan/jiandan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prac_sqlite3/sqlite3_prac.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_xueqiu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_wechat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiandan/jiandan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_xueqiu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaiduApi-ID-IP-PhoneNum.py" />
-    <entry file="file://$PROJECT_DIR$/practice6.py" />
-    <entry file="file://$PROJECT_DIR$/practice_replace_words.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_poker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_medallist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.py" />
-    <entry file="file://$PROJECT_DIR$/test/tests.py" />
-    <entry file="file://$PROJECT_DIR$/practice_multithreaded.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jiandan/1024.py" />
-    <entry file="file://$PROJECT_DIR$/practice_xueqiu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_py/html_learn.html" />
-    <entry file="file://$PROJECT_DIR$/.idea/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/mysite/manage.py" />
-    <entry file="file://$PROJECT_DIR$/mysite/mysite/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py" />
-    <entry file="file://$PROJECT_DIR$/mysite/mysite/wsgi.py" />
-    <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py" />
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python35/site-packages/django/bin/django-admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="308" column="0" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_py/templates/l.html" />
-    <entry file="file://$PROJECT_DIR$/web_py/templates/text.css" />
-    <entry file="file://$PROJECT_DIR$/jiandan/jiandan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_py/practice_webpy4.py" />
-    <entry file="file://$PROJECT_DIR$/web_py/practice_webpy5.py" />
-    <entry file="file://$PROJECT_DIR$/web_py/db_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_py/templates/movie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_py/practice_webpy2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_py/practice_webpy1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_css.html" />
-    <entry file="file://$PROJECT_DIR$/web_py/webpy_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_py/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_baiduapi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-963">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_wechat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prac_sqlite3/sqlite3_prac.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="e#22#36#0" expanded="true" />
-            <marker date="1476422255251" expanded="true" signature="191:361" ph="CREATE TABLE... ADDRESSLIST" />
-            <marker date="1476422255251" expanded="true" signature="455:536" ph="INSERT INTO ADDRESSLIST... " />
-            <marker date="1476422255251" expanded="true" signature="677:809" ph="SELECT * FRO... ADDRESSLIST" />
-            <marker date="1476422255251" expanded="true" signature="970:1007" ph="SELECT * FRO... ADDRESSLIST" />
-            <marker date="1476422255251" expanded="true" signature="1198:1231" ph="DELETE FROM " />
-            <marker date="1476422255251" expanded="true" signature="1347:1372" ph="SELECT * FRO... ADDRESSLIST" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice_wechat2.py" />
     <entry file="file://$PROJECT_DIR$/practice_collectwords.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-62">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,31 +681,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1035">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ditribution.py">
+    <entry file="file://$PROJECT_DIR$/.idea/xl_wings_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="23">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_wechat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ditribution.py" />
+    <entry file="file://$USER_HOME$/code/myproject/myproject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/gen_py/3.5/00020813-0000-0000-C000-000000000046x0x1x9/Application.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/gen_py/3.5/00020813-0000-0000-C000-000000000046x0x1x9/Sheets.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/gen_py/3.5/00020813-0000-0000-C000-000000000046x0x1x9/_Application.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/gen_py/3.5/00020813-0000-0000-C000-000000000046x0x1x9/AppEvents.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/gen_py/3.5/00020813-0000-0000-C000-000000000046x0x1x9/DocEvents.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/gen_py/3.5/00020813-0000-0000-C000-000000000046x0x1x9/_Workbook.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/gen_py/3.5/00020813-0000-0000-C000-000000000046x0x1x9/Worksheet.py" />
+    <entry file="file://$PROJECT_DIR$/learn_pypiwin32.py" />
+    <entry file="file://$PROJECT_DIR$/prac_sqlite3/sqlite3_prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/gen_py/3.5/00020813-0000-0000-C000-000000000046x0x1x9/_Worksheet.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/gen_py/3.5/00020813-0000-0000-C000-000000000046x0x1x9/Range.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/gen_py/3.5/00020813-0000-0000-C000-000000000046x0x1x9/Pictures.py" />
+    <entry file="file://$USER_HOME$/Desktop/hello1.py" />
+    <entry file="file://$PROJECT_DIR$/datanitro.py" />
+    <entry file="file://$PROJECT_DIR$/learn_xlsxwriter.py" />
+    <entry file="file://$PROJECT_DIR$/datanitrotest.py" />
+    <entry file="file://$PROJECT_DIR$/learn_xlwings.py" />
+    <entry file="file://$PROJECT_DIR$/extest/xlsxwriter_test.py" />
+    <entry file="file://$PROJECT_DIR$/extest/xlwingsread.py" />
+    <entry file="file://$PROJECT_DIR$/extest/xlutils_test.py" />
+    <entry file="file://$PROJECT_DIR$/extest/openpyxl_test" />
+    <entry file="file://$PROJECT_DIR$/extest/pandastest.py" />
+    <entry file="file://$PROJECT_DIR$/extest/xlwings_test.py" />
+    <entry file="file://$PROJECT_DIR$/extest/win32com_test.py" />
+    <entry file="file://$PROJECT_DIR$/practice_xueqiu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonemail/pyemail_qq.py" />
+    <entry file="file://$PROJECT_DIR$/pythonemail/pymail_cqu.py" />
+    <entry file="file://$PROJECT_DIR$/pythonemail/test.py" />
+    <entry file="file://$PROJECT_DIR$/pythonemail/pysmtp.py" />
+    <entry file="file://$PROJECT_DIR$/pythonemail/abc.txt" />
+    <entry file="file://$PROJECT_DIR$/pythonemail/tttt.py" />
+    <entry file="file://$PROJECT_DIR$/pythonemail/abc.html" />
+    <entry file="file://$PROJECT_DIR$/pythonemail/pyemail-multi2.py" />
+    <entry file="file://$PROJECT_DIR$/pythonemail/pyemail_multi.py" />
+    <entry file="file://$PROJECT_DIR$/jiandan/jiandan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practice_recode_marks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
+        <state relative-caret-position="417">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tktask/tk_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1480926846246" expanded="true" signature="633:755" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tktask/tk_tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_baiduapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/t.py">
+    <entry file="file://$PROJECT_DIR$/tktask/tk_task_py2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="3752">
+          <caret line="206" column="40" selection-start-line="206" selection-start-column="40" selection-end-line="206" selection-end-column="40" />
+          <folding>
+            <element signature="e#22#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
