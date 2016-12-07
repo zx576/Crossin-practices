@@ -7,7 +7,6 @@ import time
 
 #---------------------------------------------------------------------
 # 数据处理函数
-# 有效粒径沙粒
 result = []
 def formula():
     #一般粒径与有效粒径选择计算公式
@@ -45,7 +44,6 @@ def formula():
     #记录计算出的N与结果
     result_n.set(new_n)
     result.append([pre_n, a, Cn, e0, new_n,time.ctime()])
-    # print(result)
 
 def pramater_a(l):
     if l <= 3:
@@ -92,15 +90,13 @@ def savetxt():
                 f.write(element)
                 f.write(',')
             f.write('\n')
+            f.close()
             del result[:]
             tkMessageBox.showinfo('sucees', '保存成功')
         except:
             tkMessageBox.showinfo('error', '无计算数据')
-        # print('success')
-
+#显示查询信息
 def showrecord():
-    # print(child_window.state())
-    # print(type(child_window.state()))
     if child_window.state() == 'withdrawn':
         child_window.deiconify()
         child_window.attributes("-topmost", 1)
@@ -112,22 +108,6 @@ def showrecord():
                 info = strip_data.split(',',5)
                 tree.insert('', i,values=(info[0], info[1], info[2], info[3], info[4],info[5]))
                 i += 1
-
-# def showrecord():
-#     # print(child_window.state())
-#     # print(type(child_window.state()))
-#     child_window.deiconify()
-#     child_window.attributes("-topmost", 1)
-#     with open('record.txt', 'r') as r:
-#         all_data = r.readlines()
-#         i = 0
-#         for data in all_data:
-#             strip_data = data.strip()
-#             info = strip_data.split(',',5)
-#             tree.insert('', i,values=(info[0], info[1], info[2], info[3], info[4],info[5]))
-#             i += 1
-
-
 #关闭子窗口
 def close_child_window():
     child_window.withdraw()
@@ -148,7 +128,7 @@ childframe.grid(column=0,row=0,sticky=(N,W,E,S))
 ttk.Label(mainframe,text='标贯击数的校正',font=20).grid(column=1,row=1,sticky=(W,E))
 ttk.Label(mainframe,text='N\':').grid(column=0,row=2,sticky=W)
 ttk.Label(mainframe,text='触探杆长度:').grid(column=0,row=3,sticky=W)
-ttk.Label(mainframe,text='e0').grid(column=0,row=7,sticky=W)
+ttk.Label(mainframe,text='e0:').grid(column=0,row=7,sticky=W)
 ttk.Label(mainframe,text='N:').grid(column=0,row=9,sticky=W)
 
 #添加输入框，输入值设定为待处理的N值
@@ -160,10 +140,9 @@ L = StringVar()
 L_entry = ttk.Entry(mainframe,width=20,textvariable=L)
 L_entry.grid(column=1,row=3)
 
-#添加单选按钮，判断一般粒径、有效粒径、岩土
+#添加复选按钮，默认为一般粒径、可选有效粒径、可选岩土
 choose_formula = StringVar()
 choose_formula2 = StringVar()
-# ttk.Radiobutton(mainframe,text='一般沙粒',value='F1',variable=choose_formula,state=ACTIVE).grid(column=0,row=4,sticky=W)
 ttk.Checkbutton(mainframe,text='有效沙粒',onvalue='F1',variable=choose_formula).grid(column=0,row=5,sticky=W)
 ttk.Checkbutton(mainframe,text='沙土',onvalue='F2',variable=choose_formula2,command=changestate).grid(column=0,row=6,sticky=W)
 ##添加输入框，输入值设定为实测深度处土的实际上覆压力e0
@@ -176,12 +155,12 @@ ttk.Button(mainframe,text='计算',command=formula).grid(column=1,row=8,sticky=(
 result_n = StringVar()
 N_entry = ttk.Entry(mainframe,width=20,textvariable=result_n)
 N_entry.grid(column=1,row=9)
-
+#保存按钮
 ttk.Button(mainframe,text='保存',command=savetxt).grid(column=0,row=10,sticky=(W,E))
+#查询按钮
 inquiry = ttk.Button(mainframe,text='查询',command=showrecord)
 inquiry.grid(column=2,row=10,sticky=(W,E))
-
-#右侧校正记录
+#子窗口校正记录
 ttk.Label(childframe,text='校正记录',font=50).grid(column=0,row=1,sticky=(W,E))
 tree = ttk.Treeview(childframe,show="headings",columns=('a','b','c','d','e','f'))
 tree.grid(column=0,row=2,rowspan=15)
@@ -200,10 +179,10 @@ tree.column('f',width=200)
 vbar = ttk.Scrollbar(childframe, orient=VERTICAL, command=tree.yview)
 vbar.grid(row=2,column=2,rowspan=15,sticky=NS)
 tree.configure(yscrollcommand=vbar.set)
-# 'N\'','a','Cn','e0','N','time'
 
 #添加右上角关闭响应
 child_window.protocol('WM_DELETE_WINDOW',close_child_window)
+#添加padding
 for child in mainframe.winfo_children():
     child.grid_configure(padx=5,pady=5)
 top.mainloop()
