@@ -37,15 +37,15 @@ def moveFile(pictures,videos,pic_root,video_root):
 
 #主函数
 def main():
-    print('输入您要整理的地址')
+    print '输入您要整理的地址'
     path = ''
     #输入判断
     while True:
-        path = input('>>>>>')
+        path = raw_input('>>>>>')
         if os.path.exists(path):
             break
         else:
-            print('地址无效')
+            print '地址无效'
     #分别得到图片视频地址
     files = getFile(path)
     pic_adds = files[0]
@@ -55,12 +55,13 @@ def main():
         os.mkdir(path+os.sep+'newpic')
         os.mkdir(path + os.sep + 'newvideo')
     except:
-        print('存放文件夹已建立')
+        print '存放文件夹已建立'
     finally:
         pic_path = path+os.sep+'newpic'
         video_path = path+os.sep+'newvideo'
     #移动文件
     moveFile(pic_adds,video_adds,pic_path,video_path)
+    print 'success'
 
 if __name__ == '__main__':
     main()

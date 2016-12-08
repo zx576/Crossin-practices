@@ -1,10 +1,10 @@
 #-*- coding:utf-8 -*-
+####python2.7
 import os
 
 #执行函数
 def getDirInfo(path):
     #建立两个变量分别记录文件大小信息和文件数量
-    print(path)
     result = []
     items = 0
     #遍历传入的路径
@@ -21,17 +21,17 @@ def getDirInfo(path):
     result = sorted(result,key=lambda i:i[0])
     #打印结果
     for i in result:
-        print('文件 '+i[0]+' 占用',i[1],' 字节')
-    print('文件夹 '+path+' 下共有',items,'个文件')
+        print '文件 ',i[0].decode('gbk'),' 占用',i[1],' 字节'
+    print '文件夹 ', path.decode('gbk'),' 下共有',items,'个文件'
 
 #主函数
 def main():
-    print('输入文件路径')
-    path = input('>>>')
+    print '输入文件路径'
+    path = raw_input('>>>')
     if os.path.exists(path):
         getDirInfo(path)
     else:
-        print('路径有误')
+        print '路径有误'
 #启动
 if __name__ == '__main__':
     main()
