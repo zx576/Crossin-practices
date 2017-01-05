@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="968290b3-1764-47d3-ad18-c4a18ed88709" name="Default" comment="" />
+    <list default="true" id="968290b3-1764-47d3-ad18-c4a18ed88709" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python-practice/bmi_index.py" afterPath="$PROJECT_DIR$/python-practice/bmi_index.py" />
+    </list>
     <ignored path="Crossin-practices.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -108,16 +110,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input_practice.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-practice/input_practice.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="print_practice.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python-practice/print_practice.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,17 +120,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bmi_index.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bmi_index.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python-practice/bmi_index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="276">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gpa.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gpa.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python-practice/gpa.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-334">
@@ -212,9 +204,9 @@
         <option value="$PROJECT_DIR$/python-practice/test_practice.py" />
         <option value="$PROJECT_DIR$/py2_4_qq/12-26.py" />
         <option value="$PROJECT_DIR$/python-practice/print_practice.py" />
-        <option value="$PROJECT_DIR$/python-practice/bmi_index.py" />
         <option value="$PROJECT_DIR$/python-practice/input_practice.py" />
         <option value="$PROJECT_DIR$/python-practice/gpa.py" />
+        <option value="$PROJECT_DIR$/python-practice/bmi_index.py" />
       </list>
     </option>
   </component>
@@ -804,18 +796,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python-practice/bmi_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python-practice/gpa.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-334">
           <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-practice/bmi_index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>

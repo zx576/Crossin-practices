@@ -4,10 +4,9 @@
 #分别输入身高与体重
 height = float(input('type in your height:'))
 weight = float(input('type in your weight:'))
-print(type(height))
 #算出bmi指数
 bmi = weight / (height * height)
-
+#判断并输出
 if bmi < 18.5:
     print('too light')
 elif bmi > 24.5:
