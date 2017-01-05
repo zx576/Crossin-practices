@@ -2,8 +2,6 @@
 #python3.5
 #建立变量，存入循环次数
 c = 1
-#dict格式存入每门课程及学分，一一对应
-dict = {}
 # 总分数以及总学分
 total_score = 0
 total_marks = 0
@@ -36,11 +34,9 @@ while True:
         gpa = 1.0
     else:
         gpa = 0
-    #将课程绩点已经学分存入dict
-    dict[gpa] = mark
     #累加总分数以及总学分
-    total_score += gpa * dict[gpa]
-    total_marks += dict[gpa]
+    total_score += gpa * mark
+    total_marks += mark
     #算出当前平均绩点
     averge_gpa =total_score / total_marks
     #打印
@@ -53,8 +49,6 @@ while True:
 #python2.7
 #建立变量，存入循环次数
 # c = 1
-# #dict格式存入每门课程及学分，一一对应
-# dict = {}
 # # 总分数以及总学分
 # total_score = 0
 # total_marks = 0
@@ -87,11 +81,9 @@ while True:
 #         gpa = 1.0
 #     else:
 #         gpa = 0
-#     #将课程绩点已经学分存入dict
-#     dict[gpa] = mark
 #     #累加总分数以及总学分
-#     total_score += gpa * dict[gpa]
-#     total_marks += dict[gpa]
+#     total_score += gpa * mark
+#     total_marks += mark
 #     #算出当前平均绩点
 #     averge_gpa =total_score / total_marks
 #     #打印
