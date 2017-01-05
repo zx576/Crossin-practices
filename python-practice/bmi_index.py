@@ -2,8 +2,9 @@
 
 # python3.5
 #分别输入身高与体重
-height = input('type in your height:')
-weight = input('type in your weight:')
+height = float(input('type in your height:'))
+weight = float(input('type in your weight:'))
+print(type(height))
 #算出bmi指数
 bmi = weight / (height * height)
 

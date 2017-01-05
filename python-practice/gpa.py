@@ -10,8 +10,8 @@ total_marks = 0
 #循环开始
 while True:
     #输入课程分数及学分
-    scores = input('输入第%d门课程分数：'%c)
-    mark = input('输入第%d门课程学分：'%c)
+    scores = float(input('输入第%d门课程分数：'%c))
+    mark = float(input('输入第%d门课程学分：'%c))
     # print(dict,total_marks,total_score)
     #根据课程分数得到课程绩点
     if 90 <= scores <= 100:
