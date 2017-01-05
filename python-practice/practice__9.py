@@ -7,7 +7,7 @@ import sys, time
 header = {'User-Agent':
                   'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 '
                   '(KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
-          'apikey':'2fd858445546756a2cea84b14c7'
+          'apikey':'2fd858449606c0d8eaaea2cea84b14c7'
           }
 def getInfo(stockname):
     #请求api接口
@@ -19,16 +19,21 @@ def getInfo(stockname):
     #拿到请求信息
     content = response.text
     #json处理
+    # print content
     content = json.loads(content)
     info = content.get('retData')
+    # print info
+    sys.stdout.write('\r'+str(info))
     #拿到实时股票价格
     currentprice = ''
+    name = ''
     if info:
         currentprice = info.get('stockinfo').get('currentPrice')
+        name = info.get('stockinfo').get('name')
     else:
         print '查询失败'
         exit()
-    return currentprice
+    return currentprice,name
 #主函数
 def main():
     print '输入要实时查询的股票代码'
@@ -36,8 +41,11 @@ def main():
     #设置5次循环，这里可根据自己要求设置
     i = 0
     while i < 5:
-        currentp = getInfo(stock)
-        sys.stdout.write('\r'+str(currentp))
+        currentp = getInfo(stock)[0]
+        # print(currentp)
+        name = getInfo(stock)[1]
+        # print(name)
+        sys.stdout.write('\r'+name+':'+str(currentp))
         sys.stdout.flush()
         #每隔10秒请求一次，设置需小心，频繁请求可能会报错
         time.sleep(10)

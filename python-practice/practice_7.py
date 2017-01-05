@@ -32,7 +32,6 @@ def fetchData():
 def download(urls):
     #逐个拿出软件地址
     for url in urls[:2]:
-
         #获取软件名
         software_name = url.split('/')[-1]
         print '正在下载',software_name

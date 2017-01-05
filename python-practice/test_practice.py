@@ -1,92 +1,42 @@
 #-*- coding:utf-8 -*-
-import re
-import shutil
-import os
-# shutil.move(r'E:\coding-related\pic\标贯击数的校正.docx',r'E:\coding-related')
-
-# print '周鑫'
-
-# a = 'e:\\test\\\xcd\xe6\xd7\xaa\xb4\xf3\xd1\xa7\xbe\xb2\xcc\xac\xc4\xa3\xb0\xe5007.ppt'
-#
-# print a.decode('gbk')
-# print '文件'.decode('utf8')+u'你好'
-
-# with open('abc.exe','wb')as f:
-#     f.write('ssd')
-
-
-# import sys
-# import time
-# output = sys.stdout
-# for i in range(5):
-#     print i,
-#     output.flush()
-#     time.sleep(1)
-
-import sys, time
-
-output = sys.stdout
-output.write('\r1')
-output.flush()
-time.sleep(1)
-output.write('\r2')
-output.flush()
-time.sleep(1)
-output.write('\r3')
-output.flush()
-
-
-
-# a = '{"data":{"softList":{"list":[{"position_id":"1","soft_id":"12350","logo_url":"","custom_url":"","short_desc":"","s":"9","soft_name":"QQ","url":"http:\/\/sw.bos.baidu.com\/sw-search-sp\/software\/e6207d37846ba\/QQ_8.7.19113.0_setup.exe","logo":"http:\/\/img1sw.baidu.com\/soft\/3a\/12350\/32288e089d40b19db2769aafe4746994.png?version=4233257361","logo48":"http:\/\/img1sw.baidu.com\/soft\/3a\/12350\/dfd39dc966cdbe0a0a521c941c950e3a.png?version=4233257361","logo96":"http:\/\/img1sw.baidu.com\/logo\/n96\/12350.png","point":8,"file_size":56.3,"soft_desc_short":"\u514d\u8d39\u7684\u5373\u65f6\u901a\u8baf\u8f6f\u4ef6\uff0c\u5e26\u6765\u66f4\u591a\u6c9f\u901a\u4e50\u8da3\uff0c\u9886\u7565\u4e00\u4e2a\u4e0d\u4e00\u6837\u7684QQ","down_num":"48223350","update_time":"2016-10-25 15:00:20","index":0,"soft_name_7":"QQ","soft_name_8":"QQ","soft_name_10":"QQ","soft_name_12":"QQ","download_num":48223318},{"position_id":"1","soft_id":"13442","logo_url":"","custom_url":"","short_desc":"","s":"7","soft_name":"\u8fc5\u96f79","url":"http:\/\/sw.bos.baidu.com\/sw-search-sp\/software\/b983bd8aa1e6e\/Thunder_9.0.19.482_baidu.exe","logo":"http:\/\/img1sw.baidu.com\/soft\/ca\/13442\/9d50de944cf6ec0c03dcace5b9d8fe95.png?version=4173397964","logo48":"http:\/\/img1sw.baidu.com\/soft\/ca\/13442\/bf654c591a62bde250504144a11e4236.png?version=4173397964","logo96":"http:\/\/img1sw.baidu.com\/logo\/n96\/13442.png","point":6.6,"file_size":39.8,"soft_desc_short":"\u4e00\u6b3e\u65b0\u578b\u7684\u57fa\u4e8e\u591a\u8d44\u6e90\u8d85\u7ebf\u7a0b\u6280\u672f\u7684\u4e0b\u8f7d\u8f6f\u4ef6\uff0c\u5e26\u7ed9\u7528\u6237\u9ad8\u901f\u4e0b\u8f7d\u7684\u5168\u65b0\u4f53\u9a8c","down_num":"12812404","update_time":"2016-11-17 14:17:52","index":1,"soft_name_7":"\u8fc5\u96f79","soft_name_8":"\u8fc5\u96f79","soft_name_10":"\u8fc5\u96f79","soft_name_12":"\u8fc5\u96f79","download_num":12812313},{"position_id":"1","soft_id":"14744","logo_url":"","custom_url":"","short_desc":"","s":"3","soft_name":"\u8c37\u6b4c\u6d4f\u89c8\u5668","url":"http:\/\/sw.bos.baidu.com\/sw-search-sp\/software\/c3ee1cfbef68d\/ChromeStandalone_55.0.2883.75_Setup.exe","logo":"http:\/\/img1sw.baidu.com\/soft\/9d\/14744\/cd519bde4aea947eef707b4f01159604.png?version=1833335230","logo48":"http:\/\/img1sw.baidu.com\/soft\/9d\/14744\/49aa4b2a75ed1e4b17a10a02a42879f2.png?version=1833335230","logo96":"http:\/\/img1sw.baidu.com\/www\/soft\/\/1437580800\/1437644494.png","point":8.5,"file_size":44.3,"soft_desc_short":"\u8c37\u6b4c\uff08google\uff09\u51fa\u54c1\u7684\u7b80\u5355\u6613\u7528\u3001\u901f\u5ea6\u6781\u5feb\u7684\u7f51\u7edc\u6d4f\u89c8\u5668","down_num":"11230909","update_time":"2016-12-05 15:37:21","index":2,"soft_name_7":"\u8c37\u6b4c\u6d4f\u89c8\u5668","soft_name_8":"\u8c37\u6b4c\u6d4f\u89c8\u5668","soft_name_10":"\u8c37\u6b4c\u6d4f\u89c8\u5668","soft_name_12":"\u8c37\u6b4c\u6d4f\u89c8\u5668","download_num":11230901},{"position_id":"1","soft_id":"15752","logo_url":"","custom_url":"","short_desc":"","s":"8","soft_name":"iTunes 32\u4f4d","url":"http:\/\/sw.bos.baidu.com\/sw-search-sp\/software\/eb7ccade26e1f\/iTunes_12.5.3.17_Setup.exe","logo":"http:\/\/img1sw.baidu.com\/soft\/6f\/15752\/9d7d3eab8d8e4d15ab457b67e8cfe90f.png?version=63066013","logo48":"http:\/\/img1sw.baidu.com\/soft\/6f\/15752\/39976747ed7a274867e22f89f9455168.png?version=63066013","logo96":"http:\/\/img1sw.baidu.com\/www\/soft\/\/1435680000\/1435720762.png","point":7.5,"file_size":117.9,"soft_desc_short":"\u4f9bMac\u548cPC\u4f7f\u7528\u7684\u4e00\u6b3e\u514d\u8d39\u5e94\u7528\u8f6f\u4ef6\uff0c\u76ee\u524d\u6700\u4e13\u4e1a\u7684iPad\u548ciPhone\u7ba1\u7406\u5e94\u7528\u5de5\u5177","down_num":"10716228","update_time":"2016-11-03 11:26:51","index":3,"soft_name_7":"iTunes 32\u4f4d","soft_name_8":"iTunes 32\u4f4d","soft_name_10":"iTunes 32\u4f4d","soft_name_12":"iTunes 32\u4f4d","download_num":10716224},{"position_id":"1","soft_id":"12856","logo_url":"","custom_url":"","short_desc":"","s":"2","soft_name":"\u7231\u5947\u827a\u89c6\u9891","url":"http:\/\/sw.bos.baidu.com\/sw-search-sp\/software\/84b17dd0689c3\/IQIYIsetup_bdtw_5.5.33.3550.exe","logo":"http:\/\/img1sw.baidu.com\/soft\/40\/12856\/2088df607095f108145cf1433396f72a.png?version=3392555439","logo48":"http:\/\/img1sw.baidu.com\/soft\/40\/12856\/8bff139b495fd0c0383a09b2c96fa969.png?version=3392555439","logo96":"http:\/\/img1sw.baidu.com\/logo\/n96\/12856.png","point":7.8,"file_size":35.6,"soft_desc_short":"\u7231\u5947\u827a\u65d7\u4e0b\u4e00\u6b3e\u4e13\u6ce8\u89c6\u9891\u64ad\u653e\u7684\u5ba2\u6237\u7aef\u8f6f\u4ef6","down_num":"7240937","update_time":"2016-12-06 10:57:16","index":4,"soft_name_7":"\u7231\u5947\u827a\u89c6\u9891","soft_name_8":"\u7231\u5947\u827a\u89c6\u9891","soft_name_10":"\u7231\u5947\u827a\u89c6\u9891","soft_name_12":"\u7231\u5947\u827a\u89c6\u9891","download_num":7240919},{"position_id":"1","soft_id":"17153","logo_url":"","custom_url":"","short_desc":"","s":"5","soft_name":"Adobe Flash Player for IE","url":"http:\/\/sw.bos.baidu.com\/sw-search-sp\/software\/5bdc420eb7405\/flashplayer_23_ax_debug_23.0.0.207.exe","logo":"http:\/\/img1sw.baidu.com\/soft\/34\/17153\/26ebedb0344d271359d3d7baa51ece0f.png?version=1087485341","logo48":"http:\/\/img1sw.baidu.com\/soft\/34\/17153\/7fc3699abb1ae9f46f77952c07c2119b.png?version=1087485341","logo96":"http:\/\/img1sw.baidu.com\/www\/soft\/\/1433865600\/1433927580.png","point":7.7,"file_size":19.1,"soft_desc_short":"IE\u6d4f\u89c8\u5668\u4e13\u7528\u7684flash\u64ad\u653e\u5668\u63d2\u4ef6","down_num":"6528395","update_time":"2016-11-09 11:35:00","index":5,"soft_name_7":"Adobe Fla...","soft_name_8":"Adobe Flash...","soft_name_10":"Adobe Flash Pl...","soft_name_12":"Adobe Flash Player...","download_num":6528351},{"position_id":"1","soft_id":"13406","logo_url":"","custom_url":"","short_desc":"","s":"4","soft_name":"\u7f8e\u56fe\u79c0\u79c0","url":"http:\/\/dlsw.baidu.com\/sw-search-sp\/soft\/24\/13406\/XiuXiu_V4.0.1.2002_BdSetup.1437647987.exe","logo":"http:\/\/img1sw.baidu.com\/soft\/24\/13406\/77fe90a8bb71b731397ed98a103aaf50.png?version=182580509","logo48":"http:\/\/img1sw.baidu.com\/soft\/24\/13406\/d723434733fc885849d2356a93a7e552.png?version=182580509","logo96":"http:\/\/img1sw.baidu.com\/www\/soft\/\/1437580800\/1437647975.png","point":8.3,"file_size":28.6,"soft_desc_short":"\u4e00\u6b3e\u5f88\u597d\u7528\u7684\u514d\u8d39\u56fe\u7247\u5904\u7406\u8f6f\u4ef6\uff0c\u7b80\u5355\u6613\u7528\uff0c\u8f7b\u677e\u4e0a\u624b\uff0c\u4ece\u6b64\u505a\u56fe\u4e0d\u6c42\u4eba","down_num":"4698682","update_time":"2015-07-23 18:41:51","index":6,"soft_name_7":"\u7f8e\u56fe\u79c0\u79c0","soft_name_8":"\u7f8e\u56fe\u79c0\u79c0","soft_name_10":"\u7f8e\u56fe\u79c0\u79c0","soft_name_12":"\u7f8e\u56fe\u79c0\u79c0","download_num":4698660},{"position_id":"1","soft_id":"17456","logo_url":"","custom_url":"","short_desc":"","s":"1","soft_name":"\u767e\u5ea6\u536b\u58eb","url":"http:\/\/sw.bos.baidu.com\/sw-search-sp\/software\/1dabb5ae026dc\/BaiduAn_Setup_8.2.0.7227.exe","logo":"http:\/\/img1sw.baidu.com\/soft\/70\/17456\/1c9a2a8c7492ebaff513052348c764e3.png?version=4020400922","logo48":"http:\/\/img1sw.baidu.com\/soft\/70\/17456\/3573b3f8e5d19af42b81d3142cefa3e0.png?version=4020400922","logo96":"http:\/\/img1sw.baidu.com\/www\/soft\/\/1437580800\/1437618267.png","point":7.4,"file_size":32.4,"soft_desc_short":"\u4e00\u6b3e\u63d0\u4f9b\u4e2a\u4eba\u7535\u8111\u5b89\u5168\u9632\u62a4\u7684\u514d\u8d39\u5b89\u5168\u8f6f\u4ef6","down_num":"4686273","update_time":"2016-08-17 11:12:01","index":7,"soft_name_7":"\u767e\u5ea6\u536b\u58eb","soft_name_8":"\u767e\u5ea6\u536b\u58eb","soft_name_10":"\u767e\u5ea6\u536b\u58eb","soft_name_12":"\u767e\u5ea6\u536b\u58eb","download_num":4686272},{"position_id":"1","soft_id":"10998","logo_url":"","custom_url":"","short_desc":"","s":"1","soft_name":"\u767e\u5ea6\u5f71\u97f3","url":"http:\/\/sw.bos.baidu.com\/sw-search-sp\/software\/1cd17eb177df5\/BaiduPlayer5_5.5.0.31_Setup_2.exe","logo":"http:\/\/img1sw.baidu.com\/soft\/71\/10998\/0908784224809308c4478066fccc9fa6.png?version=3818015091","logo48":"http:\/\/img1sw.baidu.com\/soft\/71\/10998\/f6a36e5207988fa3ee06e52ff5280c08.png?version=3818015091","logo96":"http:\/\/img1sw.baidu.com\/www\/soft\/\/1437580800\/1437618104.png","point":7.2,"file_size":55.1,"soft_desc_short":"\u767e\u5ea6\u516c\u53f8\u6700\u65b0\u63a8\u51fa\u7684\u4e00\u6b3e\u5168\u65b0\u4f53\u9a8c\u7684\u64ad\u653e\u5668","down_num":"3283330","update_time":"2016-11-28 14:52:37","index":8,"soft_name_7":"\u767e\u5ea6\u5f71\u97f3","soft_name_8":"\u767e\u5ea6\u5f71\u97f3","soft_name_10":"\u767e\u5ea6\u5f71\u97f3","soft_name_12":"\u767e\u5ea6\u5f71\u97f3","download_num":3283327},{"position_id":"1","soft_id":"17448","logo_url":"","custom_url":"","short_desc":"","s":"0","soft_name":"\u767e\u5ea6\u6740\u6bd2","url":"http:\/\/dlsw.baidu.com\/sw-search-sp\/soft\/44\/17448\/Baidusd_Setup_5.1.0.8629.1457492818.exe","logo":"http:\/\/img1sw.baidu.com\/soft\/44\/17448\/c2f33734795663e85a54a3dbbe9d3ae9.png?version=738290372","logo48":"http:\/\/img1sw.baidu.com\/soft\/44\/17448\/3b2781751a9a9eb542f3252862e69053.png?version=738290372","logo96":"http:\/\/img1sw.baidu.com\/logo\/n96\/17448.png","point":7.8,"file_size":40.2,"soft_desc_short":"\u4e00\u6b3e\u7531\u767e\u5ea6\u516c\u53f8\u63a8\u51fa\u7684\u6c38\u4e45\u514d\u8d39\u7684\u6740\u6bd2\u8f6f\u4ef6","down_num":"1246570","update_time":"2016-03-09 11:08:13","index":9,"soft_name_7":"\u767e\u5ea6\u6740\u6bd2","soft_name_8":"\u767e\u5ea6\u6740\u6bd2","soft_name_10":"\u767e\u5ea6\u6740\u6bd2","soft_name_12":"\u767e\u5ea6\u6740\u6bd2","download_num":1246566}]},"query_list":{"1":"\u88c5\u673a\u5fc5\u5907","3":"\u8da3\u5473\u5de5\u5177","193":"\u9605\u8bfb\u5668","191":"\u89e3\u538b\u7f29","189":"rar\u89e3\u538b","188":"\u4e00\u952e\u5907\u4efd","187":"\u4e00\u952e\u5907\u4efd\u8fd8\u539f\u7cfb\u7edf","184":"\u5378\u8f7d","181":"\u514d\u8d39\u7b97\u547d","180":"\u8d85\u7ea7\u786c\u76d8\u6570\u636e\u6062\u590d","179":"p2p\u79cd\u5b50\u641c\u7d22\u5668","178":"ftp","177":"\u8bef\u5220\u6587\u4ef6\u6062\u590d","175":"\u6587\u4ef6\u4fee\u590d\u5de5\u5177","195":"\u5373\u65f6\u804a\u5929\u5de5\u5177","197":"\u514d\u8d39\u7f51\u7edc\u52a0\u901f\u5668","214":"\u79cd\u5b50\u641c\u7d22\u5668","213":"\u80a1\u7968","212":"p2p\u79cd\u5b50\u641c\u7d22\u795e\u5668","211":"ftp\u4e0a\u4f20\u5de5\u5177","209":"ftp\u5ba2\u6237\u7aef","207":"\u6253\u5b57","206":"\u97f3\u9891\u8f6c\u6362\u5668","204":"\u97f3\u9891\u64ad\u653e\u5668","203":"\u622a\u56fe","202":"\u7f51\u7edc\u7535\u89c6\u64ad\u653e\u5668","200":"\u770b\u56fe\u8f6f\u4ef6","198":"\u7535\u8111\u4f20\u771f","174":"\u52a0\u901f\u5668","173":"\u7f51\u7edc\u7535\u89c6\u76f4\u64ad","148":"p2p","146":"p2p\u641c\u7d22\u795e\u5668","145":"\u65f6\u949f","144":"\u56fe\u7247\u8f6c\u6362\u5668","142":"ftp\u8f6f\u4ef6","141":"\u7535\u8111\u5c4f\u5e55\u4fdd\u62a4","139":"\u514d\u8d39\u89c6\u9891\u5236\u4f5c","137":"\u591a\u5a92\u4f53\u5236\u4f5c","133":"\u7f51\u7edc\u52a0\u901f\u5668","132":"\u5c4f\u5e55\u622a\u56fe","131":"\u4e0b\u8f7d","151":"\u7f51\u7edc\u6536\u97f3\u673a","152":"cad","153":"\u7092\u80a1\u8f6f\u4ef6","172":"ico\u56fe\u6807\u5236\u4f5c\u5de5\u5177","170":"\u7f51\u7edc\u4f20\u771f","168":"\u7f51\u9875\u6d4f\u89c8","167":"\u4f18\u5316\u5927\u5e08","166":"\u7f51\u9875\u5236\u4f5c\u5de5\u5177","165":"\u7ffb\u8bd1\u5de5\u5177","162":"\u5907\u4efd\u7cfb\u7edf","161":"\u82f1\u8bed\u7ffb\u8bd1","158":"\u5907\u4efd\u8f6f\u4ef6","157":"\u514d\u8d39\u7f51\u7edc\u7535\u8bdd","154":"\u7b97\u547d\u8f6f\u4ef6","130":"\u7cfb\u7edf\u4f18\u5316","723":"\u6e38\u620f\u6d4f\u89c8\u5668","269":"\u7535\u8111\u5361\u62c9ok","268":"k\u6b4c","267":"\u6587\u4ef6\u52a0\u5bc6","265":"\u7f51\u6e38\u52a0\u901f\u5668","264":"\u8d77\u540d","262":"\u5237\u673a","261":"\u52a0\u5bc6","260":"\u7535\u8111\u5f55\u97f3","259":"\u5361\u62c9ok","258":"\u5206\u533a\u52a9\u624b","256":"\u7167\u7247\u5904\u7406","270":"\u5b9d\u5b9d\u53d6\u540d","276":"\u82f9\u679c\u7ba1\u7406","280":"\u542c\u6b4c","298":"txt\u9605\u8bfb\u5668","297":"\u5bc6\u7801\u7834\u89e3","293":"\u7ec3\u6b4c","292":"\u7cfb\u7edf\u6062\u590d","291":"\u78c1\u76d8\u788e\u7247\u6574\u7406","289":"jpg\u56fe\u7247\u6d4f\u89c8\u5668","288":"\u58c1\u7eb8","285":"\u82f9\u679c\u624b\u673a\u52a9\u624b","284":"\u8d8a\u72f1","282":"\u5f55\u6b4c","281":"\u82f9\u679c\u540c\u6b65","255":"\u5f55\u50cf","254":"\u5237\u673a\u52a9\u624b","231":"\u89c6\u9891\u5f55\u5236","230":"\u89e3\u5bc6\u5de5\u5177","228":"\u5f55\u50cf\u5de5\u5177","226":"\u788e\u7247\u6574\u7406","224":"\u8d77\u540d\u5de5\u5177","223":"\u5ba4\u5185\u8bbe\u8ba1","222":"\u56fe\u7247\u6d4f\u89c8\u5668","220":"k\u6b4c\u5de5\u5177","218":"DLL\u6587\u4ef6","217":"\u56fe\u7247\u8f6c\u6362\u5de5\u5177","216":"\u89c6\u9891\u89e3\u7801\u5668","232":"\u89c6\u9891\u526a\u8f91","234":"\u88c5\u4fee\u8bbe\u8ba1","235":"\u622a\u5c4f","251":"\u5b89\u5353\u5237\u673a","250":"\u5206\u533a","249":"\u97f3\u9891\u526a\u8f91","248":"\u7535\u8111k\u6b4c","247":"\u523b\u5f55","246":"\u5237\u673a\u5de5\u5177","244":"\u5f55\u97f3","240":"\u5206\u533a\u5de5\u5177","239":"\u80a1\u7968\u5de5\u5177","238":"\u5176\u5b83\u9605\u8bfb\u5668","236":"\u5f55\u5236\u89c6\u9891","215":"p2p\u641c\u7d22\u5668","129":"\u7ffb\u8bd1","62":"\u624b\u673a\u7ba1\u7406","44":"MSN\u8f85\u52a9","43":"\u7cfb\u7edf\u68c0\u6d4b","41":"\u5176\u5b83\u5de5\u5177","40":"\u6587\u4ef6\u6539\u540d","38":"\u6570\u636e\u5e93","37":"\u7406\u79d1\u5de5\u5177","36":"\u7cfb\u7edf\u5b89\u5168","35":"\u5b89\u88c5\u5236\u4f5c","34":"\u5149\u76d8\u523b\u5f55","33":"\u8d22\u52a1\u7ba1\u7406","32":"\u6570\u7801\u7535\u5b50","45":"\u5916\u89c2\u63d2\u4ef6","47":"\u786c\u4ef6\u5de5\u5177","49":"\u90ae\u4ef6\u5de5\u5177","60":"\u97f3\u9891\u7f16\u8f91","59":"\u89c6\u9891\u7f16\u8f91","58":"\u97f3\u9891\u64ad\u653e","57":"\u4f20\u771f\u5de5\u5177","56":"CAD\u56fe\u5f62","55":"\u7f51\u7edc\u7535\u53f0","54":"\u56fe\u50cf\u5904\u7406","53":"\u6d4f\u89c8\u8f85\u52a9","52":"IP\u5de5\u5177","51":"\u65b0\u95fb\u9605\u8bfb","50":"\u4e66\u7b7e\u5de5\u5177","31":"\u626b\u63cf\u6253\u5370","30":"\u89c6\u9891\u77ed\u7247 ","14":"\u7f51\u7edc\u5171\u4eab","13":"\u7f51\u7edc\u76d1\u6d4b","12":"\u78c1\u76d8\u5de5\u5177","11":"\u56fe\u50cf\u7ba1\u7406","10":"\u7f51\u7edc\u7535\u8bdd","9":"\u8fdc\u7a0b\u63a7\u5236","8":"\u7cfb\u7edf\u8865\u4e01","7":"\u56fe\u50cf\u8f6c\u6362","6":"\u5907\u4efd\u8fd8\u539f","5":"\u538b\u7f29\u89e3\u538b","4":"\u6559\u5b66\u7ba1\u7406","15":"\u5efa\u7ad9\u6e90\u7801","16":"\u79bb\u7ebf\u6d4f\u89c8","17":"\u7f51\u7edc\u6742\u5fd7","29":"\u7cfb\u7edf\u4e3b\u9898","28":"\u7535\u5b50\u4e66\u7c4d","27":"\u6559\u80b2\u7ba1\u7406","25":"\u7f51\u7edc\u8425\u9500","24":"\u52a8\u753b\u5236\u4f5c","23":"\u89c6\u9891\u8f6c\u6362","22":"\u7f51\u9875\u6d4f\u89c8\u5668","21":"\u56fe\u7247\u538b\u7f29","20":"\u5f00\u5173\u5b9a\u65f6","19":"FTP\u5de5\u5177","18":"\u89c6\u9891\u64ad\u653e","2":"\u641c\u7d22\u5f15\u64ce","128":"\u7f51\u7edc\u804a\u5929\u5de5\u5177","105":"\u5176\u4ed6\u5de5\u5177","104":"\u7535\u8111\u5b66\u4e60","103":"\u5de5\u7a0b\u5efa\u8bbe","102":"\u6570\u636e\u6062\u590d","101":"\u5916\u8bed\u5b66\u4e60","100":"QQ\u8f85\u52a9","99":"\u51fa\u884c\u67e5\u8be2","97":"\u56fe\u6807\u5de5\u5177","96":"\u6e38\u620f\u5de5\u5177","95":"\u8da3\u5473\u52a8\u753b","94":"3D\u5236\u4f5c","106":"\u6587\u4ef6\u7ba1\u7406","107":"\u6587\u672c\u5904\u7406","108":"\u7f16\u7a0b\u5de5\u5177","127":"\u786c\u4ef6\u68c0\u6d4b\u5de5\u5177","126":"\u68c0\u6d4b\u7535\u8111\u786c\u4ef6","122":"\u6587\u4ef6\u5206\u5272\u5668","119":"\u62fc\u97f3\u8f93\u5165\u6cd5","118":"\u4e94\u7b14\u8f93\u5165","116":"\u5f69\u7968\u5de5\u5177","114":"\u65e5\u7a0b\u7ba1\u7406","113":"\u529e\u516c\u5de5\u5177","112":"\u952e\u76d8\u9f20\u6807","110":"\u6d4b\u5b57\u7b97\u547d","109":"\u5546\u4e1a\u8d38\u6613","93":"\u673a\u68b0\u4ea4\u901a","92":"\u97f3\u9891\u8f6c\u6362","74":"\u7f16\u7a0b\u63a7\u4ef6","73":"\u7f51\u7edc\u9632\u706b\u5899","72":"\u5176\u4ed6\u6559\u5b66","71":"\u884c\u653f\u7ba1\u7406","70":"\u6587\u79d1\u5de5\u5177","69":"\u65f6\u949f\u65e5\u5386","68":"\u5176\u4ed6\u884c\u4e1a","67":"\u5065\u5eb7\u533b\u836f","66":"\u514d\u8d39\u6e38\u620f","65":"\u7eba\u7ec7\u670d\u88c5","64":"\u751f\u6d3b\u4fdd\u5065","75":"\u6587\u4ef6\u4fee\u590d","76":"\u8003\u8bd5\u7cfb\u7edf","77":"\u526a\u8d34\u5de5\u5177","91":"\u5a92\u4f53\u7ba1\u7406","89":"\u670d\u52a1\u5668\u7c7b","88":"\u6587\u4ef6\u5206\u4eab","87":"\u4f18\u5316\u8bbe\u7f6e","85":"\u62e8\u53f7\u8ba1\u65f6","84":"\u7cfb\u7edf\u8f85\u52a9","83":"\u7f51\u7edc\u8f85\u52a9","82":"\u804a\u5929\u5de5\u5177","80":"\u5b57\u5178\u7ffb\u8bd1","79":"\u5b57\u4f53\u5de5\u5177","78":"\u5378\u8f7d\u6e05\u7406","63":"\u5929\u6587\u5730\u7406"},"category":{"list":[{"class_id":"1","class_name":"\u804a\u5929\u901a\u8baf","class_type":"2","order_index":"1000"},{"class_id":"5","class_name":"\u5f71\u89c6\u64ad\u653e","class_type":"2","order_index":"990"},{"class_id":"16","class_name":"\u6e38\u620f","class_type":"2","order_index":"980"},{"class_id":"4","class_name":"\u4e0b\u8f7d\u5de5\u5177","class_type":"2","order_index":"970"},{"class_id":"3","class_name":"\u6d4f\u89c8\u5668","class_type":"2","order_index":"965"},{"class_id":"12","class_name":"\u529e\u516c\u5b66\u4e60","class_type":"2","order_index":"960"},{"class_id":"10","class_name":"\u7cfb\u7edf\u5de5\u5177","class_type":"2","order_index":"950"},{"class_id":"2","class_name":"\u8f93\u5165\u6cd5","class_type":"2","order_index":"940"},{"class_id":"7","class_name":"\u56fe\u50cf\u7f16\u8f91","class_type":"2","order_index":"930"},{"class_id":"6","class_name":"\u97f3\u4e50\u64ad\u653e","class_type":"2","order_index":"920"},{"class_id":"8","class_name":"\u6740\u6bd2\u9632\u62a4","class_type":"2","order_index":"910"},{"class_id":"17","class_name":"\u624b\u673a\u7ba1\u7406","class_type":"2","order_index":"900"},{"class_id":"11","class_name":"\u9a71\u52a8\u7a0b\u5e8f","class_type":"2","order_index":"890"},{"class_id":"9","class_name":"\u538b\u7f29\u523b\u5f55","class_type":"2","order_index":"880"},{"class_id":"19","class_name":"\u7f51\u7edc\u5e94\u7528","class_type":"2","order_index":"870"},{"class_id":"13","class_name":"\u7a0b\u5e8f\u5f00\u53d1","class_type":"2","order_index":"860"},{"class_id":"15","class_name":"\u5f71\u97f3\u7f16\u8f91","class_type":"2","order_index":"850"},{"class_id":"18","class_name":"\u684c\u9762\u58c1\u7eb8","class_type":"2","order_index":"50"},{"class_id":"14","class_name":"\u80a1\u7968\u7f51\u94f6","class_type":"2","order_index":"40"}],"current_name":""},"id":1,"search":{"key":""},"currtCategory":{"name":""},"header":{"hd_title":"\u4e0b\u8f7d__\u767e\u5ea6\u8f6f\u4ef6\u4e2d\u5fc3","hd_kw":"\u4e0b\u8f7d\uff0c\u5b89\u5168\u4e0b\u8f7d\uff0c\u5b98\u65b9\u4e0b\u8f7d","hd_desc":""}},"userInfo":{"displayname":null,"avatar_large":null,"success":0}};'
-# print a[:-1]
-# # # print('suc')
-# status = True
-# path = ''
-# while status:
-#     path = input('>>>>>')
-#     if os.path.exists(path):
-#         status = False
+# a = input('type in  a number \n')
+# print a+1
+# b = raw_input('type in  a number \n')
+# print eval(b)+1
+# print '#打印自己的英文昵称'
+# print 'provinm'
+# print '#打印一个含有加减乘除的数学表达式，得到如下结果'
+# print '10'
+# print 20,'\n',30
+# while True:
+#     height = input('type in your height:')
+#     weight = input('type in your weight:')
+#     if height == 'exit' or weight == 'exit':
+#         print 'thank you for using'
+#         break
+#     elif isinstance(height, (int, float)) and isinstance(weight, (int, float)):
+#         bmi = weight/(height*height)
+#         if bmi < 18.5:
+#             print 'too light'
+#         elif bmi > 24.5:
+#             print 'too weight'
+#         else:
+#             print 'healthy'
 #     else:
-#         print('地址无效')
+#         print 'invalid numbers,check your input'
 #
-# print(path)
+# height = input('type in your height:')
+# weight = input('type in your weight:')
+# bmi = weight / (height * height)
+# if bmi < 18.5:
+#     print 'too light'
+# elif bmi > 24.5:
+#     print 'too weight'
+# else:
+#     print 'healthy'
+
+###绩点计算器
+scores = input('type in your scores:')
+mark = input('type in the class\'s mark')
 
 
-# a = ['']
-#
-# if a[0] :
-#     print('cc')
-# b = ['sss']
-#
-# # print(a+b)
-# list = ['e:\\test\\IMG_7014.JPG', 'e:\\test\\IMG_7015.JPG', 'e:\\test\\IMG_7016.JPG', 'e:\\test\\IMG_7029.JPG', 'e:\\test\\IMG_7033.JPG', 'e:\\test\\IMG_7035.JPG', 'e:\\test\\list.html', 'e:\\test\\pypiwin32-219.win32-py2.7 (2).exe', 'e:\\test\\pypiwin32-219.win32-py2.7.exe', 'e:\\test\\python-2.7.12.msi', 'e:\\test\\Python-Email (1).png', 'e:\\test\\Python-Email (2).png', 'e:\\test\\Python-Email.png', 'e:\\test\\python-excel.pdf', 'e:\\test\\safds - 副本.rm', 'e:\\test\\safds.rmvb', 'e:\\test\\玩转大学静态模板006.pptx', 'e:\\test\\玩转大学静态模板007.ppt', 'e:\\test\\玩转大学静态模板008.ppt', 'e:\\test\\玩转大学静态模板009.ppt', 'e:\\test\\玩转大学静态模板010.ppt']
-#
-# video_compile = re.compile(r'.+\.rmvb',re.I)
-#
-# for i in list:
-#     video = re.findall(video_compile, i)
-#     print(video)
-
-
-
-# a = ['asd.sdfa','.jpg','sdfgs.png','sdafas.jpeg']
-# f = 'asd.sdfa,erew.jpg,sdfgs.png,sdafas.jpeg'
-#
-# c = re.compile(r'\w+\.jpg|.+\.png|.+\.jpeg')
-#
-# m = []
-# for i in a:
-#     b = re.findall(c,i)
-#     print(b)
-#     m += b
-#
-# print(m)
-
-# def a():
-#     return 1,2
-#
-# def b(*args):
-#     p1 = a()[0]
-#     print(p1)
-#
-# b()
