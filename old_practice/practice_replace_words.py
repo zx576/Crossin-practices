@@ -14,7 +14,7 @@ def block():
         for i in l.readlines():
             if i:
                 b_words.append(i.strip())
-    print(b_words)
+    # print(b_words)
 #替换关键词
 def replace(word):
     for i in b_words:

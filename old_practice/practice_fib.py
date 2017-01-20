@@ -1,4 +1,5 @@
 #-*- coding:utf-8 -*-
+
 #输入数字判断
 def input_num():
     t = input('>>>')
@@ -11,7 +12,7 @@ def input_num():
     except:
         fib()
     return t
-#斐波那契输出
+# 斐波那契输出
 def fib():
     print('输入一个大于3的数字')
     a = 0

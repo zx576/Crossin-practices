@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="968290b3-1764-47d3-ad18-c4a18ed88709" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python-practice/bmi_index.py" afterPath="$PROJECT_DIR$/python-practice/bmi_index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_practice/prac_sqlite3/address_list.db" afterPath="$PROJECT_DIR$/old_practice/prac_sqlite3/address_list.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitingore" afterPath="$PROJECT_DIR$/.gitingore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_practice/prac_sqlite3/sqlite3_prac.py" afterPath="$PROJECT_DIR$/old_practice/prac_sqlite3/sqlite3_prac.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_practice/practice_fetchdata.py" afterPath="$PROJECT_DIR$/old_practice/practice_fetchdata.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_practice/practice_fib.py" afterPath="$PROJECT_DIR$/old_practice/practice_fib.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_practice/practice_html.py" afterPath="$PROJECT_DIR$/old_practice/practice_html.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_practice/practice_replace_words.py" afterPath="$PROJECT_DIR$/old_practice/practice_replace_words.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_practice/practice_wechat.py" afterPath="$PROJECT_DIR$/old_practice/practice_wechat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py2_4_qq/12-26.py" afterPath="$PROJECT_DIR$/py2_4_qq/12-26.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python-practice/test_practice.py" afterPath="$PROJECT_DIR$/python-practice/test_practice.py" />
     </list>
     <ignored path="Crossin-practices.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,56 +29,82 @@
     <SUITE FILE_PATH="coverage/Crossin-practices$tere.coverage" NAME="tere Coverage Results" MODIFIED="1480940997280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
     <SUITE FILE_PATH="coverage/Crossin-practices$openpyxl_test.coverage" NAME="openpyxl_test Coverage Results" MODIFIED="1480039368076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_wechat2.coverage" NAME="practice_wechat2 Coverage Results" MODIFIED="1476957721690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$weibo_mid.coverage" NAME="weibo_mid Coverage Results" MODIFIED="1484539186345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
     <SUITE FILE_PATH="coverage/Crossin-practices$learn_pypiwin32.coverage" NAME="learn_pypiwin32 Coverage Results" MODIFIED="1479888218249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crossin-practices$tk_test.coverage" NAME="tk_test Coverage Results" MODIFIED="1480926846255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_10.coverage" NAME="practice_10 Coverage Results" MODIFIED="1481100538334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-os" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$shuffle_list.coverage" NAME="shuffle_list Coverage Results" MODIFIED="1483671004992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_webpy5.coverage" NAME="practice_webpy5 Coverage Results" MODIFIED="1476761563431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
     <SUITE FILE_PATH="coverage/Crossin-practices$xlutils_test.coverage" NAME="xlutils_test Coverage Results" MODIFIED="1480039991407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
     <SUITE FILE_PATH="coverage/Crossin-practices$tk_task_py2.coverage" NAME="tk_task_py2 Coverage Results" MODIFIED="1482734037414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
     <SUITE FILE_PATH="coverage/Crossin-practices$jiandan.coverage" NAME="jiandan Coverage Results" MODIFIED="1476792262370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiandan" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_7.coverage" NAME="practice_7 Coverage Results" MODIFIED="1481178582683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice4.coverage" NAME="practice4 Coverage Results" MODIFIED="1484721874637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
     <SUITE FILE_PATH="coverage/Crossin-practices$db_generator.coverage" NAME="db_generator Coverage Results" MODIFIED="1476778101859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice1.coverage" NAME="practice1 Coverage Results" MODIFIED="1481025419111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-os" />
     <SUITE FILE_PATH="coverage/Crossin-practices$manage.coverage" NAME="manage Coverage Results" MODIFIED="1476689575757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_webpy4.coverage" NAME="practice_webpy4 Coverage Results" MODIFIED="1476844046526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$page.coverage" NAME="page Coverage Results" MODIFIED="1484059231731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
     <SUITE FILE_PATH="coverage/Crossin-practices$pandastest.coverage" NAME="pandastest Coverage Results" MODIFIED="1480040246199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice3.coverage" NAME="practice3 Coverage Results" MODIFIED="1484536220561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_fetchdata.coverage" NAME="practice_fetchdata Coverage Results" MODIFIED="1483683903934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old_practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$file_upac.coverage" NAME="file_upac Coverage Results" MODIFIED="1484808719650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$iptest.coverage" NAME="iptest Coverage Results" MODIFIED="1484033667226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$user_info.coverage" NAME="user_info Coverage Results" MODIFIED="1484128480329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
     <SUITE FILE_PATH="coverage/Crossin-practices$hello1.coverage" NAME="hello1 Coverage Results" MODIFIED="1479727584312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/Crossin-practices$tttt.coverage" NAME="tttt Coverage Results" MODIFIED="1480498842841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$12_26.coverage" NAME="12-26 Coverage Results" MODIFIED="1483604760109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py2_4_qq" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$12_26.coverage" NAME="12-26 Coverage Results" MODIFIED="1483690720357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py2_4_qq" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$tets.coverage" NAME="tets Coverage Results" MODIFIED="1484098165854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
     <SUITE FILE_PATH="coverage/Crossin-practices$t.coverage" NAME="t Coverage Results" MODIFIED="1478405024201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_html.coverage" NAME="practice_html Coverage Results" MODIFIED="1480931093952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$repost_data.coverage" NAME="repost_data Coverage Results" MODIFIED="1484041789044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_wechat.coverage" NAME="practice_wechat Coverage Results" MODIFIED="1479605983585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$WY.coverage" NAME="WY Coverage Results" MODIFIED="1484878186433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
     <SUITE FILE_PATH="coverage/Crossin-practices$pyemail_multi.coverage" NAME="pyemail_multi Coverage Results" MODIFIED="1480557645692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
     <SUITE FILE_PATH="coverage/Crossin-practices$bmi_index.coverage" NAME="bmi_index Coverage Results" MODIFIED="1483613275605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
     <SUITE FILE_PATH="coverage/Crossin-practices$tests.coverage" NAME="tests Coverage Results" MODIFIED="1476426187717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice2.coverage" NAME="practice2 Coverage Results" MODIFIED="1484802045310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
     <SUITE FILE_PATH="coverage/Crossin-practices$learn_xlwings.coverage" NAME="learn_xlwings Coverage Results" MODIFIED="1479965298139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$new_reprint_data.coverage" NAME="new_reprint_data Coverage Results" MODIFIED="1484470323828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
     <SUITE FILE_PATH="coverage/Crossin-practices$learn_xlsxwriter.coverage" NAME="learn_xlsxwriter Coverage Results" MODIFIED="1479804425724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crossin-practices$pyemail_qq.coverage" NAME="pyemail_qq Coverage Results" MODIFIED="1480485833583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$allocate_num.coverage" NAME="allocate_num Coverage Results" MODIFIED="1483672054920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
     <SUITE FILE_PATH="coverage/Crossin-practices$ditribution.coverage" NAME="ditribution Coverage Results" MODIFIED="1479606013086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crossin-practices$win32com_test.coverage" NAME="win32com_test Coverage Results" MODIFIED="1480039740753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$gpa.coverage" NAME="gpa Coverage Results" MODIFIED="1483614437242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$wangyi.coverage" NAME="wangyi Coverage Results" MODIFIED="1484808227885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$cleandata.coverage" NAME="cleandata Coverage Results" MODIFIED="1484293592696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$gpa.coverage" NAME="gpa Coverage Results" MODIFIED="1483615245766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$fetch_ip.coverage" NAME="fetch_ip Coverage Results" MODIFIED="1484732446923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
     <SUITE FILE_PATH="coverage/Crossin-practices$xlwings_test.coverage" NAME="xlwings_test Coverage Results" MODIFIED="1480040466844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$test_practice.coverage" NAME="test_practice Coverage Results" MODIFIED="1481084374330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-os" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$sqlite3_prac.coverage" NAME="sqlite3_prac Coverage Results" MODIFIED="1476948436658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_sqlite3" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$test_practice.coverage" NAME="test_practice Coverage Results" MODIFIED="1483885979557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
     <SUITE FILE_PATH="coverage/Crossin-practices$tk_tasks.coverage" NAME="tk_tasks Coverage Results" MODIFIED="1480928880543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$sqlite3_prac.coverage" NAME="sqlite3_prac Coverage Results" MODIFIED="1484711730246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old_practice/prac_sqlite3" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_multithreaded.coverage" NAME="practice_multithreaded Coverage Results" MODIFIED="1476433838325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crossin-practices$pymail_cqu.coverage" NAME="pymail_cqu Coverage Results" MODIFIED="1480484386055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$uid_f_rep.coverage" NAME="uid_f_rep Coverage Results" MODIFIED="1484564093352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
     <SUITE FILE_PATH="coverage/Crossin-practices$xl_wings_test.coverage" NAME="xl_wings_test Coverage Results" MODIFIED="1479565212292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
     <SUITE FILE_PATH="coverage/Crossin-practices$pyemail_multi2.coverage" NAME="pyemail-multi2 Coverage Results" MODIFIED="1480560864788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$testweibo__1_.coverage" NAME="testweibo (1) Coverage Results" MODIFIED="1484021286732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_xueqiu.coverage" NAME="practice_xueqiu Coverage Results" MODIFIED="1479606040735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_10__1_.coverage" NAME="practice_10 (1) Coverage Results" MODIFIED="1481168602760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$unpack2.coverage" NAME="unpack2 Coverage Results" MODIFIED="1484794516118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
     <SUITE FILE_PATH="coverage/Crossin-practices$xlsxwriter_test.coverage" NAME="xlsxwriter_test Coverage Results" MODIFIED="1479987238344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
     <SUITE FILE_PATH="coverage/Crossin-practices$1024.coverage" NAME="1024 Coverage Results" MODIFIED="1476515356237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiandan" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$new_user_info.coverage" NAME="new_user_info Coverage Results" MODIFIED="1484732867132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_webpy1.coverage" NAME="practice_webpy1 Coverage Results" MODIFIED="1476846161783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
     <SUITE FILE_PATH="coverage/Crossin-practices$webpy_code.coverage" NAME="webpy_code Coverage Results" MODIFIED="1476858263242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
     <SUITE FILE_PATH="coverage/Crossin-practices$input_practice.coverage" NAME="input_practice Coverage Results" MODIFIED="1483613434338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
     <SUITE FILE_PATH="coverage/Crossin-practices$pysmtp.coverage" NAME="pysmtp Coverage Results" MODIFIED="1480505434320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice__9.coverage" NAME="practice__9 Coverage Results" MODIFIED="1481184895889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
     <SUITE FILE_PATH="coverage/Crossin-practices$print_practice.coverage" NAME="print_practice Coverage Results" MODIFIED="1483613294709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$add_heatmap.coverage" NAME="add_heatmap Coverage Results" MODIFIED="1484567544163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$testweibo.coverage" NAME="testweibo Coverage Results" MODIFIED="1483971313724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
     <SUITE FILE_PATH="coverage/Crossin-practices$test_practice__1_.coverage" NAME="test_practice (1) Coverage Results" MODIFIED="1481252390772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice.coverage" NAME="practice Coverage Results" MODIFIED="1484749844187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
     <SUITE FILE_PATH="coverage/Crossin-practices$myproject.coverage" NAME="myproject Coverage Results" MODIFIED="1479707908455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/code/myproject" />
     <SUITE FILE_PATH="coverage/Crossin-practices$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1480941049402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Python27/Lib/site-packages/cx_Freeze" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_6.coverage" NAME="practice_6 Coverage Results" MODIFIED="1481168423693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_replace_words.coverage" NAME="practice_replace_words Coverage Results" MODIFIED="1483674549807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old_practice" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -78,64 +115,138 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="12-26.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py2_4_qq/12-26.py">
+      <file leaf-file-name="new_user_info.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crwal/new_user_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tk_task_py2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tktask/tk_task_py2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+            <state relative-caret-position="621">
+              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding>
-                <element signature="e#22#43#0" expanded="true" />
+                <element signature="e#22#51#0" expanded="true" />
+                <marker date="1484734657481" expanded="true" signature="3073:3093" ph="SELECT * FRO... IPLIST" />
+                <marker date="1484734657481" expanded="true" signature="4073:4103" ph="SELECT * FRO... IPLIST" />
+                <marker date="1484734657481" expanded="true" signature="4073:4104" ph="SELECT * FRO... IPLIST" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="practice_10.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-practice/practice_10.py">
+      <file leaf-file-name="fetch_ip.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crwal/fetch_ip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
+            <state relative-caret-position="69">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <folding>
+                <marker date="1484729940162" expanded="true" signature="4521:4645" ph="CREATE TABLE... IPLIST" />
+                <marker date="1484729940162" expanded="true" signature="4717:4747" ph="SELECT * FRO... IPLIST" />
+                <marker date="1484729940162" expanded="true" signature="4717:4748" ph="SELECT * FRO... IPLIST" />
+                <marker date="1484729940162" expanded="true" signature="4717:4752" ph="SELECT * FRO... IPLIST" />
+                <marker date="1484729940162" expanded="true" signature="5022:5040" ph="INSERT INTO IPLIST... " />
+                <marker date="1484729940162" expanded="true" signature="5022:5081" ph="INSERT INTO IPLIST... " />
+                <marker date="1484729940162" expanded="true" signature="5172:5197" ph="SELECT * FRO... ADDRESSLIST" />
+                <marker date="1484729940162" expanded="true" signature="6062:6210" ph="CREATE TABLE... IPLIST" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cleandata.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crwal/cleandata.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6394">
+              <caret line="282" column="32" selection-start-line="282" selection-start-column="32" selection-end-line="282" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="print_practice.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-practice/print_practice.py">
+      <file leaf-file-name="practice.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wangyiyun/practice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="345">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bmi_index.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python-practice/bmi_index.py">
+      <file leaf-file-name="practice2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wangyiyun/practice2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="414">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gpa.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-practice/gpa.py">
+      <file leaf-file-name="wangyi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wangyiyun/wangyi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-334">
-              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="161">
+              <caret line="12" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_upac.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wangyiyun/file_upac.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WY.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wangyiyun/WY.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sqlite3_prac.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old_practice/prac_sqlite3/sqlite3_prac.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1173">
+              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+              <folding>
+                <element signature="e#22#36#0" expanded="true" />
+                <marker date="1484711730235" expanded="true" signature="190:360" ph="CREATE TABLE... ADDRESSLIST" />
+                <marker date="1484711730235" expanded="true" signature="454:535" ph="INSERT INTO ADDRESSLIST... " />
+                <marker date="1484711730235" expanded="true" signature="676:808" ph="SELECT * FRO... ADDRESSLIST" />
+                <marker date="1484711730235" expanded="true" signature="1054:1091" ph="SELECT * FRO... ADDRESSLIST" />
+                <marker date="1484711730235" expanded="true" signature="1282:1315" ph="DELETE FROM " />
+                <marker date="1484711730235" expanded="true" signature="1431:1456" ph="SELECT * FRO... ADDRESSLIST" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="practice4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crwal/practice4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2392">
+              <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1484721874558" expanded="true" signature="1115:1135" ph="SELECT * FRO... IPLIST" />
+                <marker date="1484721874558" expanded="true" signature="2092:2128" ph="SELECT * FRO... IPLIST" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,6 +257,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -156,57 +268,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web_py/practice_webpy1.py" />
-        <option value="$PROJECT_DIR$/learn_css.html" />
-        <option value="$PROJECT_DIR$/web_py/webpy_code.py" />
-        <option value="$PROJECT_DIR$/practice_wechat.py" />
-        <option value="$PROJECT_DIR$/prac_sqlite3/sqlite3_prac.py" />
-        <option value="$PROJECT_DIR$/practice_wechat2.py" />
-        <option value="$PROJECT_DIR$/ditribution.py" />
-        <option value="$PROJECT_DIR$/.idea/xl_wings_test.py" />
-        <option value="$USER_HOME$/code/myproject/myproject.py" />
-        <option value="$PROJECT_DIR$/t.py" />
-        <option value="$PROJECT_DIR$/learn_xlsxwriter.py" />
-        <option value="$USER_HOME$/AppData/Local/Temp/gen_py/3.5/00020813-0000-0000-C000-000000000046x0x1x9/_Worksheet.py" />
-        <option value="$PROJECT_DIR$/learn_pypiwin32.py" />
-        <option value="$USER_HOME$/Desktop/hello1.py" />
-        <option value="$PROJECT_DIR$/learn_xlwings.py" />
-        <option value="$PROJECT_DIR$/datanitro.py" />
-        <option value="$PROJECT_DIR$/datanitrotest.py" />
-        <option value="$PROJECT_DIR$/extest/xlsxwriter_test.py" />
-        <option value="$PROJECT_DIR$/extest/xlwingsread.py" />
-        <option value="$PROJECT_DIR$/extest/openpyxl_test" />
-        <option value="$PROJECT_DIR$/extest/win32com_test.py" />
-        <option value="$PROJECT_DIR$/extest/xlutils_test.py" />
-        <option value="$PROJECT_DIR$/extest/pandastest.py" />
-        <option value="$PROJECT_DIR$/extest/xlwings_test.py" />
-        <option value="$PROJECT_DIR$/pythonemail/pymail_cqu.py" />
-        <option value="$PROJECT_DIR$/pythonemail/pyemail_qq.py" />
-        <option value="$PROJECT_DIR$/pythonemail/test.py" />
-        <option value="$PROJECT_DIR$/pythonemail/tttt.py" />
-        <option value="$PROJECT_DIR$/pythonemail/pysmtp.py" />
-        <option value="$PROJECT_DIR$/pythonemail/pyemail_multi.py" />
-        <option value="$PROJECT_DIR$/pythonemail/pyemail-multi2.py" />
-        <option value="$PROJECT_DIR$/pythonemail/abc.html" />
-        <option value="$PROJECT_DIR$/practice_html.py" />
-        <option value="$PROJECT_DIR$/tktask/tk_test.py" />
-        <option value="$PROJECT_DIR$/tktask/tk_tasks.py" />
-        <option value="$PROJECT_DIR$/tktask/tere.py" />
-        <option value="$PROJECT_DIR$/tktask/tk_task_py2.py" />
-        <option value="$PROJECT_DIR$/python-os/practice1.py" />
-        <option value="$PROJECT_DIR$/python-os/practice_7.py" />
-        <option value="$PROJECT_DIR$/python-os/test_practice.py" />
-        <option value="$PROJECT_DIR$/python-os/practice_10.py" />
-        <option value="$PROJECT_DIR$/python-practice/practice_6.py" />
         <option value="$PROJECT_DIR$/python-practice/practice_10.py" />
         <option value="$PROJECT_DIR$/python-practice/practice__9.py" />
         <option value="$PROJECT_DIR$/python-practice/practice_7.py" />
-        <option value="$PROJECT_DIR$/python-practice/test_practice.py" />
-        <option value="$PROJECT_DIR$/py2_4_qq/12-26.py" />
         <option value="$PROJECT_DIR$/python-practice/print_practice.py" />
         <option value="$PROJECT_DIR$/python-practice/input_practice.py" />
         <option value="$PROJECT_DIR$/python-practice/gpa.py" />
         <option value="$PROJECT_DIR$/python-practice/bmi_index.py" />
+        <option value="$PROJECT_DIR$/python-practice/shuffle_list.py" />
+        <option value="$PROJECT_DIR$/python-practice/allocate_num.py" />
+        <option value="$PROJECT_DIR$/old_practice/practice_replace_words.py" />
+        <option value="$PROJECT_DIR$/old_practice/practice_fetchdata.py" />
+        <option value="$PROJECT_DIR$/py2_4_qq/12-26.py" />
+        <option value="$PROJECT_DIR$/python-practice/test_practice.py" />
+        <option value="$PROJECT_DIR$/tktask/testweibo.py" />
+        <option value="$PROJECT_DIR$/crwal/durex_post.py" />
+        <option value="$PROJECT_DIR$/crwal/testweibo.py" />
+        <option value="$PROJECT_DIR$/crwal/__init__.py" />
+        <option value="$PROJECT_DIR$/crwal/repostdata.txt" />
+        <option value="$PROJECT_DIR$/crwal/iptest.py" />
+        <option value="$PROJECT_DIR$/crwal/cookies.py" />
+        <option value="$PROJECT_DIR$/crwal/page.py" />
+        <option value="$PROJECT_DIR$/crwal/tets.py" />
+        <option value="$PROJECT_DIR$/crwal/repost_data.py" />
+        <option value="$PROJECT_DIR$/crwal/practice.py" />
+        <option value="$PROJECT_DIR$/crwal/practice2.py" />
+        <option value="$PROJECT_DIR$/crwal/cleandata.py" />
+        <option value="$PROJECT_DIR$/crwal/address.js" />
+        <option value="$PROJECT_DIR$/crwal/addr_heatmap.js" />
+        <option value="$PROJECT_DIR$/crwal/gender.js" />
+        <option value="$PROJECT_DIR$/crwal/conse.js" />
+        <option value="$PROJECT_DIR$/crwal/generation.js" />
+        <option value="$PROJECT_DIR$/crwal/tags.js" />
+        <option value="$PROJECT_DIR$/crwal/degree.js" />
+        <option value="$PROJECT_DIR$/crwal/reprint_data.py" />
+        <option value="$PROJECT_DIR$/crwal/practice3.py" />
+        <option value="$PROJECT_DIR$/crwal/new_reprint_data.py" />
+        <option value="$PROJECT_DIR$/crwal/weibo_mid.py" />
+        <option value="$PROJECT_DIR$/crwal/uid_f_rep.py" />
+        <option value="$PROJECT_DIR$/crwal/add_heatmap.py" />
+        <option value="$PROJECT_DIR$/crwal/user_info.py" />
+        <option value="E:/mysitev3/zxsite_v0.3/zxsite/templates/zxsite/about.html" />
+        <option value="$PROJECT_DIR$/old_practice/prac_sqlite3/sqlite3_prac.py" />
+        <option value="$PROJECT_DIR$/crwal/practice4.py" />
+        <option value="$PROJECT_DIR$/crwal/fetch_ip.py" />
+        <option value="$PROJECT_DIR$/crwal/new_user_info.py" />
+        <option value="$PROJECT_DIR$/wangyiyun/practice.py" />
+        <option value="$PROJECT_DIR$/wangyiyun/unpack2.py" />
+        <option value="$PROJECT_DIR$/wangyiyun/practice2.py" />
+        <option value="$PROJECT_DIR$/wangyiyun/file_upac.py" />
+        <option value="$PROJECT_DIR$/wangyiyun/wangyi.py" />
+        <option value="$PROJECT_DIR$/wangyiyun/WY.py" />
       </list>
     </option>
   </component>
@@ -217,10 +329,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="1" />
+    <option name="y" value="4" />
+    <option name="width" value="1362" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -267,97 +379,97 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/mysitev3/zxsite_v0.3/zxsite/templates/zxsite/about.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="Python.gpa">
-    <configuration default="false" name="12-26" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.WY">
+    <configuration default="false" name="practice2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py2_4_qq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wangyiyun" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Crossin-practices" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py2_4_qq/12-26.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wangyiyun/practice2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="input_practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="wangyi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wangyiyun" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Crossin-practices" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-practice/input_practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wangyiyun/wangyi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="gpa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="file_upac" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wangyiyun" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Crossin-practices" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-practice/gpa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wangyiyun/file_upac.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="bmi_index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="unpack2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wangyiyun" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Crossin-practices" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-practice/bmi_index.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wangyiyun/unpack2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="print_practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="WY" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wangyiyun" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Crossin-practices" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-practice/print_practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wangyiyun/WY.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -571,19 +683,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.12-26" />
-      <item index="1" class="java.lang.String" itemvalue="Python.input_practice" />
-      <item index="2" class="java.lang.String" itemvalue="Python.gpa" />
-      <item index="3" class="java.lang.String" itemvalue="Python.bmi_index" />
-      <item index="4" class="java.lang.String" itemvalue="Python.print_practice" />
+      <item index="0" class="java.lang.String" itemvalue="Python.practice2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.wangyi" />
+      <item index="2" class="java.lang.String" itemvalue="Python.file_upac" />
+      <item index="3" class="java.lang.String" itemvalue="Python.unpack2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.WY" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.gpa" />
-        <item index="1" class="java.lang.String" itemvalue="Python.input_practice" />
-        <item index="2" class="java.lang.String" itemvalue="Python.print_practice" />
-        <item index="3" class="java.lang.String" itemvalue="Python.bmi_index" />
-        <item index="4" class="java.lang.String" itemvalue="Python.12-26" />
+        <item index="0" class="java.lang.String" itemvalue="Python.WY" />
+        <item index="1" class="java.lang.String" itemvalue="Python.file_upac" />
+        <item index="2" class="java.lang.String" itemvalue="Python.wangyi" />
+        <item index="3" class="java.lang.String" itemvalue="Python.practice2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.unpack2" />
       </list>
     </recent_temporary>
   </component>
@@ -604,28 +716,48 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="1" y="4" width="1362" height="723" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24888559" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24763407" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6396104" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23164764" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24605678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24512987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24763407" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24605678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -640,85 +772,96 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="python-exception">
           <properties exception="BaseException" />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/gen_py/3.5/00020813-0000-0000-C000-000000000046x0x1x9/Range.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/gen_py/3.5/00020813-0000-0000-C000-000000000046x0x1x9/Pictures.py" />
-    <entry file="file://$USER_HOME$/Desktop/hello1.py" />
-    <entry file="file://$PROJECT_DIR$/datanitro.py" />
-    <entry file="file://$PROJECT_DIR$/learn_xlsxwriter.py" />
-    <entry file="file://$PROJECT_DIR$/datanitrotest.py" />
-    <entry file="file://$PROJECT_DIR$/learn_xlwings.py" />
-    <entry file="file://$PROJECT_DIR$/extest/xlsxwriter_test.py" />
-    <entry file="file://$PROJECT_DIR$/extest/xlwingsread.py" />
-    <entry file="file://$PROJECT_DIR$/extest/xlutils_test.py" />
-    <entry file="file://$PROJECT_DIR$/extest/openpyxl_test" />
-    <entry file="file://$PROJECT_DIR$/extest/pandastest.py" />
-    <entry file="file://$PROJECT_DIR$/extest/xlwings_test.py" />
-    <entry file="file://$PROJECT_DIR$/extest/win32com_test.py" />
-    <entry file="file://$PROJECT_DIR$/pythonemail/pyemail_qq.py" />
-    <entry file="file://$PROJECT_DIR$/pythonemail/pymail_cqu.py" />
-    <entry file="file://$PROJECT_DIR$/pythonemail/test.py" />
-    <entry file="file://$PROJECT_DIR$/pythonemail/pysmtp.py" />
-    <entry file="file://$PROJECT_DIR$/pythonemail/abc.txt" />
-    <entry file="file://$PROJECT_DIR$/pythonemail/tttt.py" />
-    <entry file="file://$PROJECT_DIR$/pythonemail/abc.html" />
-    <entry file="file://$PROJECT_DIR$/pythonemail/pyemail-multi2.py" />
-    <entry file="file://$PROJECT_DIR$/pythonemail/pyemail_multi.py" />
-    <entry file="file://$PROJECT_DIR$/practice_recode_marks.py" />
-    <entry file="file://$PROJECT_DIR$/tktask/tk_test.py">
+    <entry file="file://$PROJECT_DIR$/old_practice/practice_fetchdata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        <state relative-caret-position="299">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tktask/tk_tasks.py">
+    <entry file="file://$PROJECT_DIR$/old_practice/practice_replace_words.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        <state relative-caret-position="345">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/cx_Freeze/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/tktask/tere.py">
+    <entry file="file://$PROJECT_DIR$/python-practice/shuffle_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice_fetchdata.py" />
-    <entry file="file://$PROJECT_DIR$/practice_baiduapi.py" />
-    <entry file="file://$PROJECT_DIR$/jiandan/jiandan.py" />
-    <entry file="file://$PROJECT_DIR$/python-os/practice_7.py" />
-    <entry file="file://$PROJECT_DIR$/python-os/test_practice.py" />
-    <entry file="file://$PROJECT_DIR$/practice_xueqiu.py" />
-    <entry file="file://$PROJECT_DIR$/python-os/practice_10.py" />
-    <entry file="file://$PROJECT_DIR$/python-os/practice1.py" />
-    <entry file="file://$PROJECT_DIR$/practice_html.py" />
-    <entry file="file://$PROJECT_DIR$/old_practice/practice_xueqiu.py">
+    <entry file="file://$PROJECT_DIR$/python-practice/allocate_num.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="138">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/py2_4_qq/12-26.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_practice/jiandan/jiandan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tktask/testweibo.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/durex_post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/repostdata.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/__init__.py" />
     <entry file="file://$PROJECT_DIR$/python-practice/test_practice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+        <state relative-caret-position="1938">
+          <caret line="264" column="36" selection-start-line="264" selection-start-column="36" selection-end-line="264" selection-end-column="36" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tktask/tk_task_py2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/iptest.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/page.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/repost_data.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/testweibo.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/tets.py" />
     <entry file="file://$PROJECT_DIR$/old_practice/practice_baiduapi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -726,89 +869,238 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python-practice/practice__9.py">
+    <entry file="file://$PROJECT_DIR$/crwal/abandon_user_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        <state relative-caret-position="138">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python-practice/practice_7.py">
+    <entry file="file://$PROJECT_DIR$/old_practice/practice_xueqiu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
+        <state relative-caret-position="-69">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python-practice/practice_6.py">
+    <entry file="file://$PROJECT_DIR$/crwal/user_agents.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
+        <state relative-caret-position="-957">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/old_practice/jiandan/jiandan.py">
+    <entry file="file://$PROJECT_DIR$/crwal/cookies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
+        <state relative-caret-position="138">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tktask/tk_task_py2.py">
+    <entry file="file://$PROJECT_DIR$/crwal/practice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+        <state relative-caret-position="1281">
+          <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/addr_heatmap.js" />
+    <entry file="file://$PROJECT_DIR$/crwal/conse.js" />
+    <entry file="file://$PROJECT_DIR$/crwal/address.js" />
+    <entry file="file://$PROJECT_DIR$/crwal/gender.js" />
+    <entry file="file://$PROJECT_DIR$/crwal/tags.js" />
+    <entry file="file://$PROJECT_DIR$/crwal/generation.js" />
+    <entry file="file://$PROJECT_DIR$/crwal/degree.js" />
+    <entry file="file://$PROJECT_DIR$/crwal/practice2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/practice3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="250" column="0" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/weibo_mid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/add_heatmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1495">
+          <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/uid_f_rep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2298">
+          <caret line="108" column="35" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/new_reprint_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/mysitev3/zxsite_v0.3/zxsite/templates/zxsite/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-excel/learn_xlwings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1909">
+          <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_practice/prac_sqlite3/sqlite3_prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
           <folding>
-            <element signature="e#22#43#0" expanded="true" />
+            <element signature="e#22#36#0" expanded="true" />
+            <marker date="1484711730235" expanded="true" signature="190:360" ph="CREATE TABLE... ADDRESSLIST" />
+            <marker date="1484711730235" expanded="true" signature="454:535" ph="INSERT INTO ADDRESSLIST... " />
+            <marker date="1484711730235" expanded="true" signature="676:808" ph="SELECT * FRO... ADDRESSLIST" />
+            <marker date="1484711730235" expanded="true" signature="1054:1091" ph="SELECT * FRO... ADDRESSLIST" />
+            <marker date="1484711730235" expanded="true" signature="1282:1315" ph="DELETE FROM " />
+            <marker date="1484711730235" expanded="true" signature="1431:1456" ph="SELECT * FRO... ADDRESSLIST" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py2_4_qq/12-26.py">
+    <entry file="file://$PROJECT_DIR$/crwal/reprint_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="541">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/user_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wangyiyun/unpack2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/practice4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2392">
+          <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1484721874558" expanded="true" signature="1115:1135" ph="SELECT * FRO... IPLIST" />
+            <marker date="1484721874558" expanded="true" signature="2092:2128" ph="SELECT * FRO... IPLIST" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/fetch_ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <marker date="1484729940162" expanded="true" signature="4521:4645" ph="CREATE TABLE... IPLIST" />
+            <marker date="1484729940162" expanded="true" signature="4717:4747" ph="SELECT * FRO... IPLIST" />
+            <marker date="1484729940162" expanded="true" signature="4717:4748" ph="SELECT * FRO... IPLIST" />
+            <marker date="1484729940162" expanded="true" signature="4717:4752" ph="SELECT * FRO... IPLIST" />
+            <marker date="1484729940162" expanded="true" signature="5022:5040" ph="INSERT INTO IPLIST... " />
+            <marker date="1484729940162" expanded="true" signature="5022:5081" ph="INSERT INTO IPLIST... " />
+            <marker date="1484729940162" expanded="true" signature="5172:5197" ph="SELECT * FRO... ADDRESSLIST" />
+            <marker date="1484729940162" expanded="true" signature="6062:6210" ph="CREATE TABLE... IPLIST" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/new_user_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="e#22#51#0" expanded="true" />
+            <marker date="1484734657481" expanded="true" signature="3073:3093" ph="SELECT * FRO... IPLIST" />
+            <marker date="1484734657481" expanded="true" signature="4073:4103" ph="SELECT * FRO... IPLIST" />
+            <marker date="1484734657481" expanded="true" signature="4073:4104" ph="SELECT * FRO... IPLIST" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wangyiyun/practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/cleandata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6394">
+          <caret line="282" column="32" selection-start-line="282" selection-start-column="32" selection-end-line="282" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python-practice/practice_10.py">
+    <entry file="file://$PROJECT_DIR$/wangyiyun/practice2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="414">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python-practice/input_practice.py">
+    <entry file="file://$PROJECT_DIR$/wangyiyun/wangyi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="161">
+          <caret line="12" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python-practice/print_practice.py">
+    <entry file="file://$PROJECT_DIR$/wangyiyun/file_upac.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="782">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python-practice/gpa.py">
+    <entry file="file://$PROJECT_DIR$/wangyiyun/WY.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-334">
-          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python-practice/bmi_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="138">
+          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

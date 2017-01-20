@@ -2,7 +2,6 @@
 import sqlite3
 import os
 DATABASE = 'address_list.db'
-
 created = os.path.exists(DATABASE)
 conn = sqlite3.connect(DATABASE)
 if not created:
@@ -35,7 +34,10 @@ def search(db,keyword):
             EMAIL LIKE '%%%s%%';
           '''%(keyword,keyword,keyword)
     query = db.execute(sql)
+    print(query.fetchone())
+    # print(len(query.fetchall()))
     for q in query:
+        print('结果',q)
         print(q[0],'\t'.join(q[1:]))
 
 
@@ -54,6 +56,7 @@ def delete(db,cid):
 def showall(db):
     sql = r'SELECT * FROM ADDRESSLIST'
     query = db.execute(sql)
+    print('all',query.fetchall())
     for q in query:
         print(q)
         #print(q[0],'\t'.join(q[1:]))

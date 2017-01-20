@@ -5,6 +5,7 @@ import os
 def index(keywords,path):
     foundlist = []
     for path, dirnames, filenames in os.walk(path):
+        # print(path,dirnames,filenames)
         for i in filenames:
             if keywords in i:
                 #print('filenames:',keywords +' in '+path+'\\'+i)

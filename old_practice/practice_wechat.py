@@ -57,4 +57,3 @@ def start():
     print(money_per_person)
 while True:
     start()
-
