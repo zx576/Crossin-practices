@@ -1,8 +1,17 @@
 /**
  * Created by ZX on 2017/1/12.
+ * 星座柱形图
  */
 
-var source = {'巨蟹座': {'male': 1574, 'female': 1148}, '双鱼座': {'male': 1645, 'female': 1211}, '天蝎座': {'male': 2003, 'female': 1506}, '水瓶座': {'male': 1730, 'female': 1439}, '摩羯座': {'male': 1650, 'female': 1288}, '其他': {'male': 634, 'female': 391}, '金牛座': {'male': 1488, 'female': 1197}, '天秤座': {'male': 2042, 'female': 1469}, '处女座': {'male': 1716, 'female': 1288}, '射手座': {'male': 1633, 'female': 1320}, '双子座': {'male': 1600, 'female': 1284}, '狮子座': {'male': 1666, 'female': 1281}, '白羊座': {'male': 1604, 'female': 1234}}
+var source = {
+    '巨蟹座': {'male': 1574, 'female': 1148}, '双鱼座': {'male': 1645, 'female': 1211},
+    '天蝎座': {'male': 2003, 'female': 1506}, '水瓶座': {'male': 1730, 'female': 1439},
+    '摩羯座': {'male': 1650, 'female': 1288}, '其他': {'male': 634, 'female': 391},
+    '金牛座': {'male': 1488, 'female': 1197}, '天秤座': {'male': 2042, 'female': 1469},
+    '处女座': {'male': 1716, 'female': 1288}, '射手座': {'male': 1633, 'female': 1320},
+    '双子座': {'male': 1600, 'female': 1284}, '狮子座': {'male': 1666, 'female': 1281},
+    '白羊座': {'male': 1604, 'female': 1234}
+};
 var data = [
     '白羊座',
     '金牛座',
@@ -35,41 +44,6 @@ var cData = function () {
     return [maledata,femaledata,totaldata]
 };
 
-
-// var xData = function() {
-//     var data = [];
-//     data = [
-//     '白羊座',
-//     '金牛座',
-//     '双子座',
-//     '巨蟹座',
-//     '狮子座',
-//     '处女座',
-//     '天秤座',
-//     '天蝎座',
-//     '射手座',
-//     '水瓶座',
-//     '双鱼座',
-//     '摩羯座'
-//     ];
-//     // for (var i = 1; i < 15; i++) {
-//     //     data.push(i + "月份");
-//     // }
-//     return data;
-// }();
-//测试
-// var a = function () {
-//     var b = [1,2];
-//     var c = [4,5];
-//     var d = [6,7];
-//     return (b,c,d)
-// };
-// var m,n,g;
-// m,n,g = a
-
-
-//测试
-
 option = {
     backgroundColor: "#344b58",
     "title": {
@@ -81,11 +55,6 @@ option = {
             color: '#fff',
             fontSize: '22'
         },
-        // subtextStyle: {
-        //     color: '#90979c',
-        //     fontSize: '16',
-        //
-        // },
     },
     "tooltip": {
         "trigger": "axis",

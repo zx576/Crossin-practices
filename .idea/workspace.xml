@@ -2,18 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="968290b3-1764-47d3-ad18-c4a18ed88709" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_practice/prac_sqlite3/address_list.db" afterPath="$PROJECT_DIR$/old_practice/prac_sqlite3/address_list.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitingore" afterPath="$PROJECT_DIR$/.gitingore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/abandon_user_info.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/add_heatmap.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/address_list.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/cleandata.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/cookies.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/durex_post.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/ehcarts_js/address.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/ehcarts_js/degree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/info.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/new_user_info.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/practice2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/practice3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/practice4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/testatom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/uid_f_rep.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/user_agents.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawl/weibo_mid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wangyiyun/file_upac.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wangyiyun/practice.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wangyiyun/practice2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wangyiyun/unpack2.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_practice/prac_sqlite3/sqlite3_prac.py" afterPath="$PROJECT_DIR$/old_practice/prac_sqlite3/sqlite3_prac.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_practice/practice_fetchdata.py" afterPath="$PROJECT_DIR$/old_practice/practice_fetchdata.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_practice/practice_fib.py" afterPath="$PROJECT_DIR$/old_practice/practice_fib.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_practice/practice_html.py" afterPath="$PROJECT_DIR$/old_practice/practice_html.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_practice/practice_replace_words.py" afterPath="$PROJECT_DIR$/old_practice/practice_replace_words.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_practice/practice_wechat.py" afterPath="$PROJECT_DIR$/old_practice/practice_wechat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py2_4_qq/12-26.py" afterPath="$PROJECT_DIR$/py2_4_qq/12-26.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python-practice/test_practice.py" afterPath="$PROJECT_DIR$/python-practice/test_practice.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/ehcarts_js/addr_heatmap.js" afterPath="$PROJECT_DIR$/crawl/ehcarts_js/addr_heatmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/ehcarts_js/conse.js" afterPath="$PROJECT_DIR$/crawl/ehcarts_js/conse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/ehcarts_js/gender.js" afterPath="$PROJECT_DIR$/crawl/ehcarts_js/gender.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/ehcarts_js/generation.js" afterPath="$PROJECT_DIR$/crawl/ehcarts_js/generation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/ehcarts_js/tags.js" afterPath="$PROJECT_DIR$/crawl/ehcarts_js/tags.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl/practice.py" afterPath="$PROJECT_DIR$/crawl/practice.py" />
     </list>
     <ignored path="Crossin-practices.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,7 +88,7 @@
     <SUITE FILE_PATH="coverage/Crossin-practices$ditribution.coverage" NAME="ditribution Coverage Results" MODIFIED="1479606013086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crossin-practices$win32com_test.coverage" NAME="win32com_test Coverage Results" MODIFIED="1480039740753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
     <SUITE FILE_PATH="coverage/Crossin-practices$wangyi.coverage" NAME="wangyi Coverage Results" MODIFIED="1484808227885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$cleandata.coverage" NAME="cleandata Coverage Results" MODIFIED="1484293592696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$cleandata.coverage" NAME="cleandata Coverage Results" MODIFIED="1484884596569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl" />
     <SUITE FILE_PATH="coverage/Crossin-practices$gpa.coverage" NAME="gpa Coverage Results" MODIFIED="1483615245766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
     <SUITE FILE_PATH="coverage/Crossin-practices$fetch_ip.coverage" NAME="fetch_ip Coverage Results" MODIFIED="1484732446923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
     <SUITE FILE_PATH="coverage/Crossin-practices$xlwings_test.coverage" NAME="xlwings_test Coverage Results" MODIFIED="1480040466844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
@@ -105,6 +121,7 @@
     <SUITE FILE_PATH="coverage/Crossin-practices$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1480941049402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Python27/Lib/site-packages/cx_Freeze" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_6.coverage" NAME="practice_6 Coverage Results" MODIFIED="1481168423693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_replace_words.coverage" NAME="practice_replace_words Coverage Results" MODIFIED="1483674549807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old_practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice5.coverage" NAME="practice5 Coverage Results" MODIFIED="1484882911215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -115,138 +132,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="new_user_info.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crwal/new_user_info.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-              <folding>
-                <element signature="e#22#51#0" expanded="true" />
-                <marker date="1484734657481" expanded="true" signature="3073:3093" ph="SELECT * FRO... IPLIST" />
-                <marker date="1484734657481" expanded="true" signature="4073:4103" ph="SELECT * FRO... IPLIST" />
-                <marker date="1484734657481" expanded="true" signature="4073:4104" ph="SELECT * FRO... IPLIST" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fetch_ip.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crwal/fetch_ip.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-              <folding>
-                <marker date="1484729940162" expanded="true" signature="4521:4645" ph="CREATE TABLE... IPLIST" />
-                <marker date="1484729940162" expanded="true" signature="4717:4747" ph="SELECT * FRO... IPLIST" />
-                <marker date="1484729940162" expanded="true" signature="4717:4748" ph="SELECT * FRO... IPLIST" />
-                <marker date="1484729940162" expanded="true" signature="4717:4752" ph="SELECT * FRO... IPLIST" />
-                <marker date="1484729940162" expanded="true" signature="5022:5040" ph="INSERT INTO IPLIST... " />
-                <marker date="1484729940162" expanded="true" signature="5022:5081" ph="INSERT INTO IPLIST... " />
-                <marker date="1484729940162" expanded="true" signature="5172:5197" ph="SELECT * FRO... ADDRESSLIST" />
-                <marker date="1484729940162" expanded="true" signature="6062:6210" ph="CREATE TABLE... IPLIST" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cleandata.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crwal/cleandata.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6394">
-              <caret line="282" column="32" selection-start-line="282" selection-start-column="32" selection-end-line="282" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="practice.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wangyiyun/practice.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="practice2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wangyiyun/practice2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wangyi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wangyiyun/wangyi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="12" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="file_upac.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wangyiyun/file_upac.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WY.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wangyiyun/WY.py">
+      <file leaf-file-name="step1_weibo_id.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crawl/step1_weibo_id.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sqlite3_prac.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/old_practice/prac_sqlite3/sqlite3_prac.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-              <folding>
-                <element signature="e#22#36#0" expanded="true" />
-                <marker date="1484711730235" expanded="true" signature="190:360" ph="CREATE TABLE... ADDRESSLIST" />
-                <marker date="1484711730235" expanded="true" signature="454:535" ph="INSERT INTO ADDRESSLIST... " />
-                <marker date="1484711730235" expanded="true" signature="676:808" ph="SELECT * FRO... ADDRESSLIST" />
-                <marker date="1484711730235" expanded="true" signature="1054:1091" ph="SELECT * FRO... ADDRESSLIST" />
-                <marker date="1484711730235" expanded="true" signature="1282:1315" ph="DELETE FROM " />
-                <marker date="1484711730235" expanded="true" signature="1431:1456" ph="SELECT * FRO... ADDRESSLIST" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="practice4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crwal/practice4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2392">
-              <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1484721874558" expanded="true" signature="1115:1135" ph="SELECT * FRO... IPLIST" />
-                <marker date="1484721874558" expanded="true" signature="2092:2128" ph="SELECT * FRO... IPLIST" />
-              </folding>
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -257,8 +148,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -268,26 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python-practice/practice_10.py" />
-        <option value="$PROJECT_DIR$/python-practice/practice__9.py" />
-        <option value="$PROJECT_DIR$/python-practice/practice_7.py" />
-        <option value="$PROJECT_DIR$/python-practice/print_practice.py" />
-        <option value="$PROJECT_DIR$/python-practice/input_practice.py" />
-        <option value="$PROJECT_DIR$/python-practice/gpa.py" />
-        <option value="$PROJECT_DIR$/python-practice/bmi_index.py" />
-        <option value="$PROJECT_DIR$/python-practice/shuffle_list.py" />
-        <option value="$PROJECT_DIR$/python-practice/allocate_num.py" />
-        <option value="$PROJECT_DIR$/old_practice/practice_replace_words.py" />
-        <option value="$PROJECT_DIR$/old_practice/practice_fetchdata.py" />
-        <option value="$PROJECT_DIR$/py2_4_qq/12-26.py" />
-        <option value="$PROJECT_DIR$/python-practice/test_practice.py" />
-        <option value="$PROJECT_DIR$/tktask/testweibo.py" />
-        <option value="$PROJECT_DIR$/crwal/durex_post.py" />
-        <option value="$PROJECT_DIR$/crwal/testweibo.py" />
-        <option value="$PROJECT_DIR$/crwal/__init__.py" />
-        <option value="$PROJECT_DIR$/crwal/repostdata.txt" />
-        <option value="$PROJECT_DIR$/crwal/iptest.py" />
-        <option value="$PROJECT_DIR$/crwal/cookies.py" />
         <option value="$PROJECT_DIR$/crwal/page.py" />
         <option value="$PROJECT_DIR$/crwal/tets.py" />
         <option value="$PROJECT_DIR$/crwal/repost_data.py" />
@@ -318,7 +189,27 @@
         <option value="$PROJECT_DIR$/wangyiyun/practice2.py" />
         <option value="$PROJECT_DIR$/wangyiyun/file_upac.py" />
         <option value="$PROJECT_DIR$/wangyiyun/wangyi.py" />
+        <option value="$PROJECT_DIR$/crawl/uid_f_rep.py" />
         <option value="$PROJECT_DIR$/wangyiyun/WY.py" />
+        <option value="$PROJECT_DIR$/crawl/practice.py" />
+        <option value="$PROJECT_DIR$/crawl/practice5.py" />
+        <option value="$PROJECT_DIR$/crawl/cleandata.py" />
+        <option value="$PROJECT_DIR$/crawl/ehcarts_js/conse.js" />
+        <option value="$PROJECT_DIR$/crawl/ehcarts_js/tags.js" />
+        <option value="$PROJECT_DIR$/crawl/ehcarts_js/generation2.js" />
+        <option value="$PROJECT_DIR$/crawl/ehcarts_js/generation.js" />
+        <option value="$PROJECT_DIR$/crawl/ehcarts_js/gender.js" />
+        <option value="$PROJECT_DIR$/crawl/ehcarts_js/addr_heatmap.js" />
+        <option value="$PROJECT_DIR$/crawl/ehcarts_js/generation2.py" />
+        <option value="$PROJECT_DIR$/crawl/step1_weibo_id.py" />
+        <option value="$PROJECT_DIR$/crawl/step2_userid.py" />
+        <option value="$PROJECT_DIR$/crawl/step3_userinfo.py" />
+        <option value="$PROJECT_DIR$/weibo/step4_cleandata.py" />
+        <option value="$PROJECT_DIR$/weibo/ehcarts_js/addr_heatmap.js" />
+        <option value="$PROJECT_DIR$/weibo/ehcarts_js/conse.js" />
+        <option value="$PROJECT_DIR$/weibo/ehcarts_js/gender.js" />
+        <option value="$PROJECT_DIR$/weibo/ehcarts_js/generation.js" />
+        <option value="$PROJECT_DIR$/weibo/ehcarts_js/tags.js" />
       </list>
     </option>
   </component>
@@ -379,29 +270,11 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="E:/mysitev3/zxsite_v0.3/zxsite/templates/zxsite/about.html" />
+    <property name="last_opened_file_path" value="E:/mysitev3/zxsite_v0.3/zxsite" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="Python.WY">
-    <configuration default="false" name="practice2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wangyiyun" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Crossin-practices" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wangyiyun/practice2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.cleandata">
     <configuration default="false" name="wangyi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -438,24 +311,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="unpack2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wangyiyun" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Crossin-practices" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wangyiyun/unpack2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="WY" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -470,6 +325,42 @@
       <module name="Crossin-practices" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wangyiyun/WY.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="practice5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Crossin-practices" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawl/practice5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cleandata" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Crossin-practices" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawl/cleandata.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -683,19 +574,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.practice2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.wangyi" />
-      <item index="2" class="java.lang.String" itemvalue="Python.file_upac" />
-      <item index="3" class="java.lang.String" itemvalue="Python.unpack2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.WY" />
+      <item index="0" class="java.lang.String" itemvalue="Python.wangyi" />
+      <item index="1" class="java.lang.String" itemvalue="Python.file_upac" />
+      <item index="2" class="java.lang.String" itemvalue="Python.WY" />
+      <item index="3" class="java.lang.String" itemvalue="Python.practice5" />
+      <item index="4" class="java.lang.String" itemvalue="Python.cleandata" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.WY" />
-        <item index="1" class="java.lang.String" itemvalue="Python.file_upac" />
-        <item index="2" class="java.lang.String" itemvalue="Python.wangyi" />
-        <item index="3" class="java.lang.String" itemvalue="Python.practice2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.unpack2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.cleandata" />
+        <item index="1" class="java.lang.String" itemvalue="Python.practice5" />
+        <item index="2" class="java.lang.String" itemvalue="Python.WY" />
+        <item index="3" class="java.lang.String" itemvalue="Python.file_upac" />
+        <item index="4" class="java.lang.String" itemvalue="Python.wangyi" />
       </list>
     </recent_temporary>
   </component>
@@ -716,7 +607,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="4" width="1362" height="723" extended-state="1" />
+    <frame x="1" y="4" width="1362" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24888559" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -725,18 +616,18 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6396104" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23164764" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24512987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31647635" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24512987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -785,174 +676,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/old_practice/practice_fetchdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old_practice/practice_replace_words.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python-practice/shuffle_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python-practice/allocate_num.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py2_4_qq/12-26.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old_practice/jiandan/jiandan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tktask/testweibo.py" />
-    <entry file="file://$PROJECT_DIR$/crwal/durex_post.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/repostdata.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/python-practice/test_practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="264" column="36" selection-start-line="264" selection-start-column="36" selection-end-line="264" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tktask/tk_task_py2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/iptest.py" />
-    <entry file="file://$PROJECT_DIR$/crwal/page.py" />
-    <entry file="file://$PROJECT_DIR$/crwal/repost_data.py" />
-    <entry file="file://$PROJECT_DIR$/crwal/testweibo.py" />
-    <entry file="file://$PROJECT_DIR$/crwal/tets.py" />
-    <entry file="file://$PROJECT_DIR$/old_practice/practice_baiduapi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/abandon_user_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old_practice/practice_xueqiu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/user_agents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-957">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/cookies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1281">
-          <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/addr_heatmap.js" />
-    <entry file="file://$PROJECT_DIR$/crwal/conse.js" />
-    <entry file="file://$PROJECT_DIR$/crwal/address.js" />
-    <entry file="file://$PROJECT_DIR$/crwal/gender.js" />
-    <entry file="file://$PROJECT_DIR$/crwal/tags.js" />
-    <entry file="file://$PROJECT_DIR$/crwal/generation.js" />
-    <entry file="file://$PROJECT_DIR$/crwal/degree.js" />
-    <entry file="file://$PROJECT_DIR$/crwal/practice2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/practice3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="250" column="0" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/weibo_mid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/add_heatmap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1495">
-          <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/uid_f_rep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2298">
-          <caret line="108" column="35" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/new_reprint_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/practice2.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/practice3.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/weibo_mid.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/add_heatmap.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/uid_f_rep.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/new_reprint_data.py" />
     <entry file="file://E:/mysitev3/zxsite_v0.3/zxsite/templates/zxsite/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -967,140 +696,240 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/old_practice/prac_sqlite3/sqlite3_prac.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-          <folding>
-            <element signature="e#22#36#0" expanded="true" />
-            <marker date="1484711730235" expanded="true" signature="190:360" ph="CREATE TABLE... ADDRESSLIST" />
-            <marker date="1484711730235" expanded="true" signature="454:535" ph="INSERT INTO ADDRESSLIST... " />
-            <marker date="1484711730235" expanded="true" signature="676:808" ph="SELECT * FRO... ADDRESSLIST" />
-            <marker date="1484711730235" expanded="true" signature="1054:1091" ph="SELECT * FRO... ADDRESSLIST" />
-            <marker date="1484711730235" expanded="true" signature="1282:1315" ph="DELETE FROM " />
-            <marker date="1484711730235" expanded="true" signature="1431:1456" ph="SELECT * FRO... ADDRESSLIST" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/reprint_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/user_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wangyiyun/unpack2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/practice4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2392">
-          <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1484721874558" expanded="true" signature="1115:1135" ph="SELECT * FRO... IPLIST" />
-            <marker date="1484721874558" expanded="true" signature="2092:2128" ph="SELECT * FRO... IPLIST" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/fetch_ip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding>
-            <marker date="1484729940162" expanded="true" signature="4521:4645" ph="CREATE TABLE... IPLIST" />
-            <marker date="1484729940162" expanded="true" signature="4717:4747" ph="SELECT * FRO... IPLIST" />
-            <marker date="1484729940162" expanded="true" signature="4717:4748" ph="SELECT * FRO... IPLIST" />
-            <marker date="1484729940162" expanded="true" signature="4717:4752" ph="SELECT * FRO... IPLIST" />
-            <marker date="1484729940162" expanded="true" signature="5022:5040" ph="INSERT INTO IPLIST... " />
-            <marker date="1484729940162" expanded="true" signature="5022:5081" ph="INSERT INTO IPLIST... " />
-            <marker date="1484729940162" expanded="true" signature="5172:5197" ph="SELECT * FRO... ADDRESSLIST" />
-            <marker date="1484729940162" expanded="true" signature="6062:6210" ph="CREATE TABLE... IPLIST" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/new_user_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="e#22#51#0" expanded="true" />
-            <marker date="1484734657481" expanded="true" signature="3073:3093" ph="SELECT * FRO... IPLIST" />
-            <marker date="1484734657481" expanded="true" signature="4073:4103" ph="SELECT * FRO... IPLIST" />
-            <marker date="1484734657481" expanded="true" signature="4073:4104" ph="SELECT * FRO... IPLIST" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wangyiyun/practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crwal/cleandata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6394">
-          <caret line="282" column="32" selection-start-line="282" selection-start-column="32" selection-end-line="282" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wangyiyun/practice2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/crwal/reprint_data.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/user_info.py" />
+    <entry file="file://$PROJECT_DIR$/wangyiyun/unpack2.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/practice4.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/fetch_ip.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/new_user_info.py" />
+    <entry file="file://$PROJECT_DIR$/crwal/cleandata.py" />
+    <entry file="file://$PROJECT_DIR$/wangyiyun/file_upac.py" />
     <entry file="file://$PROJECT_DIR$/wangyiyun/wangyi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="12" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wangyiyun/file_upac.py">
+    <entry file="file://$PROJECT_DIR$/wangyiyun/practice2.py" />
+    <entry file="file://$PROJECT_DIR$/wangyiyun/practice.py" />
+    <entry file="file://$PROJECT_DIR$/crawl/add_heatmap.py" />
+    <entry file="file://$PROJECT_DIR$/crawl/cookies.py" />
+    <entry file="file://$PROJECT_DIR$/crawl/durex_post.py" />
+    <entry file="file://$PROJECT_DIR$/crawl/info.py" />
+    <entry file="file://$PROJECT_DIR$/crawl/reprint_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2461">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wangyiyun/WY.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_practice/prac_sqlite3/sqlite3_prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_practice/practice_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/practice5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/uid_f_rep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/cleandata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="302" column="35" selection-start-line="302" selection-start-column="35" selection-end-line="302" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/ehcarts_js/generation2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/ehcarts_js/tags.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/ehcarts_js/conse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/ehcarts_js/address.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/ehcarts_js/gender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/ehcarts_js/generation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="121" column="2" selection-start-line="121" selection-start-column="2" selection-end-line="121" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/ehcarts_js/generation2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/weibo_mid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/ehcarts_js/addr_heatmap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/new_reprint_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-718">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/new_user_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1311">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/ehcarts_js/addr_heatmap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/ehcarts_js/tags.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/ehcarts_js/generation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/ehcarts_js/gender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/ehcarts_js/conse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/step4_cleandata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/step3_userinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1484904676085" expanded="true" signature="3068:3088" ph="SELECT * FRO... IPLIST" />
+            <marker date="1484904676085" expanded="true" signature="4068:4098" ph="DELETE FROM " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/step2_userid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/step1_weibo_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

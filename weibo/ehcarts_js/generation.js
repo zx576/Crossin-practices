@@ -1,5 +1,6 @@
 /**
  * Created by ZX on 2017/1/12.
+ * 出生年代柱状图
  */
 var data = {'00s': {'male': 969, 'female': 1389}, '70s': {'male': 728, 'female': 297}, '80s': {'male': 3215, 'female': 1620}, '60s': {'male': 90, 'female': 25}, '60sm': {'male': 238, 'female': 175}, '90s': {'male': 10300, 'female': 7832}};
 var xdata = [

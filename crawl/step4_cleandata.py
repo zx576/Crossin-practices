@@ -185,6 +185,10 @@ year = {
     '00s':{'male':0,'female':0},
 }
 def birthday(val,sex):
+    if val == '1900年1月1日':
+        return
+    if val == '1月1日':
+        return
     # 统计 星座
     rule = re.compile(r'(\d{1,2})月(\d{1,2})')
     # 统计 年
@@ -198,11 +202,13 @@ def birthday(val,sex):
         except:
             pass
         else:
+
             res = [i for i in res]
             if len(res[1]) == 1:
                 res[1] = '0'+ res[1]
             birth = ''.join(res)
             birth2int = int(birth)
+            # if birth2int == 101
             if 319 <= birth2int <= 419:
                 constellation = '白羊座'
             elif 420 <= birth2int <= 520:
@@ -221,7 +227,7 @@ def birthday(val,sex):
                 constellation = '天蝎座'
             elif 1123 <= birth2int <= 1221:
                 constellation = '射手座'
-            elif  1231 >= birth2int >= 1222 or 101 <= birth2int <= 119:
+            elif  1231 >= birth2int >= 1222 or 101 < birth2int <= 119:
                 constellation = '摩羯座'
             elif 120 <= birth2int <= 218:
                 constellation = '水瓶座'
@@ -274,22 +280,25 @@ def birthday(val,sex):
 
 # 测试
 def main():
-    pa = 'E:\GIT\practice\Crossin-practices\crwal\INFO'
-    file = ''
-    for path,dir,s in os.walk(pa):
-        file = s
-    for i in file:
-        add = pa + os.sep +i
-        userinfo = openfile(add)
+    pa = 'E:\GIT\practice\Crossin-practices\crawl\weibodata'
+    allfiles = []
+    for roots,dirs,files in os.walk(pa):
+        for file in files:
+            add = roots + os.sep +file
+            allfiles.append(add)
+    count = 0
+    for addr in allfiles:
+        userinfo = openfile(addr)
+        count += len(userinfo)
         gen = (i for i in userinfo)
         for i in range(len(userinfo)):
             data = gen.__next__()
             distribute_data(data)
-
+    print(count)
     # 最后统计一下词频
     jieba_tags()
 
-    with open('location.txt','w') as f:
+    with open('location2.txt','w') as f:
         # 写入地区
         f.write(str(location_list))
         f.write('\n')

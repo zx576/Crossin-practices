@@ -3,17 +3,14 @@ import requests
 import re
 import time
 import json
-from crwal.cookies import cookies
-from crwal.user_agents import agents
 import random
+
 '''
-1.10:
 下载杜蕾斯某一条消息下面的所有转载人的信息
-
 '''
 
 
-# 变换cookies,agents,ip请求网址, 发生错误后，更换 cookies,agents,ip 继续请求，直到有结果返回
+# 网络请求
 def request_url(url):
     headers = {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -38,23 +35,19 @@ def request_url(url):
         return
     return content
     # print('请求 %s 失败'%url)
-# 总页数
+# 每条微博下的转载总页数，初设置为10000
 total_page = 10000
+# 爬取每页数据
 def fetch_repost(content):
     global total_page
     rule = re.compile(r'uid=(\d{10})')
-    # status = content['code']
-    # print(status)
-    # 总页数
+    # 实际总页数
     total_page = content['data']['page']['totalpage']
-    # print('inside func ttp :%r'%total_page)
-    # 当前页数
-    # currentpage = content['data']['page']['pagenum']
-    # print(currentpage)
-    # print('request success on page %r' %currentpage)
-    # 抓取内容
+    # 有效数据
     data = content['data']['html']
+    # 该页下所有用户 id
     all_uid = re.findall(rule,data)
+    # 去重
     uid = set(all_uid)
     print(uid)
     # 返回
@@ -64,58 +57,69 @@ def fetch_repost(content):
 def save(uid,id,filecount):
     # 组装为 json 格式
     dic = {}
-    dic[id] = uid
+    dic[str(id)] = uid
     repost_data_str = json.dumps(dic)
     with open('E:/GIT/practice/Crossin-practices/crwal/uid_f_re/uid_%r.txt'%filecount,'a+',errors='ignore') as f:
-        f.write('\n')
         f.write(repost_data_str)
+        f.write('\n')
     print('successly save')
 
+# 分发url
 def distribute_url(f_url):
     # print('start crwal')
     start_page = 1
-    # 需要手动设置
-    # end_page = 100
+    # 便于去重
     total_id = set()
     global total_page
+    # 以是否到最后的页数为循环结束标准
     while start_page <= total_page:
+        # 组装爬取 url
         newurl = f_url + str(start_page)
         print('request url：%s' % newurl)
-        # print('')
+        # 下一页
         start_page += 1
+        # 请求
         content = request_url(newurl)
         if not content:
             continue
+        # 爬取一次抓的所有 id
         uid_once = fetch_repost(content)
+        # 添加到所有 id
         total_id.update(uid_once)
         time.sleep(2)
-        print('outside func ttp:%r'%total_page)
+        # print('outside func ttp:%r'%total_page)
         # break
     return total_id
 
+# 读取所有微博 id
 def openfile():
     with open('mid.txt','r') as f:
         pre_data = f.read()
     content = json.loads(pre_data)
     data = content['mid_data']
     return data
-
+# 控制台
 def main():
     pre_url = 'http://weibo.com/aj/v6/mblog/info/big?ajwvr=6&id=%s&page='
-    # print('下载了 %r 页'%page)
+    # 获取微博 id
     data = openfile()
-    file_count = 3
+    # 文件计数，设置每100次，新建文档写入
+    file_count = 1
+    # 循环计数
     loop_count = 1
-    for id in range(773,len(data)):
+    # 循环
+    for id in range(len(data)):
         print('mid:%d'%id)
+        # 当前微博 id url
         f_url = pre_url%(data[id])
         result = distribute_url(f_url)
         total_id = list(result)
-
+        # 循环计数
         if loop_count == 100:
             file_count += 1
             loop_count = 1
         loop_count += 1
+        # 保存
         save(total_id, data[id],file_count)
         # break
 

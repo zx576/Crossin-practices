@@ -3,17 +3,17 @@ import requests
 import re
 import time
 import json
-from crwal.cookies import cookies
-from crwal.user_agents import agents
 import random
-'''
-1.16:
-下载杜蕾斯2016，所有微博id
+
 
 '''
+step1:
+下载杜蕾斯2016年12个月所有微博id
+
+'''
 
 
-# 变换cookies,agents,ip请求网址, 发生错误后，更换 cookies,agents,ip 继续请求，直到有结果返回
+# 请求网络，获得网络响应
 def request_url(url):
     headers = {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -37,7 +37,8 @@ def request_url(url):
     except:
         return
     return content
-    # print('请求 %s 失败'%url)
+
+# 传入响应数据，获取微博 id
 def fetch_repost(content):
     rule = re.compile(r'mid=(\d{16})')
     # data = content['data']
@@ -47,7 +48,7 @@ def fetch_repost(content):
     print(uid)
     return uid
 
-# 写入文件
+# 传入所有 id 写入文件
 def save(uid):
     # 组装为 json 格式
     dic = {}
@@ -62,7 +63,9 @@ def main():
     # 组装 URL
     pre_url = 'http://weibo.com/p/aj/v6/mblog/mbloglist' \
           '?ajwvr=6&domain=100606&is_all=1&stat_date=2016%s&page=%s&pagebar=0&pl_name=Pl_Official_MyProfileFeed__26&id=1006061942473263'
+    # 抓取 12 个月
     months = ['01','02','03','04','05','06','07','08','09','10','11','12']
+    # 每月抓取前 6 页
     page_list = ['1','2','3','4','5','6']
     # pagebar_list = ['0','1','2']
     # 所有 URL
@@ -72,8 +75,9 @@ def main():
             # for pagebar in pagebar_list:
             url = pre_url%(month,page)
             url_list.append(url)
-
+    # 去重
     total_id = set()
+    # 逐条抓取
     for url_id in range(len(url_list)):
         print(url_id)
         content = request_url(url_list[url_id])
@@ -85,6 +89,7 @@ def main():
         # break
     # print('下载了 %r 页'%page)
     total_id = list(total_id)
+    # 保存数据
     save(total_id)
 
 if __name__ == '__main__':

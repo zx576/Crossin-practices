@@ -8,7 +8,7 @@ import random
 import sqlite3
 
 '''
-1.11：爬取用户信息，组装为 dict,json 处理后存入 txt。
+爬取用户信息，组装为 dict,json 处理后存入 txt。
 '''
 
 
