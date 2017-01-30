@@ -178,7 +178,6 @@ def handleip(ip):
 
 # 删除 ip
 def delectip(ip):
-
     DATABASE = 'ip_list.db'
     # created = os.path.exists(DATABASE)
     conn = sqlite3.connect(DATABASE)
@@ -255,7 +254,7 @@ def main():
     savecount = 1
     # 请求计数
     req_count = 1
-    for id in userid_list[61747:]:
+    for id in userid_list:
         print('开始第 %d 次抓取，目标 id 为%r' % (req_count, id))
         req_count += 1
         url = pre_url % id

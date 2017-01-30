@@ -7,7 +7,6 @@ import jieba.analyse
 '''
 step4:
 清洗所有用户信息，分门别类存放
-
 '''
 
 # 打开文件
@@ -26,16 +25,16 @@ def distribute_data(data):
     '''
     data:{"XXXXXXX": {"初中：": "XXXXXXXXXXXXXXX",
     "标签：": "CIXXXXXXXXXXXXXXXXX动漫",
-     "注册时间：": "2009-11-18", "大学：": "XXXXXXXXXXXXXXX   旅游管理系",
+     "注册时间：": "2009-11-18", "大学：": "XXXXXXXXXXXXXXX",
       "个性域名：": "http://weibo.com/gscwl",
        "公司：": "XXXXXXXXXXXXXX",
        "昵称：": "XXXXXXXXXXX",
-       "简介：": "中国动漫XXXX资深二XX宅男/前《XXXXXXXX》主编&CICFXXXXXXX人",
+       "简介：": "中国动漫XXXX资深二XX宅男",
        "博客：": "http://blog.siXXXXXXXXXXXX",
        "性别：": "男",
        "生日：": "19XXXXXXXXXX",
        "所在地：": "广东 广州",
-       "高中：": "广州市XXXXXXXXXXXXXXX班"}}
+       "高中：": "广州市XXXXXXXXXXXXXXX"}}
     :return:
     '''
     # 取到 id 号
