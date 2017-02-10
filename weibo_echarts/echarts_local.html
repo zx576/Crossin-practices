@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Echarts</title>
+    <!--<script type="text/javascript" src=""></script>-->
+    <!--<link rel="stylesheet" href="">-->
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="selfdefine.css">
+    <!--<script src="http://cdn.bootcss.com/jquery/3.1.1/core.js"></script>-->
+    <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <!--<link rel="stylesheet" href="">-->
+    <script src="http://cdn.bootcss.com/echarts/3.4.0/echarts.min.js"></script>
+    <script type="text/javascript" src="china.js"></script>
+    <script type="text/javascript" src="wordcloud.js"></script>
+</head>
+
+<body style="background-color: #e7e7e7;font-family: 'Segoe UI'">
+
+<div class="top-occupation"></div>
+<div class="container-fluid">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="center-block mainpage" >
+
+
+<div class="article-block" style="background-color: #ffffff">
+        <div class="center-block article-block-1">
+            <div class="center-block" style="width: 668px;">
+        <div class="self-atc-div">
+            <h3>转载杜蕾斯微博用户大数据分析</h3>
+            <hr>
+            <BR>
+            <p class="text-justify">
+                前一段时间，小编偶然看到一篇关于杜蕾斯微博营销案例的文章，对杜蕾斯的文案佩服得五体投地，内容确实精彩，每次发微都能有不错的转发量，恰好最近在学习爬虫，就想着能不能爬一下转发的用户，然后分析一下 "老司机" 们的信息。
+经过不懈的努力，小编扒下了杜蕾斯 2016 发的 800+ （不完全）条微博，得到 60000+ 用户信息（不完全），受限于时间、技术以及娱乐的心态，并没能完完整整的获得所有的微博，以及所有的转发用户，所以大家也抱着娱乐的心态来看就行了
+            </p>
+            <br>
+            <p class="text-justify">
+由于微博用户的信息不是每项都必填，所以最后的结果跟总的用户数会有一些差别，特此提醒
+            </p>
+            <br>
+            <p class="text-justify">
+                首先是 "老司机" 们性别分布，当然，不说你们也应该清楚，男同胞比女同胞是要多那么一些些的。毕竟中华民族的传统美德就要求女性同胞们要矜持，要含蓄（害羞脸），不过也仅仅多了   15 个百分点，比我预想的要多得多了，历史的车轮滚滚向前，女性同胞们也逐渐上车了！！！
+            </p>
+            <div class='center-block' id="gender" style="width: 668px;height:400px;"></div>
+            <p class="text-justify">
+                接下来是"老司机"们所在的地区，毫无疑问，北上广深所在的地区占据绝对的优势。这就是大城市，开放、包容，也印证了那就老话，城外的司机想进来，是因为城里的司机真会玩儿！
+            </p>
+            <div class='center-block' id="addr" style="width: 668px;height:400px;"></div>
+            <p class="text-justify">
+                接下来就是更详细的星座排行了，恭喜天秤以微弱的优势获得冠军，总体来说各个星座分布的比较平均，如果我们说天秤、天蝎敢于转发杜蕾斯是所谓的"明骚"，那金牛就是不折不扣的"闷骚"了。（说完就跑，真刺激
+            </p>
+            <div class='center-block' id="conse" style="width: 668px;height:400px;"></div>
+            <p class="text-justify">
+                然后，我们来看看 "司机" 们的出生年代分布，无疑，90后已经是网络时代的主力了，承接 80后的衣钵，俯瞰 00 后的青涩，90后站在网络时代的浪潮巅上，一览纵山小！
+            </p>
+            <div class='center-block' id="generation" style="width: 668px;height:400px;"></div>
+            <p class="text-justify">
+                最后看看 "司机" 们的标签，"美食"竟然占比最大，难怪古人会说"食色性也"。这句话如此有道理，而我今天才明白，实在忏愧。另外 "旅游"，"幽默"，"摄影"等外向型标签的司机占据了半壁江山。不难看出，想撩妹子，你得有钱，还得有时间，最好还能有情调，这是亘古不变的道理，在座的屌丝们都退下吧！
+            </p>
+            <div class='center-block' id="tags" style="width: 668px;height:400px;"></div>
+            <p class="text-justify">
+                最后，年关已过，请各位妹子回程注意旅途安全，如果旁边坐着回北京的天秤座或者天蝎座90后小伙儿，一路上跟你谈大理、丽江、三亚，跟你聊 Rock and Roll ，跟你聊好莱坞，请立即下车，以免被拐！
+            </p>
+            <P>
+                不用谢，不客气
+            </P>
+    </div>
+    <script type="text/javascript" src="ehcarts_js/addr_heatmap.js"></script>
+    <script type="text/javascript" src="ehcarts_js/conse.js"></script>
+    <script type="text/javascript" src="ehcarts_js/gender.js"></script>
+    <script type="text/javascript" src="ehcarts_js/generation.js"></script>
+    <script type="text/javascript" src="ehcarts_js/tags.js"></script>
+
+
+
+                <div class="self-footer">
+                    This is end,Thank you for visiting
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="col-md-1"></div>
+</div>
+</div>
+
+</body>
+</html>
