@@ -56,4 +56,6 @@ if __name__ == '__main__':
 # 一般调用
 if __name__ == '__main__':
     res = main()
-    print(main)
+    print(res)
+
+

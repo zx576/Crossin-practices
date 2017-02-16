@@ -154,6 +154,8 @@ def nsqlite():
 
 # 查重
 def inspect_ip(ip):
+    DATABASE = 'ip_list.db'
+    db = sqlite3.connect(DATABASE)
     sql = r'SELECT * FROM IPLIST WHERE IP= "%s";' %(ip)
     query = db.execute(sql)
     result = query.fetchall()
