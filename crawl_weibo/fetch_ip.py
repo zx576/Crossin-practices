@@ -6,22 +6,27 @@ import re
 import sqlite3
 import os
 import threading
-#######
-# 西刺代理
+
+
 headers = {
-'User-Agent':'"Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.20 (KHTML, like Gecko) Chrome/11.0.672.2 Safari/534.20",',
+        'User-Agent':'"Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) '
+                     'AppleWebKit/534.20 (KHTML, like Gecko) Chrome/11.0.672.2 Safari/534.20",',
 }
 
-hp_url ='http://www.xicidaili.com/wt'
+# 西刺代理
 def fetch_xici():
-    url = hp_url
+    url = 'http://www.xicidaili.com/wt'
     page_content = requests.get(url,headers=headers)
     str_content = page_content.text
     # print(str_content)
     soup = bs4.BeautifulSoup(str_content,'lxml')
+    # 筛选出所有包含 ip 的 tr 标签
     tr_list = soup.find_all('tr',attrs={'class':['odd','']})
+    # ip 列表
     ip_list = []
+    # 编译 ip 地址正则表达式
     ip_rule = re.compile(r'(\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3})')
+    # 编译 ip 端口正则表达式
     port_rule = re.compile(r'\>(\d+)\<')
     for tr in tr_list:
         str_tr = str(tr)
@@ -29,50 +34,36 @@ def fetch_xici():
         re_m = re.search(r'HTTP',str_tr)
         # print(re_m)
         if re_m:
-            dic1 = {}
+            # dic1 = {}
+            # 匹配 ip 地址
             ip = re.findall(ip_rule,str_tr)[0]
+            # 匹配端口
             port = re.findall(port_rule,str_tr)[0]
+            # 组装为可用的 ip 地址
             dic1["http"] = "http://" + ip + ":" + port
-            print(dic1)
+            # print(dic1)
+            # 验证 ip 是否可用
             if verify_ip(dic1):
-                print('可用')
+                # print('可用')
+                # 验证可用后存入数据库
                 insertdata(dic1)
-                ip_list.append(dic1)
-    print('西刺',ip_list)
+                # ip_list.append(dic1)
+    # print('西刺',ip_list)
     # return ip_list
 
-
-
-
-# HTTPS 代理
-# hps_url = 'http://www.xicidaili.com/wn'
-
-# HTTP 代理
-
-
-# def xici_main():
-    # 爬取 https 代理 ip
-    # https_list = fetch_ip(hps_url)
-    # 爬取 http 代理
-    # http_list = fetch_ip(hp_url)
-    # alldata = http_list + https_list
-    # return alldata
-# xici_main()
-
 # =================================================================================
+
 # 有代理网
-u_url = 'http://www.youdaili.net/Daili/http/29487.html'
 def fetch_udaili():
-    url = u_url
+    url = 'http://www.youdaili.net/Daili/http/29487.html'
     page_content = requests.get(url, headers=headers)
     str_content = page_content.text
-    # print(str_content)
     # print(str_content)
     soup = bs4.BeautifulSoup(str_content, 'lxml')
     # script_tag = soup.find('script',text='@HTTP')
     p_tags = soup.find_all('p')
     rule = re.compile(r'(\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}:\d+)')
-    alldata = []
+    # alldata = []
     for p in p_tags:
         try:
             ip = re.findall(rule,str(p))[0]
@@ -81,16 +72,11 @@ def fetch_udaili():
             if ip:
                 dic["http"] = "http://"+ip
                 if verify_ip(dic):
-                    print('通过')
+                    # print('通过')
                     insertdata(dic)
                     # alldata.append(dic)
         except:
             pass
-    print('有代理',alldata)
-    # return alldata
-
-# def udaili_main():
-#     fetch_udaili(u_url)
 
 # =========================================================================
 # 66代理
@@ -100,15 +86,16 @@ headers1 = {
 'Accept-Encoding':'gzip, deflate, sdch',
 'Accept-Language':'zh-CN,zh;q=0.8,zh-TW;q=0.6',
 'Connection':'keep-alive',
-'Cookie':'__cfduid=dc82e63a299dce97b98b94d949f5a9bb61484641816; CNZZDATA1253901093=1728273565-1484639487-http%253A%252F%252Fwww.baidu.com%252F%7C1484701785; Hm_lvt_1761fabf3c988e7f04bec51acd4073f4=1484646251,1484646378,1484702884,1484703157; Hm_lpvt_1761fabf3c988e7f04bec51acd4073f4=1484704429',
+'Cookie':'__cfduid=dc82e63a299dce97b98b94d949f5a9bb61484641816;'
+         ' CNZZDATA1253901093=1728273565-1484639487-http%253A%252F%252Fwww.baidu.com%252F%7C1484701785; '
+         'Hm_lvt_1761fabf3c988e7f04bec51acd4073f4=1484646251,1484646378,1484702884,1484703157; '
+         'Hm_lpvt_1761fabf3c988e7f04bec51acd4073f4=1484704429',
 'Host':'www.66ip.cn',
 'Referer':'http://www.66ip.cn/pt.html',
 'Upgrade-Insecure-Requests':'1',
 'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
 }
 def fetch_ss():
-    # headers['Cookie'] = cookie
-    # headers['Referer'] = refer
     url = ss_url
     page_content = requests.get(url, headers=headers1)
     # print(page_content)
@@ -121,11 +108,11 @@ def fetch_ss():
         dic = {}
         dic["http"] = "http://"+ip
         if verify_ip(dic):
-            print('通过')
+            # print('通过')
             insertdata(dic)
             # alldata.append(dic)
 
-    print('66代理',alldata)
+    # print('66代理',alldata)
     # return alldata
 
 # fetch_ss(ss_url)
@@ -146,11 +133,12 @@ def verify_ip(dic):
 
 
 ######################################################
+
 # 建立或连接数据库
 def nsqlite():
     DATABASE = 'ip_list.db'
     created = os.path.exists(DATABASE)
-    conn = sqlite3.connect(DATABASE)
+    # conn = sqlite3.connect(DATABASE)
     if not created:
         conn.execute('''
             CREATE TABLE IPLIST
@@ -159,7 +147,7 @@ def nsqlite():
                 IP CHAR(30) NOT NULL
             );
             ''')
-    return conn
+    # return conn
 
 # 查重
 def search(db,ip):
@@ -187,47 +175,17 @@ def showall(db):
     for q in query:
         print(q)
 
-
-# def main():
-#     # 执行西刺查询
-#     xici_list = xici_main()
-#     # 执行 有代理 查询
-#     udl_list = fetch_udaili()
-#     # 执行 66 查询
-#     ss_list = fetch_ss()
-#     # 合并列表
-#     total_list = xici_list + udl_list + ss_list
-#     # set 去重
-#     # set_tl = set(total_list)
-#     # 连接数据库,拿到列表指针
-#     db = nsqlite()
-#     # 判断并写入
-#     for ip in total_list:
-#         # 转为字符串
-#         # ip = str(ip)
-#         # 如果数据库无重复数据
-#         print(ip)
-#         print(type(ip))
-#         if search(db,ip):
-#             # 写入
-#             insertdata(db, ip)
-#         # 否则继续循环
 # 多线程走起
-funcs = [fetch_xici,fetch_udaili,fetch_ss]
+# funcs = [fetch_xici,fetch_udaili,fetch_ss]
+funcs = [fetch_ss]
 def main():
-
+    # 查看是否建立了 ip_list.db,无则新建
+    nsqlite()
+    # 连接到数据库
     DATABASE = 'ip_list.db'
     # created = os.path.exists(DATABASE)
     conn = sqlite3.connect(DATABASE)
-    # if not created:
-    #     conn.execute('''
-    #             CREATE TABLE IPLIST
-    #             (
-    #                 ID INTEGER PRIMARY KEY,
-    #                 IP CHAR(30) NOT NULL
-    #             );
-    #             ''')
-
+    # 执行多线程
     threads = []
     total_list = []
     for i in range(len(funcs)):
@@ -237,20 +195,8 @@ def main():
         threads[i].start()
     for i in range(len(funcs)):
         threads[i].join()
-        # total_list += threads[i]
-    # 连接数据库,拿到列表指针
+
     conn.close()
-    # 判断并写入
-    # for ip in total_list:
-    #     # 转为字符串
-    #     # ip = str(ip)
-    #     # 如果数据库无重复数据
-    #     print(ip)
-    #     print(type(ip))
-    #     if search(db, ip):
-    #         # 写入
-    #         insertdata(db, ip)
-    #         # 否则继续循环
 
 
 # 跑起来
