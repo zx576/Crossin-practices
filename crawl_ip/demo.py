@@ -1,12 +1,7 @@
 #-*- coding:utf-8 -*-
 import requests
-
 # 导入提取 ip 的接口
 from extract_ip import extract_ip
-# 导入抓取 ip 接口
-# from fetch_ip import fetch_ip
-# 多进程
-import multiprocessing
 import time
 
 '''
@@ -41,21 +36,14 @@ def main():
 
 
 
-'''
-# 多进程示例
-if __name__ == '__main__':
 
-    p1 = multiprocessing.Process(target=main)
-    p2 = multiprocessing.Process(target=fetch_ip)
-
-    p2.start()
-    time.sleep(10)
-    p2.start()
-
-'''
-# 一般调用
+# 调用
 if __name__ == '__main__':
     res = main()
     print(res)
-
-
+'''
+#简单示例
+from extract_ip import extract_ip
+new_ip = extract_ip()
+print(new_ip)
+'''

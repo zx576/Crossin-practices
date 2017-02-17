@@ -1,9 +1,14 @@
 
-def func(a):
-    print(a)
-    a = 5
-    print(a)
+def maxn(args):
+    # print(args)
+    if len(args) == 1:
+        return args
+    max_int = args[0]
+    for i in args[1:]:
+        if i > max_int:
+            max_int = i
 
-a = 4
-func(a)
-print(a)
+    return max_int
+
+a = (1,2,3,4,-9)
+print(maxn(a))

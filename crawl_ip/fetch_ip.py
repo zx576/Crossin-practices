@@ -23,8 +23,6 @@ def fetch_xici():
     soup = bs4.BeautifulSoup(str_content,'lxml')
     # 筛选出所有包含 ip 的 tr 标签
     tr_list = soup.find_all('tr',attrs={'class':['odd','']})
-    # ip 列表
-    ip_list = []
     # 编译 ip 地址正则表达式
     ip_rule = re.compile(r'(\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3})')
     # 编译 ip 端口正则表达式
@@ -105,7 +103,7 @@ def fetch_ss():
     rule = re.compile(r'(\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}:\d+)')
     result = re.findall(rule,str_content)
     # print(result)
-    alldata = []
+    # alldata = []
     for ip in result:
         dic = {}
         dic["http"] = "http://"+ip
@@ -180,7 +178,6 @@ def insertdata(ip):
 
 # 多线程
 funcs = [fetch_xici,fetch_udaili,fetch_ss]
-# funcs = [fetch_ss]
 def main():
     # 查看是否建立了 ip_list.db,无则新建
     nsqlite()
@@ -190,7 +187,6 @@ def main():
     conn = sqlite3.connect(DATABASE)
     # 执行多线程
     threads = []
-    total_list = []
     for i in range(len(funcs)):
         t = threading.Thread(target=funcs[i])
         threads.append(t)
@@ -200,16 +196,6 @@ def main():
         threads[i].join()
 
     conn.close()
-
-
-
-'''
-# 为多进程调用准备
-def fetch_ip():
-    while True:
-        main()
-        time.sleep(60)
-'''
 
 
 if __name__ == '__main__':

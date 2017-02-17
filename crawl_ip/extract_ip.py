@@ -13,14 +13,11 @@ import time
 # 连接数据库，获取最新获取的 ip
 def extrat_lastest_id():
     DATABASE = 'ip_list.db'
-    # created = os.path.exists(DATABASE)
     conn = sqlite3.connect(DATABASE)
-    cursor1 = conn.cursor()
     sql = r'SELECT max(id) FROM IPLIST'
     last_id = conn.execute(sql).fetchone()[0]
     # print(last_id)
     sql2 = r'SELECT * FROM IPLIST WHERE ID = %d;'%last_id
-    # alldata = query.fetchall()
     lastest_ip = conn.execute(sql2).fetchone()
     conn.close()
     # print(lastest_ip)
@@ -71,7 +68,6 @@ def extract_ip():
         lastest_id = lastest_info[0]
         lastest_ip = re.sub('\'', '\"', lastest_info[1])
         lastest_ip = json.loads(lastest_ip)
-        # lastest_ip = lastest_info[1]id
         # print(type(lastest_ip))
         # 验证 ip，成功则返回该 ip
         if verify_ip(lastest_ip):
@@ -83,3 +79,4 @@ def extract_ip():
 
 
 # ip_main()
+# extrat_lastest_id()
