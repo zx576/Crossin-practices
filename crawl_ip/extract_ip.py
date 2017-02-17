@@ -16,11 +16,10 @@ def extrat_lastest_id():
     conn = sqlite3.connect(DATABASE)
     sql = r'SELECT max(id) FROM IPLIST'
     last_id = conn.execute(sql).fetchone()[0]
-    # print(last_id)
     sql2 = r'SELECT * FROM IPLIST WHERE ID = %d;'%last_id
     lastest_ip = conn.execute(sql2).fetchone()
     conn.close()
-    # print(lastest_ip)
+    print(lastest_ip)
     return lastest_ip
 
 
@@ -80,3 +79,4 @@ def extract_ip():
 
 # ip_main()
 # extrat_lastest_id()
+extract_ip()

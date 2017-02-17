@@ -15,6 +15,7 @@ class Example(QWidget):
 
     def initUI(self):
         qbtn = QPushButton('quit',self)
+        # 设置点击事件为 关闭窗口
         qbtn.clicked.connect(QCoreApplication.instance().quit)
         qbtn.resize(qbtn.sizeHint())
         qbtn.move(50,50)

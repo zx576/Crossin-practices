@@ -16,6 +16,8 @@ headers = {
 
 # 西刺代理
 def fetch_xici():
+    # 连接数据库
+    conn = sqlite3.connect('ip_list.db')
     url = 'http://www.xicidaili.com/wt'
     page_content = requests.get(url,headers=headers)
     str_content = page_content.text
@@ -40,12 +42,11 @@ def fetch_xici():
             port = re.findall(port_rule,str_tr)[0]
             # 组装为可用的 ip 地址
             dic1["http"] = "http://" + ip + ":" + port
-            # print(dic1)
             # 验证 ip 是否可用
             if verify_ip(dic1):
                 # print('可用')
                 # 验证可用后存入数据库
-                insertdata(dic1)
+                insertdata(dic1,conn)
                 print(dic1)
                 # ip_list.append(dic1)
     # print('西刺',ip_list)
@@ -55,6 +56,7 @@ def fetch_xici():
 
 # 有代理网
 def fetch_udaili():
+    conn = sqlite3.connect('ip_list.db')
     url = 'http://www.youdaili.net/Daili/http/29487.html'
     page_content = requests.get(url, headers=headers)
     str_content = page_content.text
@@ -67,13 +69,12 @@ def fetch_udaili():
     for p in p_tags:
         try:
             ip = re.findall(rule,str(p))[0]
-            # print(ip)
             dic = {}
             if ip:
                 dic["http"] = "http://"+ip
                 if verify_ip(dic):
                     # print('通过')
-                    insertdata(dic)
+                    insertdata(dic,conn)
                     print(dic)
         except:
             pass
@@ -96,6 +97,7 @@ headers1 = {
         'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
             }
 def fetch_ss():
+    conn = sqlite3.connect('ip_list.db')
     url = ss_url
     page_content = requests.get(url, headers=headers1)
     # print(page_content)
@@ -110,7 +112,7 @@ def fetch_ss():
         if verify_ip(dic):
             # print('通过')
             print(dic)
-            insertdata(dic)
+            insertdata(dic,conn)
             # alldata.append(dic)
 
     # print('66代理',alldata)
@@ -126,47 +128,49 @@ def verify_ip(dic):
         res = requests.get(fixed_url,proxies=proxies,timeout=2)
         # print(res.text)
         if 'STATUS OK' in res.text:
-            return 1
+            return True
         else:
-            return
+            return False
     except:
-        return
+        return False
 
 
 ######################################################
 
 # 建立或连接数据库
-def nsqlite():
-    DATABASE = 'ip_list.db'
-    created = os.path.exists(DATABASE)
-    conn = sqlite3.connect(DATABASE)
-    if not created:
-        conn.execute('''
-            CREATE TABLE IPLIST
-            (
-                ID INTEGER PRIMARY KEY,
-                IP CHAR(30) NOT NULL
-            );
-            ''')
+# def nsqlite():
+    # DATABASE = 'ip_list.db'
+    # created = os.path.exists(DATABASE)
+    # conn = sqlite3.connect(DATABASE)
+    # if not created:
+    #     conn.execute('''
+    #         CREATE TABLE IPLIST
+    #         (
+    #             ID INTEGER PRIMARY KEY,
+    #             IP CHAR(30) NOT NULL
+    #         );
+    #         ''')
     # return conn
 
 # 查重
-def inspect_ip(ip):
-    DATABASE = 'ip_list.db'
-    db = sqlite3.connect(DATABASE)
+def inspect_ip(ip,conn):
+    # DATABASE = 'ip_list.db'
+    # db = sqlite3.connect(DATABASE)
+    # global conn
     sql = r'SELECT * FROM IPLIST WHERE IP= "%s";' %(ip)
-    query = db.execute(sql)
+    query = conn.execute(sql)
     result = query.fetchall()
     if len(result) == 0:
         return 1
 
 # 插入
-def insertdata(ip):
-    DATABASE = 'ip_list.db'
+def insertdata(ip,conn):
+    # DATABASE = 'ip_list.db'
     # created = os.path.exists(DATABASE)
-    conn = sqlite3.connect(DATABASE)
+    # conn = sqlite3.connect(DATABASE)
     # 查重
-    if inspect_ip(ip):
+    # global conn
+    if inspect_ip(ip,conn):
         sql = r'''
                   INSERT INTO IPLIST (ID,IP)
                   VALUES (NULL,"%s")
@@ -180,11 +184,11 @@ def insertdata(ip):
 funcs = [fetch_xici,fetch_udaili,fetch_ss]
 def main():
     # 查看是否建立了 ip_list.db,无则新建
-    nsqlite()
+    # nsqlite()
     # 连接到数据库
-    DATABASE = 'ip_list.db'
+    # DATABASE = 'ip_list.db'
     # created = os.path.exists(DATABASE)
-    conn = sqlite3.connect(DATABASE)
+    # conn = sqlite3.connect(DATABASE)
     # 执行多线程
     threads = []
     for i in range(len(funcs)):
@@ -192,13 +196,27 @@ def main():
         threads.append(t)
     for i in range(len(funcs)):
         threads[i].start()
+        # conn = sqlite3.connect(DATABASE)
     for i in range(len(funcs)):
         threads[i].join()
 
-    conn.close()
+    # conn.close()
 
 
 if __name__ == '__main__':
+    DATABASE = 'ip_list.db'
+    created = os.path.exists(DATABASE)
+    conn = sqlite3.connect(DATABASE)
+    # print('conn')
+    if not created:
+        conn.execute('''
+            CREATE TABLE IPLIST
+            (
+                ID INTEGER PRIMARY KEY,
+                IP CHAR(30) NOT NULL
+            );
+            ''')
+    # print('conn')
     while True:
         print('crawling...')
         main()
@@ -214,3 +232,5 @@ if __name__ == '__main__':
 # ip = '{"http":"123.123.345.67:8080"}'
 # insertdata(conn,ip)
 # print('存入ok')
+
+# fetch_xici()

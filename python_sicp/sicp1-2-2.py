@@ -1,3 +1,4 @@
+# coding:gbk
 '''
 菲波那切数列
 '''
@@ -26,3 +27,4 @@ def fib2(n):
 
 b = fib2(9)
 print(b)
+print('周鑫')

@@ -16,6 +16,7 @@ class Example(QWidget):
         self.setWindowTitle('messagebox')
         self.show()
     def closeEvent(self,event):
+        # 消息框的写法
         reply = QMessageBox.question(self,'Message','r u sure to quit?',QMessageBox.Yes | QMessageBox.No,QMessageBox.No)
         if reply == QMessageBox.Yes:
             event.accept()

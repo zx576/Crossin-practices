@@ -39,8 +39,8 @@ def main():
 
 # 调用
 if __name__ == '__main__':
-    res = main()
-    print(res)
+    main()
+    # print(res)
 '''
 #简单示例
 from extract_ip import extract_ip

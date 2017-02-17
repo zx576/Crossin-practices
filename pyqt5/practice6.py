@@ -15,6 +15,7 @@ class Example(QWidget):
         self.setWindowTitle('center')
         self.show()
     def center(self):
+        # 居中文本框
         qr = self.frameGeometry()
         cp = QDesktopWidget().availableGeometry().center()
         qr.moveCenter(cp)
