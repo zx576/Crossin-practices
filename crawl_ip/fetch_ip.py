@@ -137,26 +137,8 @@ def verify_ip(dic):
 
 ######################################################
 
-# 建立或连接数据库
-# def nsqlite():
-    # DATABASE = 'ip_list.db'
-    # created = os.path.exists(DATABASE)
-    # conn = sqlite3.connect(DATABASE)
-    # if not created:
-    #     conn.execute('''
-    #         CREATE TABLE IPLIST
-    #         (
-    #             ID INTEGER PRIMARY KEY,
-    #             IP CHAR(30) NOT NULL
-    #         );
-    #         ''')
-    # return conn
-
 # 查重
 def inspect_ip(ip,conn):
-    # DATABASE = 'ip_list.db'
-    # db = sqlite3.connect(DATABASE)
-    # global conn
     sql = r'SELECT * FROM IPLIST WHERE IP= "%s";' %(ip)
     query = conn.execute(sql)
     result = query.fetchall()
@@ -165,11 +147,7 @@ def inspect_ip(ip,conn):
 
 # 插入
 def insertdata(ip,conn):
-    # DATABASE = 'ip_list.db'
-    # created = os.path.exists(DATABASE)
-    # conn = sqlite3.connect(DATABASE)
     # 查重
-    # global conn
     if inspect_ip(ip,conn):
         sql = r'''
                   INSERT INTO IPLIST (ID,IP)
@@ -183,24 +161,15 @@ def insertdata(ip,conn):
 # 多线程
 funcs = [fetch_xici,fetch_udaili,fetch_ss]
 def main():
-    # 查看是否建立了 ip_list.db,无则新建
-    # nsqlite()
-    # 连接到数据库
-    # DATABASE = 'ip_list.db'
-    # created = os.path.exists(DATABASE)
-    # conn = sqlite3.connect(DATABASE)
-    # 执行多线程
     threads = []
     for i in range(len(funcs)):
         t = threading.Thread(target=funcs[i])
         threads.append(t)
     for i in range(len(funcs)):
         threads[i].start()
-        # conn = sqlite3.connect(DATABASE)
     for i in range(len(funcs)):
         threads[i].join()
 
-    # conn.close()
 
 
 if __name__ == '__main__':
@@ -223,14 +192,5 @@ if __name__ == '__main__':
         print('resting...')
         # 休息一分钟
         time.sleep(60)
-
-# 测试
-# nsqlite()
-# print('打开建立ok')
-# DATABASE = 'ip_list.db'
-# conn = sqlite3.connect(DATABASE)
-# ip = '{"http":"123.123.345.67:8080"}'
-# insertdata(conn,ip)
-# print('存入ok')
 
 # fetch_xici()
