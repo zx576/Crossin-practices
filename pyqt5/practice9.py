@@ -19,9 +19,9 @@ class Example(QMainWindow):
         exitAction.triggered.connect(qApp.quit)
         # 增加工具栏
         self.toolbar = self.addToolBar('Exit')
+        #
         self.addToolBar('&File')
         self.toolbar.addAction(exitAction)
-
         self.setGeometry(300,300,300,200)
         self.setWindowTitle('menubar')
         self.show()
