@@ -1,10 +1,10 @@
-
+#-*- coding:utf-8 -*-
 def level_num(x,init_num = 0):
     '''
     func:返回一个数的逆序
 
     x - 需要被处理的数
-    init_num - x的逆序数
+    init_num - x的逆序数，初始为0
 
     level_num(123)
     >>>321
@@ -25,7 +25,7 @@ def accumulate(x,init_sum=0):
     '''
     func - 返回一个数的各位数之和
 
-    x - 需要被处理的数
+    x - 需要被处理的数，初始为0
     init_sum - 和
 
     accumulate(15)
