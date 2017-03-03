@@ -10,8 +10,6 @@ def perfect_word(n):
         # print(type((n/i)*10))
         if n//i == n/i:
             return perfect_word(n//i)
-        else:
-            continue
     return False
 
 # 循环

@@ -37,6 +37,8 @@ def accumulate(x,init_sum=0):
     else:
         return accumulate(x//10,init_sum+x%10)
 
+print(accumulate(1243464576567))
+
 def main(n):
     '''
     func - 寻找 10000 到 1000000 之间满足各位数之和为 n 的回文数
@@ -58,5 +60,5 @@ def main(n):
             # 判断各位数之和为 n
             if compare(level_sum,n):
                 print(i)
-if __name__ == '__main__':
-    main(52)
+# if __name__ == '__main__':
+    # main(52)

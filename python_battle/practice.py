@@ -19,11 +19,46 @@
 # ((5, 6), 7)
 # ((7, 8), 8)
 
-thislove = input('>')
-if thislove:
-    print '中文中文'.decode('utf-8')
+# if userinput == 'cls':
+#     func1()
+#
+# elif userinput == 'bck':
+#     func2()
+# import random
+# a = [random.randint(1, 16), sorted(random.sample(range(1, 34), 6))]
+# print(a)
 
 
+list = []
+def f2(nums):
+    if len(nums) == 0:
+        return nums
+    nums.remove(min(nums))
+    return nums
+
+print(f2(list))
+
+
+def create_cards():
+    '''生成一副手牌'''
+
+    cards = ['j','j','j']
+    return cards
+def player_cards_n(n):
+    dict = {}
+    player = 'player'
+    for i in range(n):
+        dict[player+str(i)] = create_cards()
+    print(dict)
+
+print(player_cards_n(5))
+
+
+def players_cards():
+    player1 = create_cards()
+    player2 = create_cards()
+    ...
+    playern = create_cards()
 
 
 
