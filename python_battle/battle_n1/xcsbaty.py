@@ -1,16 +1,13 @@
-#-*- coding:utf-8 -*-
-import requests
-import json
+#coding=gbk
+
+import requests,json
+import os
 import io
 import sys
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='gb18030')
-# 地址
-url = 'http://api.douban.com/v2/movie/subject/1764796'
-# 网络请求
+url = "http://api.douban.com/v2/movie/in_theaters "
 req = requests.get(url)
-# 响应信息
-# info = req.json()
 info = req.text
-info = json.loads(info,encoding='utf-8')
-print(type(info))
-print(info)
+info.decode("gbk")
+j_info =json.loads(info)
+
+print j_info["title"] ,j_info["total"],j_info['start'],j_info['count']

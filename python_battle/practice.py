@@ -62,4 +62,40 @@ def players_cards():
 
 
 
+
+
+
+def func1():
+    num = 1
+    return num
+
+def func2(num):
+    return num + 1
+
+
+# print(min([1,2,3]))
+from functools import reduce
+def func(l):
+    return reduce(lambda x,y:x*x+y*y,l)
+
+l = [1,3]
+l.remove(min(l))
+
+print(type(l))
+print(func(l))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ############

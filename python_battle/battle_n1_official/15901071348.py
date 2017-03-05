@@ -84,4 +84,3 @@ def main():
     print ('全部下载完成')
 
 main()
-# http://ww4.sinaimg.cn/large/62ca3fd6jw1dhckht5jlwj.jpg

@@ -74,10 +74,12 @@ print(Account['new'])
 kirk_account = Account['new']('kirk')
 
 print(kirk_account['get']('holder'))
+print(kirk_account['get']('balance'))
+kirk_account['set']('balance',10)
+print(kirk_account['get']('balance'))
 
 
-def save_yehua():
-    
+
 
 
 
