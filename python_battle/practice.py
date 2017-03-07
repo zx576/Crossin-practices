@@ -1,101 +1,31 @@
-#-*- coding:utf-8 -*-
-# import io
-# import sys
-# sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='gb18030')
-# l0 = [[1,2], [2,3,4], [3,4]]
-# for x in l0:
-#     print(x)
-#     print(x[0])
-#     print(x[1])
-#     print(x[0]*x[1])
-#
-# l1 = [(1,2),(3,4),(5,6),(7,8)]
-# l2 = [5,6,7,8]
-# for i in zip(l1,l2):
-#     print(i)
-# >>>
-# ((1, 2), 5)
-# ((3, 4), 6)
-# ((5, 6), 7)
-# ((7, 8), 8)
-
-# if userinput == 'cls':
-#     func1()
-#
-# elif userinput == 'bck':
-#     func2()
-# import random
-# a = [random.randint(1, 16), sorted(random.sample(range(1, 34), 6))]
-# print(a)
-
-
-list = []
-def f2(nums):
-    if len(nums) == 0:
-        return nums
-    nums.remove(min(nums))
-    return nums
-
-print(f2(list))
-
-
-def create_cards():
-    '''生成一副手牌'''
-
-    cards = ['j','j','j']
-    return cards
-def player_cards_n(n):
-    dict = {}
-    player = 'player'
-    for i in range(n):
-        dict[player+str(i)] = create_cards()
-    print(dict)
-
-print(player_cards_n(5))
-
-
-def players_cards():
-    player1 = create_cards()
-    player2 = create_cards()
-    ...
-    playern = create_cards()
+# coding=utf-8
+import requests
+import re
+from bs4 import BeautifulSoup
 
 
 
+headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 
+url = 'http://www.mafengwo.cn/mdd/'
 
+req = requests.get(url,headers=headers)
 
-def func1():
-    num = 1
-    return num
+page = req.text
+ # <div class="hot-list clearfix">
+soup = BeautifulSoup(page,'lxml')
 
-def func2(num):
-    return num + 1
+soup_a = soup.find_all('a',href=True,attrs={'target':'_blank'})
 
+rule = re.compile(r'\d+')
 
-# print(min([1,2,3]))
-from functools import reduce
-def func(l):
-    return reduce(lambda x,y:x*x+y*y,l)
+dict = {}
+for a in soup_a:
+    addr = a.get_text()
+    num = re.findall(rule,a.get('href'))
+    if len(num) > 0:
+        num = num[0]
+        if addr:
+            dict[addr] = num
 
-l = [1,3]
-l.remove(min(l))
-
-print(type(l))
-print(func(l))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-############
+print(dict)
