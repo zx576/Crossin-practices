@@ -6,6 +6,8 @@ movies = [
     {'title':'forestgump','year':1994},
     {'title':'Titanic','year':1997}
         ]
+
+
 class indexs():
     def GET(self):
         page = ''

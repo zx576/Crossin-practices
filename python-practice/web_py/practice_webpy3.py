@@ -17,5 +17,3 @@ class index():
 if __name__ == '__main__':
     app = web.application(url,globals())
     app.run()
-
-

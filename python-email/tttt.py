@@ -1,13 +1,19 @@
-# print(b)
-# print(print)
-def func():
-    a,b = 1,1
-    while True:
-        yield a
-        a,b = b,a+b
+#-*- coding:utf-8 -*-
+import json
+import textwrap
+from bs4 import BeautifulSoup
+import requests
 
-c = func()
-for i in func():
-    if i > 100:
-        break
-    print i
+req = requests.get('http://mp.weixin.qq.com/s/UZ_okX1SDNJLVjzUSHV6qg')
+
+res = req.text
+# for i in range(100):
+#     res.replace('\xa0','')
+soup = BeautifulSoup(res,'lxml')
+soup_p = soup.find('div',class_ ="rich_media_content",id=True)
+
+# print(req)
+print(soup_p.get_text())
+
+# for p in soup_p:
+#     print(p.get_text())

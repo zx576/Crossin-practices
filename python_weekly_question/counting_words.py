@@ -1,22 +1,21 @@
+#-*- coding:utf-8 -*-
+
 from collections import Counter
 import re
+
 with open(r'E:\GIT\practice\Crossin-practices\python_weekly_question\Jane Eyre.txt','r') as f:
-    all_words = f.read()
+    all_words = f.read().lower()
 
-w_com = re.compile(r'\w+',re.IGNORECASE)
-words = re.findall(w_com,all_words)
+rule = re.compile(r'\w+',re.IGNORECASE)
+words = re.findall(rule,all_words)
 
-c = Counter(words)
-c_common = c.most_common(100)
-print(c_common)
+counter_words = Counter(words)
+common_words = counter_words.most_common(100)
 
-
-# test = '''nipped his pointed nose, shrivelled his cheek,
-# stiffened his gait; made his eyes red, his thin lips blue;'''
-#
-# words = re.findall(r'\w+',test)
-# print(words)
-
-# def func():
-#     print('abc')
-# print(func())
+print(dict(common_words))
+print('Jane Eyre.txt\n')
+print('=======================')
+n = 0
+for i in common_words:
+    n += 1
+    print(n,'\t%s\t%d'%(i[0],i[1]))

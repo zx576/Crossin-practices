@@ -38,11 +38,8 @@ def main(n):
     998899
     '''
     for i in range(10000,1000000):
-        # 确定回文数
-        if compare(i,level_num(i)):
-            # 判断各位数之和为 n
-            if compare(accumulate(i),n):
-                print(i)
+        if compare(i,level_num(i)) and compare(accumulate(i),n):
+            print(i)
 
 if __name__ == '__main__':
     main(52)
