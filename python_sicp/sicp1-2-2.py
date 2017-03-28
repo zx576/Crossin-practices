@@ -1,8 +1,8 @@
-# coding:gbk
+# coding:utf-8
 '''
-菲波那切数列
+鑿叉尝閭ｅ垏鏁板垪
 '''
-# 递归解法
+# 閫掑綊瑙ｆ硶
 def fib(n):
     if n == 0:
         return 0
@@ -14,7 +14,7 @@ def fib(n):
 a = fib(9)
 print(a)
 
-# 一般解法
+# 涓�鑸В娉�
 def fib2(n):
     int1= 0
     int2 = 1
@@ -27,4 +27,4 @@ def fib2(n):
 
 b = fib2(9)
 print(b)
-print('周鑫')
+print('鍛ㄩ懌')

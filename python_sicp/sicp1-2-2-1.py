@@ -25,4 +25,4 @@ print(count(100,5))
 
 # 一般解法
 currency = [1,5,10,20,50]
-def countt(cash):
+# def countt(cash):
