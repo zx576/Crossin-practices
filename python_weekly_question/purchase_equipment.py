@@ -20,7 +20,7 @@ print(func1())
 # 没有格子的限制，
 def func2():
     count = 0
-    for j in range(1,10000//min(equipment)):
+    for j in range(1,(10000//min(equipment)+1)):
         conb = itertools.combinations_with_replacement(equipment,j)
         for i in conb:
             if sum(i) < 10000:
@@ -33,7 +33,7 @@ print(func2())
 # 在附加题一的限制下，价值690的鞋子最多出现一次
 def func3():
     count = 0
-    for j in range(1,10000//min(equipment)):
+    for j in range(1,(10000//min(equipment)+1)):
         conb = itertools.combinations_with_replacement(equipment,j)
         for i in conb:
             if sum(i) < 10000 and i.count(690) <= 1:
@@ -42,7 +42,3 @@ def func3():
     return count
 
 print(func3())
-
-
-
-

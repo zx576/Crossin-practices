@@ -16,4 +16,4 @@ print(c)
 c = Counter('adffdsads')
 print(c.most_common(3))
 
-with open('xx.txt','r',encoding='utf-8') as f:
+# with open('xx.txt','r',encoding='utf-8') as f:
