@@ -25,5 +25,52 @@ class ComplexRI():
 
 
 
-c = ComplexRI(5,12)
-print(c.magnitude)
+# c = ComplexRI(5,12)
+# print(c.magnitude)
+
+#
+
+from fractions import gcd
+
+class Rational():
+    def __init__(self,numor,denom):
+        g = gcd(numor,denom)
+        self.numor = numor // g
+        self.denom = denom // g
+
+    def __repr__(self):
+        return 'Rational(%d ,%d)'%(self.numor,self.denom)
+
+    def add(self,other):
+        nx , dx = self.numor,self.denom
+        ny , dy = other.numor,other.denom
+        return Rational(nx*dy+ny*dx,dx*dy)
+
+    def mul(self,other):
+        numor = self.numor * other.numor
+        denom = self.denom * other.denom
+        return Rational(numor,denom)
+
+a = Rational(1,2)
+print(a.add(Rational(3,5)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+############

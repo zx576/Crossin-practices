@@ -1,30 +1,24 @@
 import requests
 import json
 
-url = 'http://fanyi.baidu.com/sug'
-url2 = 'http://fanyi.baidu.com/v2transapi'
 
-'''
-from:zh
-to:en
-query:我想吃
-transtype:realtime
-simple_means_flag:3
-'''
-keywords = {
-    'from':'zh',
-    'to':'en',
-    'query':'我想吃苹果',
-    # 'transtype':'realtime',
-    # 'simple_means_flag':3
-}
+def baidu_trans(info):
+    url = 'http://fanyi.baidu.com/v2transapi'
+    keywords = {
+        'from': 'zh',
+        'to': 'en',
+        'query': info,
 
-req = requests.post(url2,keywords)
-print(req)
-res = req.text
-data = json.loads(res)
+    }
+    req = requests.post(url, keywords)
+    data = req.json()
+    try:
+        result = data['dict_result']['simple_means']['word_means']
+        return ';'.join(result)
 
-print(data)
-result = data['data']
-print(result)
-# for i in data['data'][]:
+    except:
+
+        return data['trans_result']['data'][0]['dst']
+
+
+print(baidu_trans('周鑫鑫是二货'))

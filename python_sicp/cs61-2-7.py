@@ -36,7 +36,7 @@ print(a)
 
 ############3
 from fractions import gcd
-class Rational(Number):
+class Rational():
     def __init__(self,num,dem):
         self.numer = num
         self.denom = dem
