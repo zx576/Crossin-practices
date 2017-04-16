@@ -1,7 +1,9 @@
 
-print('hello,world')
-a = 1 + 2
-b = a /0
-c = 1+3
+list1 = []
+
+def add_list():
+    for i in range(10):
+        list1.append(i)
 
 
+        
