@@ -1,0 +1,3 @@
+[0417/131710.209:ERROR:process_reader_win.cc(114)] NtOpenThread: {无法访问} 过程已请求访问一对象，但未给访问权限。  (0xc0000022)
+[0417/131710.220:ERROR:exception_snapshot_win.cc(87)] thread ID 12912 not found in process
+[0417/131710.220:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed

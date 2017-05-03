@@ -9,17 +9,19 @@ import requests
 # print(p.unquote(uni))
 
 befor = '''
-Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Encoding:gzip, deflate, sdch
-Accept-Language:zh-CN,zh;q=0.8,zh-TW;q=0.6
-Cache-Control:no-cache
-Cookie:visited=2017%2F04%2F07+14%3A17%3A22; hl=zh; pv=6; userno=20170407-011027; from=direct; __atuvc=5%7C14; __utma=251962462.2007234129.1491542245.1491542245.1491542245.1; __utmc=251962462; __utmz=251962462.1491542245.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=251962462.Canada
-Host:www.freeproxylists.net
-Pragma:no-cache
-Proxy-Connection:keep-alive
-Referer:http://www.freeproxylists.net/zh/?page=2
-Upgrade-Insecure-Requests:1
-User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+authority:www.dropbox.com
+method:GET
+path:/s/g2h2hww7u5njwnp/9H.jpg
+scheme:https
+accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+accept-encoding:gzip, deflate, sdch, br
+accept-language:zh-CN,zh;q=0.8,zh-TW;q=0.6
+cache-control:no-cache
+cookie:locale=zh_CN; gvc=MzM3MzcxMDY4ODEwNTg0NjA1MzU3NTc2ODU5NDE1MTQyNTQwOTMw; __Host-js_csrf=2-fkrlQy_yUdLNCXH-ZPncrG; t=2-fkrlQy_yUdLNCXH-ZPncrG; __Host-ss=2P1-qb5QvQ; _ga=GA1.2.1267769861.1493274266
+pragma:no-cache
+upgrade-insecure-requests:1
+user-agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+
 '''
 new_s = befor.split('\n')
 data = {}

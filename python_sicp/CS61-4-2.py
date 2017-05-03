@@ -85,7 +85,7 @@ class Stream:
 s = Stream(1,lambda:Stream(2+3,lambda:Stream(9)))
 print(s.first)
 print(s.rest)
-
+# from lo
 
 
 
