@@ -8,6 +8,7 @@ import requests
 
 '''
 
+# 爬取某一页下文字
 def qiushibaike(url):
 
     req = requests.get(url)
@@ -24,17 +25,21 @@ def qiushibaike(url):
 
     return list_info
 
+# 保存内容到 txt 文件
 def save(list_info):
-    with open('qiushibaike.txt','w',encoding='utf-8') as f:
+    with open('qiushibaike.txt','a+',encoding='utf-8') as f:
         for info in list_info:
             f.write(info)
             f.write('\n')
 
 
+# 循环请求并保存内容
 def main():
-    list_info = qiushibaike(url)
-    save(list_info)
+    url = 'https://www.qiushibaike.com/8hr/page/{0}'
+    for i in range(1,6):
+        q_url = url.format(i)
+        list_info = qiushibaike(q_url)
+        save(list_info)
 
 if __name__ == '__main__':
-    url = 'https://www.qiushibaike.com/'
     main()
