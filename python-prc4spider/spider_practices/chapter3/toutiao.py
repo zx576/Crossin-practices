@@ -12,12 +12,10 @@ def get_info(url):
     global max_behot_time
     req = requests.get(url,headers=header)
     content = req.json()
-    # print(content)
     max_behot_time.append(content['next']['max_behot_time'])
 
     info = []
     for item in content['data']:
-        # print(item)
         lst = []
         try:
             lst.append(item['title'])

@@ -11,7 +11,7 @@ API 响应内容示例:
 "message": "success",
 "data": [...],
 "next": {
-"max_behot_time": 1494765336 # 下一个时间戳
+"max_behot_time": 1494765336 # 上一个时间戳
 }
 }
 

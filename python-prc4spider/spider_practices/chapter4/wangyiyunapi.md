@@ -1,7 +1,12 @@
-
 #### 【题目描述】
 
-根据提供的 API 接口和使用方法，搜索出以 '程序员' 或其他词为关键字的歌单，并且找出其中播放量最高的歌单名，然后下载该歌单中每首歌的歌词。
+1. 仔细查看提供的 API 接口和使用方法。
+
+2. 根据搜索 API 接口，搜索出以 '程序员' 或其他词为关键字的 10 条歌单信息，返回所有歌单 id。
+
+3. 根据歌单 ID 以及歌单信息 API 接口，获取歌单信息，并将其保存在 mongodb 中。
+4. 从 mongodb 中提取出歌单中所有歌曲 ID，请求该歌曲的歌词信息，并将结果保存到 mongodb 中。
+
 
 接口以及使用方法:
 
@@ -36,14 +41,18 @@ POST 方法请求
 
 url = 'http://music.163.com/api/playlist/detail?id=123456&updateTime=-1'
 GET 方法请求
+123456 为歌单 ID
 
 ##### 根据歌曲 ID 获取歌词信息:
 
 url = 'http://music.163.com/api/song/lyric?os=pc&id=123456&lv=-1&kv=-1&tv=-1'
 GET 方法请求
+123456 为歌曲 ID
 
 
 #### 【解决思路】
+
+##### API接口使用方法
 
 本题主要考察 api 接口的运用，以下给出接口使用实例
 
@@ -72,5 +81,55 @@ url = 'http://music.163.com/api/playlist/detail?id={}&updateTime=-1'.format(2837
 req = requests.get(url,headers=headers)
 content = req.json()
 
+
+```
+
+##### mongodb
+
+向数据库内插入一条或多条数据
+
+连接 MongoDB：
+
+```python
+from pymongo import MongoClient
+client = MongoClient()
+```
+
+获取数据库：
+
+```python
+db = client.test_database
+```
+
+获取集合：
+
+```python
+collection = db.test_collection
+```
+
+查找数据：
+
+```python
+collection.find_one({'name': 'abc'})
+```
+
+插入数据：
+
+```python
+collection.insert_one({'name': 'abc', 'age': 1})
+
+new_docs = [
+    {'name': 'haha', 'age': 17},
+    {'name': 'wow', 'age': 21}
+]
+collection.insert_many(new_docs)
+```
+
+更新数据：
+
+```python
+
+new_item = {'name': 'abc', 'age': 21}
+collection.update_one({'name':new_item['name']},{'$set':new_item},upsert=True)
 
 ```

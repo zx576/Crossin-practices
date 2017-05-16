@@ -63,7 +63,6 @@ def main():
         for i in threads:
             i.start()
 
-        print('第 {} 页图片下载完成'.format(i))
 
 
 if __name__ == '__main__':
