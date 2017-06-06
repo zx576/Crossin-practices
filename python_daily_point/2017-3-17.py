@@ -11,7 +11,7 @@
 #
 # res = re.findall(rule,ss)[0]
 #
-# print(type(res))
+# print(ty12424545
 
 import qrcode
 # import

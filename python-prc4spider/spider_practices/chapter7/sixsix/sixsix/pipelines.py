@@ -9,6 +9,7 @@ import pymongo
 from scrapy.conf import settings
 
 
+
 class SixsixPipeline(object):
 
     def __init__(self):

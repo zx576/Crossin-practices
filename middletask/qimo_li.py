@@ -57,7 +57,7 @@ class Webspider:
 
     def download_img(self):
         count = 0
-        meizi_all_img = len(list(reduce(lambda x, y:x+y, Webspider.crawl(self))))
+        meizi_all_img = len(list(reduce(lambda x, y : x+y, Webspider.crawl(self))))
         for meizi_picture in list(reduce(lambda x, y: x + y, Webspider.crawl(self))):
             count += 1
             meizi_picture = meizi_picture['href']
