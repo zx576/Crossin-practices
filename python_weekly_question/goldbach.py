@@ -25,9 +25,11 @@ def is_prime(num):
 
 
 '''
-张贺 : http://paste.ubuntu.com/24666659/
-徐大龙 : https://github.com/PeytonXu/learn-python/blob/master/cases/gold_bach/gold_bach.py
-墨染之樱 : https://codeshare.io/2WX0wM
+张贺 : 遍历２以上Ｎ的平方根以下的每一个整数或奇数，是不是能整除Ｎ，并比较了两种方法耗时。
+http://paste.ubuntu.com/24666659/
+
+徐大龙 : 遍历２以上Ｎ的平方根以下的每一个整数，是不是能整除Ｎ，写法简单易懂
+https://github.com/PeytonXu/learn-python/blob/master/cases/gold_bach/gold_bach.py
 
 '''
 
