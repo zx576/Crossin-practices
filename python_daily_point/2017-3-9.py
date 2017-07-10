@@ -1,11 +1,11 @@
-
-import requests
-
-url = 'https://portal.cqucc.com.cn/zfca/login'
-
-req = requests.get(url,verify=False)
-
-print(req.text)
+# coding=utf-8
+# import requests
+#
+# url = 'https://portal.cqucc.com.cn/zfca/login'
+#
+# req = requests.get(url,verify=False)
+#
+# print(req.text)
 
 
 # 3月9晚20点，Crossin 斗鱼直播
@@ -16,3 +16,17 @@ print(req.text)
 # 依然欢迎现场提问。
 # 直播间地址：https://www.douyu.com/crossin11
 # 或在斗鱼上搜索 Crossin的编程教室
+
+
+s = ['key', 'value1', 'value2', 'value3']
+
+dct = {}
+dct[s[0]] = s[1:]
+print(dct)
+# >>>
+{'key': ['value1', 'value2', 'value3']}
+
+key = 'key'
+value_type = [1,2,3]
+
+dct[key] = value_type
