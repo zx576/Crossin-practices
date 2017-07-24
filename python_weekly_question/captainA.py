@@ -1,3 +1,4 @@
+# coding=utf-8
 import turtle
 import time
 import math
@@ -11,15 +12,15 @@ def shield():
     turtle.speed(10)
 
     # 依次填充同心圆
-    fill_circle('#7F0C3D', 230, 178)
-    fill_circle('#878787', 178, 129)
-    fill_circle('#7F0C3D', 129, 75)
-    fill_circle('#324673', 75)
+    fill_circle('#FF0000', 230, 178)
+    fill_circle('#FFFFFF', 178, 129)
+    fill_circle('#FF0000', 129, 75)
+    fill_circle('#0000FF', 75)
 
     # 完成五角星
-    draw_five('#878787', 75)
+    draw_five('#FFFFFF', 75)
 
-    time.sleep(100)
+    turtle.done()
 
 
 # 画圆线
