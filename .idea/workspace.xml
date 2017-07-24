@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="968290b3-1764-47d3-ad18-c4a18ed88709" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_weekly_modual/0170314145554.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_weekly_modual/20170314142039.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_weekly_modual/BeaverScratches.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_weekly_modual/anne.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_weekly_modual/anne3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_weekly_modual/anne4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_weekly_modual/annie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_weekly_modual/crossin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_weekly_modual/modual_wordcloud.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_weekly_modual/modual_wordcloud_1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_weekly_modual/modual_wordcloud_3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_weekly_modual/modual_wordcloud_3.py___jb_old___" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_weekly_modual/test.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python_weekly_modual/李旭科书法1.4.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_dtstructure/chapter/chapter13/binarytree.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Crossin-practices.iml" afterPath="$PROJECT_DIR$/.idea/Crossin-practices.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyqt5/practice_tt.py" afterPath="$PROJECT_DIR$/pyqt5/practice_tt.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_daily_point/2017-3-17.py" afterPath="$PROJECT_DIR$/python_daily_point/2017-3-17.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_daily_point/2017-3-13.py" afterPath="$PROJECT_DIR$/python_daily_point/2017-3-13.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_daily_point/2017-3-16.py" afterPath="$PROJECT_DIR$/python_daily_point/2017-3-16.py" />
     </list>
     <ignored path="Crossin-practices.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,88 +20,88 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Crossin-practices$tere.coverage" NAME="tere Coverage Results" MODIFIED="1480940997280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$openpyxl_test.coverage" NAME="openpyxl_test Coverage Results" MODIFIED="1480039368076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_wechat2.coverage" NAME="practice_wechat2 Coverage Results" MODIFIED="1476957721690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$weibo_mid.coverage" NAME="weibo_mid Coverage Results" MODIFIED="1484539186345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$learn_pypiwin32.coverage" NAME="learn_pypiwin32 Coverage Results" MODIFIED="1479888218249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$tk_test.coverage" NAME="tk_test Coverage Results" MODIFIED="1480926846255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_10.coverage" NAME="practice_10 Coverage Results" MODIFIED="1481100538334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-os" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$shuffle_list.coverage" NAME="shuffle_list Coverage Results" MODIFIED="1483671004992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_webpy5.coverage" NAME="practice_webpy5 Coverage Results" MODIFIED="1476761563431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$xlutils_test.coverage" NAME="xlutils_test Coverage Results" MODIFIED="1480039991407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$tk_task_py2.coverage" NAME="tk_task_py2 Coverage Results" MODIFIED="1482734037414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$modual_selenium.coverage" NAME="modual_selenium Coverage Results" MODIFIED="1490257500041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_weekly_modual" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$jiandan.coverage" NAME="jiandan Coverage Results" MODIFIED="1476792262370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiandan" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_7.coverage" NAME="practice_7 Coverage Results" MODIFIED="1481178582683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$example.coverage" NAME="example Coverage Results" MODIFIED="1490255431681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice4.coverage" NAME="practice4 Coverage Results" MODIFIED="1484721874637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice__9.coverage" NAME="practice__9 Coverage Results" MODIFIED="1481184895889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_6.coverage" NAME="practice_6 Coverage Results" MODIFIED="1481168423693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
     <SUITE FILE_PATH="coverage/Crossin-practices$db_generator.coverage" NAME="db_generator Coverage Results" MODIFIED="1476778101859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice1.coverage" NAME="practice1 Coverage Results" MODIFIED="1481025419111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-os" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$manage.coverage" NAME="manage Coverage Results" MODIFIED="1476689575757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_webpy4.coverage" NAME="practice_webpy4 Coverage Results" MODIFIED="1476844046526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$page.coverage" NAME="page Coverage Results" MODIFIED="1484059231731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$pandastest.coverage" NAME="pandastest Coverage Results" MODIFIED="1480040246199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice3.coverage" NAME="practice3 Coverage Results" MODIFIED="1484536220561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_fetchdata.coverage" NAME="practice_fetchdata Coverage Results" MODIFIED="1483683903934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old_practice" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$file_upac.coverage" NAME="file_upac Coverage Results" MODIFIED="1484808719650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$iptest.coverage" NAME="iptest Coverage Results" MODIFIED="1484033667226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$user_info.coverage" NAME="user_info Coverage Results" MODIFIED="1484128480329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$hello1.coverage" NAME="hello1 Coverage Results" MODIFIED="1479727584312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$tttt.coverage" NAME="tttt Coverage Results" MODIFIED="1480498842841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$12_26.coverage" NAME="12-26 Coverage Results" MODIFIED="1483690720357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py2_4_qq" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$tets.coverage" NAME="tets Coverage Results" MODIFIED="1484098165854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$t.coverage" NAME="t Coverage Results" MODIFIED="1478405024201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_html.coverage" NAME="practice_html Coverage Results" MODIFIED="1480931093952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$repost_data.coverage" NAME="repost_data Coverage Results" MODIFIED="1484041789044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_wechat.coverage" NAME="practice_wechat Coverage Results" MODIFIED="1479605983585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$WY.coverage" NAME="WY Coverage Results" MODIFIED="1484878186433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$pyemail_multi.coverage" NAME="pyemail_multi Coverage Results" MODIFIED="1480557645692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$bmi_index.coverage" NAME="bmi_index Coverage Results" MODIFIED="1483613275605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$tests.coverage" NAME="tests Coverage Results" MODIFIED="1476426187717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice2.coverage" NAME="practice2 Coverage Results" MODIFIED="1484802045310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$learn_xlwings.coverage" NAME="learn_xlwings Coverage Results" MODIFIED="1479965298139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$new_reprint_data.coverage" NAME="new_reprint_data Coverage Results" MODIFIED="1484470323828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$learn_xlsxwriter.coverage" NAME="learn_xlsxwriter Coverage Results" MODIFIED="1479804425724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$pyemail_qq.coverage" NAME="pyemail_qq Coverage Results" MODIFIED="1480485833583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$allocate_num.coverage" NAME="allocate_num Coverage Results" MODIFIED="1483672054920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
     <SUITE FILE_PATH="coverage/Crossin-practices$ditribution.coverage" NAME="ditribution Coverage Results" MODIFIED="1479606013086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$win32com_test.coverage" NAME="win32com_test Coverage Results" MODIFIED="1480039740753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$wangyi.coverage" NAME="wangyi Coverage Results" MODIFIED="1484808227885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
     <SUITE FILE_PATH="coverage/Crossin-practices$cleandata.coverage" NAME="cleandata Coverage Results" MODIFIED="1484884596569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$gpa.coverage" NAME="gpa Coverage Results" MODIFIED="1483615245766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$new_user_info.coverage" NAME="new_user_info Coverage Results" MODIFIED="1484732867132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$WY.coverage" NAME="WY Coverage Results" MODIFIED="1484878186433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$tk_tasks.coverage" NAME="tk_tasks Coverage Results" MODIFIED="1480928880543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_wechat2.coverage" NAME="practice_wechat2 Coverage Results" MODIFIED="1476957721690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$sqlite3_prac.coverage" NAME="sqlite3_prac Coverage Results" MODIFIED="1484711730246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old_practice/prac_sqlite3" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_webpy1.coverage" NAME="practice_webpy1 Coverage Results" MODIFIED="1476846161783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_html.coverage" NAME="practice_html Coverage Results" MODIFIED="1480931093952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$pymail_cqu.coverage" NAME="pymail_cqu Coverage Results" MODIFIED="1480484386055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$tests.coverage" NAME="tests Coverage Results" MODIFIED="1476426187717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$webpy_code.coverage" NAME="webpy_code Coverage Results" MODIFIED="1476858263242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$test_practice__1_.coverage" NAME="test_practice (1) Coverage Results" MODIFIED="1481252390772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$tk_task_py2.coverage" NAME="tk_task_py2 Coverage Results" MODIFIED="1482734037414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$uid_f_rep.coverage" NAME="uid_f_rep Coverage Results" MODIFIED="1484564093352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$new_reprint_data.coverage" NAME="new_reprint_data Coverage Results" MODIFIED="1484470323828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$pandastest.coverage" NAME="pandastest Coverage Results" MODIFIED="1480040246199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$myproject.coverage" NAME="myproject Coverage Results" MODIFIED="1479707908455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/code/myproject" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$t.coverage" NAME="t Coverage Results" MODIFIED="1478405024201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$test_practice.coverage" NAME="test_practice Coverage Results" MODIFIED="1483885979557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$pysmtp.coverage" NAME="pysmtp Coverage Results" MODIFIED="1480505434320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_replace_words.coverage" NAME="practice_replace_words Coverage Results" MODIFIED="1483674549807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old_practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$testweibo.coverage" NAME="testweibo Coverage Results" MODIFIED="1483971313724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$tttt.coverage" NAME="tttt Coverage Results" MODIFIED="1480498842841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$example.coverage" NAME="example Coverage Results" MODIFIED="1490255431681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$allocate_num.coverage" NAME="allocate_num Coverage Results" MODIFIED="1483672054920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_webpy4.coverage" NAME="practice_webpy4 Coverage Results" MODIFIED="1476844046526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$pyemail_multi.coverage" NAME="pyemail_multi Coverage Results" MODIFIED="1480557645692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$xl_wings_test.coverage" NAME="xl_wings_test Coverage Results" MODIFIED="1479565212292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$repost_data.coverage" NAME="repost_data Coverage Results" MODIFIED="1484041789044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$xlsxwriter_test.coverage" NAME="xlsxwriter_test Coverage Results" MODIFIED="1479987238344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice5.coverage" NAME="practice5 Coverage Results" MODIFIED="1484882911215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$shuffle_list.coverage" NAME="shuffle_list Coverage Results" MODIFIED="1483671004992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
     <SUITE FILE_PATH="coverage/Crossin-practices$fetch_ip.coverage" NAME="fetch_ip Coverage Results" MODIFIED="1484732446923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
     <SUITE FILE_PATH="coverage/Crossin-practices$xlwings_test.coverage" NAME="xlwings_test Coverage Results" MODIFIED="1480040466844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$test_practice.coverage" NAME="test_practice Coverage Results" MODIFIED="1483885979557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$tk_tasks.coverage" NAME="tk_tasks Coverage Results" MODIFIED="1480928880543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$sqlite3_prac.coverage" NAME="sqlite3_prac Coverage Results" MODIFIED="1484711730246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old_practice/prac_sqlite3" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_multithreaded.coverage" NAME="practice_multithreaded Coverage Results" MODIFIED="1476433838325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$pymail_cqu.coverage" NAME="pymail_cqu Coverage Results" MODIFIED="1480484386055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$uid_f_rep.coverage" NAME="uid_f_rep Coverage Results" MODIFIED="1484564093352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$xl_wings_test.coverage" NAME="xl_wings_test Coverage Results" MODIFIED="1479565212292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$pyemail_multi2.coverage" NAME="pyemail-multi2 Coverage Results" MODIFIED="1480560864788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$wangyi.coverage" NAME="wangyi Coverage Results" MODIFIED="1484808227885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$gpa.coverage" NAME="gpa Coverage Results" MODIFIED="1483615245766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_fetchdata.coverage" NAME="practice_fetchdata Coverage Results" MODIFIED="1483683903934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old_practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_webpy5.coverage" NAME="practice_webpy5 Coverage Results" MODIFIED="1476761563431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
     <SUITE FILE_PATH="coverage/Crossin-practices$testweibo__1_.coverage" NAME="testweibo (1) Coverage Results" MODIFIED="1484021286732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1480941049402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Python27/Lib/site-packages/cx_Freeze" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$modual_selenium.coverage" NAME="modual_selenium Coverage Results" MODIFIED="1490257500041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_weekly_modual" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$tk_test.coverage" NAME="tk_test Coverage Results" MODIFIED="1480926846255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$pyemail_qq.coverage" NAME="pyemail_qq Coverage Results" MODIFIED="1480485833583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$win32com_test.coverage" NAME="win32com_test Coverage Results" MODIFIED="1480039740753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$learn_pypiwin32.coverage" NAME="learn_pypiwin32 Coverage Results" MODIFIED="1479888218249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_7.coverage" NAME="practice_7 Coverage Results" MODIFIED="1481178582683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$learn_xlwings.coverage" NAME="learn_xlwings Coverage Results" MODIFIED="1479965298139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$tere.coverage" NAME="tere Coverage Results" MODIFIED="1480940997280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$weibo_mid.coverage" NAME="weibo_mid Coverage Results" MODIFIED="1484539186345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice1.coverage" NAME="practice1 Coverage Results" MODIFIED="1481025419111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-os" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice4.coverage" NAME="practice4 Coverage Results" MODIFIED="1484721874637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$pyemail_multi2.coverage" NAME="pyemail-multi2 Coverage Results" MODIFIED="1480560864788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$learn_xlsxwriter.coverage" NAME="learn_xlsxwriter Coverage Results" MODIFIED="1479804425724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$jiandan.coverage" NAME="jiandan Coverage Results" MODIFIED="1476792262370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiandan" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$file_upac.coverage" NAME="file_upac Coverage Results" MODIFIED="1484808719650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$print_practice.coverage" NAME="print_practice Coverage Results" MODIFIED="1483613294709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$xlutils_test.coverage" NAME="xlutils_test Coverage Results" MODIFIED="1480039991407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_wechat.coverage" NAME="practice_wechat Coverage Results" MODIFIED="1479605983585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$add_heatmap.coverage" NAME="add_heatmap Coverage Results" MODIFIED="1484567544163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$1024.coverage" NAME="1024 Coverage Results" MODIFIED="1476515356237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiandan" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$iptest.coverage" NAME="iptest Coverage Results" MODIFIED="1484033667226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$unpack2.coverage" NAME="unpack2 Coverage Results" MODIFIED="1484794516118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$user_info.coverage" NAME="user_info Coverage Results" MODIFIED="1484128480329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$hello1.coverage" NAME="hello1 Coverage Results" MODIFIED="1479727584312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$manage.coverage" NAME="manage Coverage Results" MODIFIED="1476689575757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$bmi_index.coverage" NAME="bmi_index Coverage Results" MODIFIED="1483613275605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$input_practice.coverage" NAME="input_practice Coverage Results" MODIFIED="1483613434338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice3.coverage" NAME="practice3 Coverage Results" MODIFIED="1484536220561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$tets.coverage" NAME="tets Coverage Results" MODIFIED="1484098165854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_10.coverage" NAME="practice_10 Coverage Results" MODIFIED="1481100538334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-os" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice.coverage" NAME="practice Coverage Results" MODIFIED="1484749844187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$openpyxl_test.coverage" NAME="openpyxl_test Coverage Results" MODIFIED="1480039368076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$page.coverage" NAME="page Coverage Results" MODIFIED="1484059231731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice_multithreaded.coverage" NAME="practice_multithreaded Coverage Results" MODIFIED="1476433838325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_xueqiu.coverage" NAME="practice_xueqiu Coverage Results" MODIFIED="1479606040735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Crossin-practices$practice_10__1_.coverage" NAME="practice_10 (1) Coverage Results" MODIFIED="1481168602760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$unpack2.coverage" NAME="unpack2 Coverage Results" MODIFIED="1484794516118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$xlsxwriter_test.coverage" NAME="xlsxwriter_test Coverage Results" MODIFIED="1479987238344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extest" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$1024.coverage" NAME="1024 Coverage Results" MODIFIED="1476515356237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiandan" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$new_user_info.coverage" NAME="new_user_info Coverage Results" MODIFIED="1484732867132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_webpy1.coverage" NAME="practice_webpy1 Coverage Results" MODIFIED="1476846161783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$webpy_code.coverage" NAME="webpy_code Coverage Results" MODIFIED="1476858263242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_py" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$input_practice.coverage" NAME="input_practice Coverage Results" MODIFIED="1483613434338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$pysmtp.coverage" NAME="pysmtp Coverage Results" MODIFIED="1480505434320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonemail" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice__9.coverage" NAME="practice__9 Coverage Results" MODIFIED="1481184895889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$print_practice.coverage" NAME="print_practice Coverage Results" MODIFIED="1483613294709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$add_heatmap.coverage" NAME="add_heatmap Coverage Results" MODIFIED="1484567544163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crwal" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$testweibo.coverage" NAME="testweibo Coverage Results" MODIFIED="1483971313724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tktask" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$test_practice__1_.coverage" NAME="test_practice (1) Coverage Results" MODIFIED="1481252390772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice.coverage" NAME="practice Coverage Results" MODIFIED="1484749844187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$myproject.coverage" NAME="myproject Coverage Results" MODIFIED="1479707908455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/code/myproject" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1480941049402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Python27/Lib/site-packages/cx_Freeze" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_6.coverage" NAME="practice_6 Coverage Results" MODIFIED="1481168423693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-practice" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice_replace_words.coverage" NAME="practice_replace_words Coverage Results" MODIFIED="1483674549807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old_practice" />
-    <SUITE FILE_PATH="coverage/Crossin-practices$practice5.coverage" NAME="practice5 Coverage Results" MODIFIED="1484882911215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$practice2.coverage" NAME="practice2 Coverage Results" MODIFIED="1484802045310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wangyiyun" />
+    <SUITE FILE_PATH="coverage/Crossin-practices$12_26.coverage" NAME="12-26 Coverage Results" MODIFIED="1483690720357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py2_4_qq" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -124,21 +112,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="example.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="random-art.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_weekly_modual/random-art.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -147,8 +125,8 @@
       <file leaf-file-name="modual_selenium.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python_weekly_modual/modual_selenium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="336">
+              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -171,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/crwal/practice.py" />
         <option value="$PROJECT_DIR$/crwal/practice2.py" />
         <option value="$PROJECT_DIR$/crwal/cleandata.py" />
         <option value="$PROJECT_DIR$/crwal/address.js" />
@@ -222,6 +199,7 @@
         <option value="$PROJECT_DIR$/.idea/example.py" />
         <option value="$PROJECT_DIR$/example.py" />
         <option value="$PROJECT_DIR$/python_weekly_modual/modual_selenium.py" />
+        <option value="$PROJECT_DIR$/python_weekly_modual/python-docx/handle_docs.py" />
       </list>
     </option>
   </component>
@@ -232,10 +210,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1364" />
-    <option name="height" value="726" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -253,18 +231,11 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -277,14 +248,56 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crossin-practices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crossin-practices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crossin-practices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crossin-practices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python_weekly_modual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Python.modual_selenium">
     <configuration default="false" name="WY" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -303,6 +316,7 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wangyiyun/WY.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="practice5" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -321,6 +335,7 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawl/practice5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="cleandata" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -339,6 +354,7 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawl/cleandata.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="example" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -357,6 +373,7 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="modual_selenium" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -375,6 +392,10 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_weekly_modual/modual_selenium.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ApexTest" factoryName="Apex Test">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -395,6 +416,19 @@
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -444,6 +478,7 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
@@ -469,30 +504,10 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Crossin-practices" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -526,15 +541,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Crossin-practices" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -548,16 +558,9 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Crossin-practices" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
@@ -571,18 +574,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Crossin-practices" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <list size="5">
@@ -601,6 +596,26 @@
         <item index="4" class="java.lang.String" itemvalue="Python.WY" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Crossin-practices" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -619,20 +634,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24888559" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6396104" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31493506" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31493506" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24512987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -662,6 +681,9 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24605678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -688,22 +710,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crwal/uid_f_rep.py" />
     <entry file="file://$PROJECT_DIR$/crwal/new_reprint_data.py" />
-    <entry file="file://E:/mysitev3/zxsite_v0.3/zxsite/templates/zxsite/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python-excel/learn_xlwings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1909">
-          <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/mysitev3/zxsite_v0.3/zxsite/templates/zxsite/about.html" />
+    <entry file="file://$PROJECT_DIR$/python-excel/learn_xlwings.py" />
     <entry file="file://$PROJECT_DIR$/crwal/reprint_data.py" />
     <entry file="file://$PROJECT_DIR$/crwal/user_info.py" />
     <entry file="file://$PROJECT_DIR$/wangyiyun/unpack2.py" />
@@ -712,13 +721,7 @@
     <entry file="file://$PROJECT_DIR$/crwal/new_user_info.py" />
     <entry file="file://$PROJECT_DIR$/crwal/cleandata.py" />
     <entry file="file://$PROJECT_DIR$/wangyiyun/file_upac.py" />
-    <entry file="file://$PROJECT_DIR$/wangyiyun/wangyi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="12" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wangyiyun/wangyi.py" />
     <entry file="file://$PROJECT_DIR$/wangyiyun/practice2.py" />
     <entry file="file://$PROJECT_DIR$/wangyiyun/practice.py" />
     <entry file="file://$PROJECT_DIR$/crawl/add_heatmap.py" />
@@ -726,13 +729,7 @@
     <entry file="file://$PROJECT_DIR$/crawl/durex_post.py" />
     <entry file="file://$PROJECT_DIR$/crawl/info.py" />
     <entry file="file://$PROJECT_DIR$/crawl/reprint_data.py" />
-    <entry file="file://$PROJECT_DIR$/wangyiyun/WY.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wangyiyun/WY.py" />
     <entry file="file://$PROJECT_DIR$/old_practice/prac_sqlite3/sqlite3_prac.py" />
     <entry file="file://$PROJECT_DIR$/old_practice/practice_html.py" />
     <entry file="file://$PROJECT_DIR$/crawl/practice.py" />
@@ -760,26 +757,27 @@
     <entry file="file://$PROJECT_DIR$/crawl/step2_userid.py" />
     <entry file="file://$PROJECT_DIR$/crawl/step1_weibo_id.py" />
     <entry file="file://$PROJECT_DIR$/.idea/example.py" />
-    <entry file="file://$PROJECT_DIR$/example.py">
+    <entry file="file://$PROJECT_DIR$/example.py" />
+    <entry file="file://$PROJECT_DIR$/python_weekly_modual/random-art.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_weekly_modual/random-art.py">
+    <entry file="file://$PROJECT_DIR$/python_weekly_modual/python-docx/handle_docs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python_weekly_modual/modual_selenium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="336">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
         </state>
       </provider>

@@ -1,7 +1,8 @@
 import queue
-import threading 
+import threading
 
 
+link = link.get('data-lazy', None) or link.get('src')
 
 # def worker():
 #     item = q.get()
