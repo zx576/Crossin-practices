@@ -28,11 +28,3 @@ assert find_idx([3,5,9], 7) == 2
 assert find_idx([7,8,9], 11) == 3
 
 
-'''
-推荐 strawhat 同学的答案，思路清晰，程序中各部分功能独立，非常好理解
-strawhat￼: http://pastebin.ubuntu.com/25147394/
-同时也给出其他两位同学的答案
-疯琴： https://github.com/YngwieWang/python_practice/blob/master/AmericanCaptain.py
-xuxiaojiao: http://pastebin.ubuntu.com/25160891/
-
-'''
