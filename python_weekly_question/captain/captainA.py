@@ -12,9 +12,9 @@ def shield():
     turtle.speed(10)
 
     # 依次填充同心圆
-    fill_circle('#FF0000', 230, 178)
-    fill_circle('#FFFFFF', 178, 129)
-    fill_circle('#FF0000', 129, 75)
+    fill_circle('#FF0000', 230)
+    fill_circle('#FFFFFF', 178)
+    fill_circle('#FF0000', 129)
     fill_circle('#0000FF', 75)
 
     # 完成五角星
@@ -38,12 +38,11 @@ def draw_circle(radium):
 
 
 # 填充圆环
-def fill_circle(color, r1, r2=0):
+def fill_circle(color, r1):
     turtle.color(color, color)
     turtle.fillcolor()
     turtle.begin_fill()
     draw_circle(r1)
-    draw_circle(r2)
     turtle.end_fill()
 
 
