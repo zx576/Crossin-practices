@@ -31,7 +31,7 @@ def arms(N):
             print(i)
 
 
-# arms(1000)
+arms(1000)
 
 '''
 附加题: 输入一个正整数，输出距离它最近的阿姆斯特朗数。
@@ -45,8 +45,8 @@ def near_arms(N):
     while True:
         if judge_arms(forward):
             return forward
-        elif judge_arms(backwrad):
-            return backwrad
+        elif judge_arms(backward):
+            return backward
 
         forward += 1
         backward -= 1
