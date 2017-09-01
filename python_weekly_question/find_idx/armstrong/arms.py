@@ -60,5 +60,12 @@ print(r)
 本期答案精选
 王任￼ 同学写的比较精简，参考地址： http://paste.ubuntu.com/25238978/
 成仙￼　同学写的比较直观,容易理解，各部分代码清楚：　https://paste.ubuntu.com/25268753/
+其他同学诸如
+Betterment: https://paste.ubuntu.com/25283430/
+Will￼: https://paste.ubuntu.com/25240721/
+strawhat￼: http://pastebin.ubuntu.com/25240588/￼
+uznEnehC￼: https://paste.ubuntu.com/25239532/
+H. Lecter￼: http://paste.ubuntu.com/25238731/
 
+都正确完成了两题
 '''
