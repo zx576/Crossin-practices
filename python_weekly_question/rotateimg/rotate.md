@@ -66,7 +66,11 @@ assert rotate(m4) == [[13, 9, 5, 1], [14, 10, 6, 2], [15, 11, 7, 3], [16, 12, 8,
 ```
 
 除了以上两种方法,其他同学也提出了不同的解决方案
+
 cheng_y￼ 同学的答案采用了两两换位的方式:　https://paste.ubuntu.com/25345391/
+
 王凌鸿￼　同学的思路和cheng_y￼相似：　https://paste.ubuntu.com/25339267/
+
 jzy丶同学使用了numpy 来解决： https://github.com/Noir-desir/every-weekend/blob/master/matrix.py
+
 其他诸如　strawhat￼，　聂宇威￼　也很好的完成的作业
