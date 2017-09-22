@@ -9,17 +9,14 @@ def parse():
 
 	parser = argparse.ArgumentParser(description='process images')
 
-	help_pic_addr = '某张图片地址，支持相对地址和绝对地址'
+	help_pic_addr = '某张图片地址或某个文件夹地址，支持相对地址和绝对地址'
 	parser.add_argument('--addr', type=str, help=help_pic_addr, default=None)
-
-	help_pic_directory = '某个包含图片文件的文件夹，支持相对地址和绝对地址'
-	parser.add_argument('--dir', type=str, help=help_pic_directory, default=None)
 
 	help_ratio = '图片缩小比例，接受一个 float 型参数，默认为 1.0'
 	parser.add_argument('--ratio', type=float, help=help_ratio, default=1.0)
 
 	help_save_directory = '文件保持地址, 支持相对地址和绝对地址'
-	parser.add_argument('--dest', type=str, help=help_save_directory)
+	parser.add_argument('--dest', type=str, help=help_save_directory, default='.')
 
 	help_if_delete = '是否删除源文件，默认为 False'
 	parser.add_argument('--delete', type=bool, help=help_if_delete, default=False)
@@ -38,8 +35,6 @@ def is_img(addr):
 
 	except Exception as e:
 		print('处理 {} 文件时发生错误, 已经跳过该文件'.format(addr))
-		print('错误原因： {}'.format(e))
-
 		return False
 
 def get_pics_from_dir(path):
@@ -82,22 +77,18 @@ def process(addrs, dest, ratio, delete):
 def dispatch(args):
 
 	# 判断程序能否进行
-	assert args.addr or args.dir, '参数缺失：目标图片地址或者文件夹'
-	assert args.dest, '参数缺失：未输入处理后的文件存放地址'
+	assert args.addr and os.path.exists(args.addr), '目标图片地址或者文件夹地址缺失或不存在'
 	assert os.path.isdir(args.dest), '未找到文件存放目录'			
 
 
 	pic_addrs = []
-	# 检查是否含有图片地址
-	if args.addr and is_img(args.addr):
+	# 检查是否含为文件夹
+	if os.path.isdir(args.addr):
+		pic_addrs = get_pics_from_dir(args.addr)
+	# 检查是否为文件
+	elif os.path.isfile(args.addr) and is_img(args.addr):
 		pic_addrs.append(args.addr)
 
-	# 检查是否包含文件夹
-	if args.dir:
-		res = get_pics_from_dir(args.dir)
-		pic_addrs.extend(res)
-
-	pic_addrs = list(set(pic_addrs))
 	assert pic_addrs, '未找到有效的图片地址'
 
 	delete = args.delete
@@ -145,6 +136,10 @@ def process(addrs, dest, ratio, delete):
 		for file in addrs:
 			os.remove(file)
 		print('原文件已经删除')
+
+
+代码地址: https://gitee.com/zx576/Crossin-practices/blob/master/python_weekly_question/shrinkimg/shrink.py
+
 
 完成该题目的同学有四位，
 王任　同学的代码逻辑较完整，不仅考虑了正常的情况，也考虑了异常处理：https://paste.ubuntu.com/25589912/
